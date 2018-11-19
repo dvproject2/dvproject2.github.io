@@ -78,7 +78,7 @@
 		   var jsonCounty = d.properties.NAME;
 		  
 		  
-		   d3.csv("data/map.csv", function(data) {
+		   d3.csv("data/Accidents_by_County.csv", function(data) {
 		   
 		   for (var i = 0; i < data.length; i++) {
 
@@ -86,7 +86,7 @@
 				csvCounty = data[i].COUNTYDESCR;
 
 				// Grab data value 
-				dataValue = data[i].INDIVIDUAL_MR_RECORD;
+				dataValue = data[i].Count_of_Accident;
 						if (csvCounty == jsonCounty) {
 						
 						//alert(dataValue);
