@@ -197,7 +197,7 @@ function change(data) {
                     var value = (!isNaN(parseFloat(data.data[key]))) ? data.data[key] : data.data[key];
 
                     if (i === 0) tip += 'Condition' + ': ' + value + '</tspan>';
-                    else tip += '<tspan x="0" dy="1.2em">' + 'Accidents' + ': ' + f(value*(100/73414)) + '</tspan>'+ '% ' ;
+                    else tip += '<tspan x="0" dy="1.2em">' + 'No of Accidents' + ': ' + value + '</tspan>';
                     i++;
                 }
 
