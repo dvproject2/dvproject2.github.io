@@ -49,7 +49,8 @@ svg {
 <form>
 <label><input type="radio" name="dataset" id="dataset" value="primaryfactor">Primary Factors</label>
 <label><input type="radio" name="dataset" id="dataset" value="light">Light Conditions</label>
-<label><input type="radio" name="dataset" id="dataset" value="weather"> Weather Conditions</label>
+<label><input type="radio" name="dataset" id="dataset" value="weather">Weather Conditions</label>
+<label><input type="radio" name="dataset" id="dataset" value="surface">Surface Types</label>
 </form>
 <script>
 
@@ -121,6 +122,12 @@ function selectDataset()
 	if (value == "primaryfactor")
 	{
 		d3.csv('data/primaryfactors.csv', function(error, data) {
+        change(data);
+    });
+	}
+	if (value == "surface")
+	{
+		d3.csv('data/surfacetypes.csv', function(error, data) {
         change(data);
     });
 	}
