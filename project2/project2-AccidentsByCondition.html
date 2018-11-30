@@ -204,7 +204,8 @@ function change(data) {
                     var value = (!isNaN(parseFloat(data.data[key]))) ? data.data[key] : data.data[key];
 
                     if (i === 0) tip += 'Condition' + ': ' + value + '</tspan>';
-                    else tip += '<tspan x="0" dy="1.2em">' + 'No of Accidents' + ': ' + value + '</tspan>';
+                    //else tip += '<tspan x="0" dy="1.2em">' + 'No of Accidents' + ': ' + value + '</tspan>';
+					else tip += '<tspan x="0" dy="1.2em">' + 'Accidents' + ': ' + f((value)*(100/73414))+"%"  + '</tspan>';
                     i++;
                 }
 
@@ -212,7 +213,7 @@ function change(data) {
             }
 		
     // text labels
-
+    /*
     var text = svg.select(".labelName").selectAll("text")
         .data(pie(data), function(d){ return d.data.Condition });
 
@@ -280,6 +281,8 @@ function change(data) {
 
     polyline.exit()
         .remove();
+		
+		*/
 };
 
 </script>
