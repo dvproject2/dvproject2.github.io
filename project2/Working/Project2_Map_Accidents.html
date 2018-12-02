@@ -1,0 +1,45 @@
+<!-- data from http://www.bea.gov/iTable/index_regional.cfm -->
+
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="county_map.css"/>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.1/crossfilter.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>  
+
+<body>
+<div id="title">Number of accidents in Indiana across counties in Dec - 2017 </div>
+
+<div class="myobjects" style="height:400px">
+	<div id="charts">
+		<div id="pop-chart" class="chart">
+		  <div class="title">Number of Accidents by Hour</div>
+	    </div>
+	    <div id="per_cap-chart" class="chart">
+		  <div class="title">Number of Accidents by Week Day</div>
+	    </div>
+	</div>
+	
+<div id="map">
+
+		<div class="title">Accidents by County </div>
+	
+	</div>
+	
+<div id="map2">
+		<div class="title">Place for another chart................</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+      // Hack to make this example display correctly in an iframe on bl.ocks.org
+      d3.select(self.frameElement).style("height", "1000px");
+  </script> 
+<script src="project2_indiana_counties.js"></script>
+<script>
+
+

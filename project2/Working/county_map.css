@@ -1,0 +1,122 @@
+#title {
+  text-align: left;
+  padding-bottom: 60px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#myobjects{
+	column-count:3;
+	column-gap: 20px;
+	column-rule: 1px;
+	column-rule-color: lightblue;
+}
+
+#row2{
+	column-count:2;
+	column-gap: 60px;
+	column-rule: 1px;
+}
+
+.d3-tip {
+  line-height: 1.5;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 0px;
+  text-align: center;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  width: 960px;
+  height: 800px;
+  margin-top: 10px;
+}
+
+#charts{
+  float: right;
+}
+
+.chart {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.reset {
+  padding-left: 1em;
+  font-size: smaller;
+  color: blue;
+}
+
+.background.bar {
+  fill: #ccc;
+}
+
+.foreground.bar {
+  fill: steelblue;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.brush rect.extent {
+  fill: steelblue;
+  fill-opacity: .125;
+}
+
+.brush .resize path {
+  fill: #eee;
+  stroke: #666;
+}
+
+#chart path {
+  stroke: #fff;
+}
+
+#chart path.highlighted {
+  cursor: pointer;
+}
+
+.counties {
+  fill: none;
+  stroke: black;
+  stroke-linejoin: round;
+}
+
+.q0-9 { fill:#3288bd; }
+  .q1-9 { fill:#66c2a5; }
+  .q2-9 { fill:#abdda4; }
+  .q3-9 { fill:#e6f598; }
+  .q4-9 { fill:#ffffbf; }
+  .q5-9 { fill:#fee08b; }
+  .q6-9 { fill:#fdae61; }
+  .q7-9 { fill:#f46d43; }
+  .q8-9 { fill:#d53e4f; }
+
+#map {
+  float: right;
+}
+
+#map2 {
+  float: right;
+}
+
+.map {
+ -- height: 400px;
+ -- margin-bottom: 20px;
+}
+
+#map-legend{
+  text-align: center; 
+}
