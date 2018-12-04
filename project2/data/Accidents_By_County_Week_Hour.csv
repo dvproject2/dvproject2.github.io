@@ -222,113 +222,113 @@ COUNTY_NUM,COUNTY,WEEK_DAY,WEEK_DAY_NUM,COLLISION_TIME,NUM_ACCIDENTS
 2,Allen,SATURDAY,7,21,8
 2,Allen,SATURDAY,7,22,9
 2,Allen,SATURDAY,7,23,11
-3,Bartholo,SUNDAY,1,0,1
-3,Bartholo,SUNDAY,1,1,1
-3,Bartholo,SUNDAY,1,2,2
-3,Bartholo,SUNDAY,1,5,1
-3,Bartholo,SUNDAY,1,7,1
-3,Bartholo,SUNDAY,1,10,2
-3,Bartholo,SUNDAY,1,12,1
-3,Bartholo,SUNDAY,1,13,3
-3,Bartholo,SUNDAY,1,15,1
-3,Bartholo,SUNDAY,1,16,2
-3,Bartholo,SUNDAY,1,17,1
-3,Bartholo,SUNDAY,1,18,2
-3,Bartholo,SUNDAY,1,19,3
-3,Bartholo,SUNDAY,1,20,2
-3,Bartholo,SUNDAY,1,23,1
-3,Bartholo,MONDAY,2,4,1
-3,Bartholo,MONDAY,2,6,1
-3,Bartholo,MONDAY,2,7,1
-3,Bartholo,MONDAY,2,8,3
-3,Bartholo,MONDAY,2,9,1
-3,Bartholo,MONDAY,2,11,2
-3,Bartholo,MONDAY,2,12,3
-3,Bartholo,MONDAY,2,13,2
-3,Bartholo,MONDAY,2,14,1
-3,Bartholo,MONDAY,2,15,2
-3,Bartholo,MONDAY,2,16,1
-3,Bartholo,MONDAY,2,17,1
-3,Bartholo,MONDAY,2,18,1
-3,Bartholo,MONDAY,2,19,1
-3,Bartholo,MONDAY,2,20,1
-3,Bartholo,MONDAY,2,22,1
-3,Bartholo,TUESDAY,3,2,1
-3,Bartholo,TUESDAY,3,3,1
-3,Bartholo,TUESDAY,3,4,1
-3,Bartholo,TUESDAY,3,5,1
-3,Bartholo,TUESDAY,3,6,2
-3,Bartholo,TUESDAY,3,7,2
-3,Bartholo,TUESDAY,3,8,2
-3,Bartholo,TUESDAY,3,9,2
-3,Bartholo,TUESDAY,3,10,2
-3,Bartholo,TUESDAY,3,11,1
-3,Bartholo,TUESDAY,3,12,2
-3,Bartholo,TUESDAY,3,13,1
-3,Bartholo,TUESDAY,3,14,2
-3,Bartholo,TUESDAY,3,15,2
-3,Bartholo,TUESDAY,3,16,3
-3,Bartholo,TUESDAY,3,17,4
-3,Bartholo,TUESDAY,3,20,1
-3,Bartholo,TUESDAY,3,21,2
-3,Bartholo,TUESDAY,3,22,2
-3,Bartholo,WEDNESDAY,4,0,1
-3,Bartholo,WEDNESDAY,4,4,1
-3,Bartholo,WEDNESDAY,4,5,2
-3,Bartholo,WEDNESDAY,4,6,2
-3,Bartholo,WEDNESDAY,4,9,3
-3,Bartholo,WEDNESDAY,4,10,1
-3,Bartholo,WEDNESDAY,4,12,1
-3,Bartholo,WEDNESDAY,4,14,1
-3,Bartholo,WEDNESDAY,4,15,2
-3,Bartholo,WEDNESDAY,4,16,1
-3,Bartholo,WEDNESDAY,4,17,4
-3,Bartholo,WEDNESDAY,4,19,1
-3,Bartholo,WEDNESDAY,4,20,1
-3,Bartholo,WEDNESDAY,4,22,2
-3,Bartholo,WEDNESDAY,4,23,2
-3,Bartholo,THURSDAY,5,1,1
-3,Bartholo,THURSDAY,5,5,1
-3,Bartholo,THURSDAY,5,6,2
-3,Bartholo,THURSDAY,5,7,1
-3,Bartholo,THURSDAY,5,9,1
-3,Bartholo,THURSDAY,5,10,1
-3,Bartholo,THURSDAY,5,12,3
-3,Bartholo,THURSDAY,5,13,3
-3,Bartholo,THURSDAY,5,14,1
-3,Bartholo,THURSDAY,5,15,3
-3,Bartholo,THURSDAY,5,17,1
-3,Bartholo,THURSDAY,5,18,1
-3,Bartholo,THURSDAY,5,22,1
-3,Bartholo,FRIDAY,6,5,2
-3,Bartholo,FRIDAY,6,6,1
-3,Bartholo,FRIDAY,6,7,3
-3,Bartholo,FRIDAY,6,8,1
-3,Bartholo,FRIDAY,6,12,2
-3,Bartholo,FRIDAY,6,13,3
-3,Bartholo,FRIDAY,6,14,2
-3,Bartholo,FRIDAY,6,15,2
-3,Bartholo,FRIDAY,6,16,4
-3,Bartholo,FRIDAY,6,17,8
-3,Bartholo,FRIDAY,6,18,6
-3,Bartholo,FRIDAY,6,19,5
-3,Bartholo,FRIDAY,6,20,1
-3,Bartholo,FRIDAY,6,21,5
-3,Bartholo,FRIDAY,6,22,1
-3,Bartholo,FRIDAY,6,23,1
-3,Bartholo,SATURDAY,7,1,1
-3,Bartholo,SATURDAY,7,2,2
-3,Bartholo,SATURDAY,7,6,2
-3,Bartholo,SATURDAY,7,10,1
-3,Bartholo,SATURDAY,7,11,1
-3,Bartholo,SATURDAY,7,12,4
-3,Bartholo,SATURDAY,7,13,2
-3,Bartholo,SATURDAY,7,14,1
-3,Bartholo,SATURDAY,7,15,1
-3,Bartholo,SATURDAY,7,16,2
-3,Bartholo,SATURDAY,7,17,1
-3,Bartholo,SATURDAY,7,18,1
-3,Bartholo,SATURDAY,7,19,2
+3,Bartholomew,SUNDAY,1,0,1
+3,Bartholomew,SUNDAY,1,1,1
+3,Bartholomew,SUNDAY,1,2,2
+3,Bartholomew,SUNDAY,1,5,1
+3,Bartholomew,SUNDAY,1,7,1
+3,Bartholomew,SUNDAY,1,10,2
+3,Bartholomew,SUNDAY,1,12,1
+3,Bartholomew,SUNDAY,1,13,3
+3,Bartholomew,SUNDAY,1,15,1
+3,Bartholomew,SUNDAY,1,16,2
+3,Bartholomew,SUNDAY,1,17,1
+3,Bartholomew,SUNDAY,1,18,2
+3,Bartholomew,SUNDAY,1,19,3
+3,Bartholomew,SUNDAY,1,20,2
+3,Bartholomew,SUNDAY,1,23,1
+3,Bartholomew,MONDAY,2,4,1
+3,Bartholomew,MONDAY,2,6,1
+3,Bartholomew,MONDAY,2,7,1
+3,Bartholomew,MONDAY,2,8,3
+3,Bartholomew,MONDAY,2,9,1
+3,Bartholomew,MONDAY,2,11,2
+3,Bartholomew,MONDAY,2,12,3
+3,Bartholomew,MONDAY,2,13,2
+3,Bartholomew,MONDAY,2,14,1
+3,Bartholomew,MONDAY,2,15,2
+3,Bartholomew,MONDAY,2,16,1
+3,Bartholomew,MONDAY,2,17,1
+3,Bartholomew,MONDAY,2,18,1
+3,Bartholomew,MONDAY,2,19,1
+3,Bartholomew,MONDAY,2,20,1
+3,Bartholomew,MONDAY,2,22,1
+3,Bartholomew,TUESDAY,3,2,1
+3,Bartholomew,TUESDAY,3,3,1
+3,Bartholomew,TUESDAY,3,4,1
+3,Bartholomew,TUESDAY,3,5,1
+3,Bartholomew,TUESDAY,3,6,2
+3,Bartholomew,TUESDAY,3,7,2
+3,Bartholomew,TUESDAY,3,8,2
+3,Bartholomew,TUESDAY,3,9,2
+3,Bartholomew,TUESDAY,3,10,2
+3,Bartholomew,TUESDAY,3,11,1
+3,Bartholomew,TUESDAY,3,12,2
+3,Bartholomew,TUESDAY,3,13,1
+3,Bartholomew,TUESDAY,3,14,2
+3,Bartholomew,TUESDAY,3,15,2
+3,Bartholomew,TUESDAY,3,16,3
+3,Bartholomew,TUESDAY,3,17,4
+3,Bartholomew,TUESDAY,3,20,1
+3,Bartholomew,TUESDAY,3,21,2
+3,Bartholomew,TUESDAY,3,22,2
+3,Bartholomew,WEDNESDAY,4,0,1
+3,Bartholomew,WEDNESDAY,4,4,1
+3,Bartholomew,WEDNESDAY,4,5,2
+3,Bartholomew,WEDNESDAY,4,6,2
+3,Bartholomew,WEDNESDAY,4,9,3
+3,Bartholomew,WEDNESDAY,4,10,1
+3,Bartholomew,WEDNESDAY,4,12,1
+3,Bartholomew,WEDNESDAY,4,14,1
+3,Bartholomew,WEDNESDAY,4,15,2
+3,Bartholomew,WEDNESDAY,4,16,1
+3,Bartholomew,WEDNESDAY,4,17,4
+3,Bartholomew,WEDNESDAY,4,19,1
+3,Bartholomew,WEDNESDAY,4,20,1
+3,Bartholomew,WEDNESDAY,4,22,2
+3,Bartholomew,WEDNESDAY,4,23,2
+3,Bartholomew,THURSDAY,5,1,1
+3,Bartholomew,THURSDAY,5,5,1
+3,Bartholomew,THURSDAY,5,6,2
+3,Bartholomew,THURSDAY,5,7,1
+3,Bartholomew,THURSDAY,5,9,1
+3,Bartholomew,THURSDAY,5,10,1
+3,Bartholomew,THURSDAY,5,12,3
+3,Bartholomew,THURSDAY,5,13,3
+3,Bartholomew,THURSDAY,5,14,1
+3,Bartholomew,THURSDAY,5,15,3
+3,Bartholomew,THURSDAY,5,17,1
+3,Bartholomew,THURSDAY,5,18,1
+3,Bartholomew,THURSDAY,5,22,1
+3,Bartholomew,FRIDAY,6,5,2
+3,Bartholomew,FRIDAY,6,6,1
+3,Bartholomew,FRIDAY,6,7,3
+3,Bartholomew,FRIDAY,6,8,1
+3,Bartholomew,FRIDAY,6,12,2
+3,Bartholomew,FRIDAY,6,13,3
+3,Bartholomew,FRIDAY,6,14,2
+3,Bartholomew,FRIDAY,6,15,2
+3,Bartholomew,FRIDAY,6,16,4
+3,Bartholomew,FRIDAY,6,17,8
+3,Bartholomew,FRIDAY,6,18,6
+3,Bartholomew,FRIDAY,6,19,5
+3,Bartholomew,FRIDAY,6,20,1
+3,Bartholomew,FRIDAY,6,21,5
+3,Bartholomew,FRIDAY,6,22,1
+3,Bartholomew,FRIDAY,6,23,1
+3,Bartholomew,SATURDAY,7,1,1
+3,Bartholomew,SATURDAY,7,2,2
+3,Bartholomew,SATURDAY,7,6,2
+3,Bartholomew,SATURDAY,7,10,1
+3,Bartholomew,SATURDAY,7,11,1
+3,Bartholomew,SATURDAY,7,12,4
+3,Bartholomew,SATURDAY,7,13,2
+3,Bartholomew,SATURDAY,7,14,1
+3,Bartholomew,SATURDAY,7,15,1
+3,Bartholomew,SATURDAY,7,16,2
+3,Bartholomew,SATURDAY,7,17,1
+3,Bartholomew,SATURDAY,7,18,1
+3,Bartholomew,SATURDAY,7,19,2
 4,Benton,SUNDAY,1,7,1
 4,Benton,SUNDAY,1,9,1
 4,Benton,SUNDAY,1,11,1
@@ -341,28 +341,28 @@ COUNTY_NUM,COUNTY,WEEK_DAY,WEEK_DAY_NUM,COLLISION_TIME,NUM_ACCIDENTS
 4,Benton,FRIDAY,6,22,1
 4,Benton,SATURDAY,7,19,1
 4,Benton,SATURDAY,7,20,1
-5,Blackfor,SUNDAY,1,10,1
-5,Blackfor,SUNDAY,1,17,1
-5,Blackfor,SUNDAY,1,19,2
-5,Blackfor,MONDAY,2,14,2
-5,Blackfor,MONDAY,2,16,1
-5,Blackfor,MONDAY,2,18,1
-5,Blackfor,TUESDAY,3,5,1
-5,Blackfor,TUESDAY,3,6,1
-5,Blackfor,TUESDAY,3,15,2
-5,Blackfor,WEDNESDAY,4,6,1
-5,Blackfor,WEDNESDAY,4,7,1
-5,Blackfor,WEDNESDAY,4,10,1
-5,Blackfor,WEDNESDAY,4,17,2
-5,Blackfor,THURSDAY,5,4,1
-5,Blackfor,THURSDAY,5,14,1
-5,Blackfor,THURSDAY,5,23,1
-5,Blackfor,FRIDAY,6,13,1
-5,Blackfor,FRIDAY,6,17,1
-5,Blackfor,FRIDAY,6,18,2
-5,Blackfor,SATURDAY,7,9,1
-5,Blackfor,SATURDAY,7,20,1
-5,Blackfor,SATURDAY,7,22,1
+5,Blackford,SUNDAY,1,10,1
+5,Blackford,SUNDAY,1,17,1
+5,Blackford,SUNDAY,1,19,2
+5,Blackford,MONDAY,2,14,2
+5,Blackford,MONDAY,2,16,1
+5,Blackford,MONDAY,2,18,1
+5,Blackford,TUESDAY,3,5,1
+5,Blackford,TUESDAY,3,6,1
+5,Blackford,TUESDAY,3,15,2
+5,Blackford,WEDNESDAY,4,6,1
+5,Blackford,WEDNESDAY,4,7,1
+5,Blackford,WEDNESDAY,4,10,1
+5,Blackford,WEDNESDAY,4,17,2
+5,Blackford,THURSDAY,5,4,1
+5,Blackford,THURSDAY,5,14,1
+5,Blackford,THURSDAY,5,23,1
+5,Blackford,FRIDAY,6,13,1
+5,Blackford,FRIDAY,6,17,1
+5,Blackford,FRIDAY,6,18,2
+5,Blackford,SATURDAY,7,9,1
+5,Blackford,SATURDAY,7,20,1
+5,Blackford,SATURDAY,7,22,1
 6,Boone,SUNDAY,1,3,2
 6,Boone,SUNDAY,1,4,1
 6,Boone,SUNDAY,1,6,4
@@ -1128,95 +1128,95 @@ COUNTY_NUM,COUNTY,WEEK_DAY,WEEK_DAY_NUM,COLLISION_TIME,NUM_ACCIDENTS
 16,Decatur,SATURDAY,7,19,2
 16,Decatur,SATURDAY,7,20,1
 16,Decatur,SATURDAY,7,21,1
-17,"De Kalb",SUNDAY,1,0,1
-17,"De Kalb",SUNDAY,1,2,1
-17,"De Kalb",SUNDAY,1,3,1
-17,"De Kalb",SUNDAY,1,5,1
-17,"De Kalb",SUNDAY,1,6,1
-17,"De Kalb",SUNDAY,1,10,1
-17,"De Kalb",SUNDAY,1,11,1
-17,"De Kalb",SUNDAY,1,12,10
-17,"De Kalb",SUNDAY,1,13,2
-17,"De Kalb",SUNDAY,1,14,3
-17,"De Kalb",SUNDAY,1,15,5
-17,"De Kalb",SUNDAY,1,16,1
-17,"De Kalb",SUNDAY,1,17,2
-17,"De Kalb",SUNDAY,1,21,1
-17,"De Kalb",MONDAY,2,0,1
-17,"De Kalb",MONDAY,2,3,1
-17,"De Kalb",MONDAY,2,4,1
-17,"De Kalb",MONDAY,2,6,1
-17,"De Kalb",MONDAY,2,7,2
-17,"De Kalb",MONDAY,2,8,1
-17,"De Kalb",MONDAY,2,9,1
-17,"De Kalb",MONDAY,2,10,1
-17,"De Kalb",MONDAY,2,11,1
-17,"De Kalb",MONDAY,2,12,2
-17,"De Kalb",MONDAY,2,13,1
-17,"De Kalb",MONDAY,2,14,1
-17,"De Kalb",MONDAY,2,16,2
-17,"De Kalb",MONDAY,2,17,1
-17,"De Kalb",MONDAY,2,18,2
-17,"De Kalb",MONDAY,2,19,1
-17,"De Kalb",MONDAY,2,20,1
-17,"De Kalb",TUESDAY,3,7,2
-17,"De Kalb",TUESDAY,3,8,1
-17,"De Kalb",TUESDAY,3,9,3
-17,"De Kalb",TUESDAY,3,11,1
-17,"De Kalb",TUESDAY,3,15,1
-17,"De Kalb",TUESDAY,3,16,1
-17,"De Kalb",TUESDAY,3,17,1
-17,"De Kalb",TUESDAY,3,18,1
-17,"De Kalb",TUESDAY,3,19,1
-17,"De Kalb",TUESDAY,3,21,1
-17,"De Kalb",WEDNESDAY,4,2,1
-17,"De Kalb",WEDNESDAY,4,3,1
-17,"De Kalb",WEDNESDAY,4,7,1
-17,"De Kalb",WEDNESDAY,4,9,1
-17,"De Kalb",WEDNESDAY,4,10,1
-17,"De Kalb",WEDNESDAY,4,13,2
-17,"De Kalb",WEDNESDAY,4,15,2
-17,"De Kalb",WEDNESDAY,4,18,3
-17,"De Kalb",WEDNESDAY,4,19,1
-17,"De Kalb",WEDNESDAY,4,20,1
-17,"De Kalb",WEDNESDAY,4,21,2
-17,"De Kalb",WEDNESDAY,4,22,1
-17,"De Kalb",THURSDAY,5,4,2
-17,"De Kalb",THURSDAY,5,5,1
-17,"De Kalb",THURSDAY,5,6,4
-17,"De Kalb",THURSDAY,5,7,1
-17,"De Kalb",THURSDAY,5,8,2
-17,"De Kalb",THURSDAY,5,9,1
-17,"De Kalb",THURSDAY,5,11,2
-17,"De Kalb",THURSDAY,5,12,1
-17,"De Kalb",THURSDAY,5,15,1
-17,"De Kalb",THURSDAY,5,16,1
-17,"De Kalb",THURSDAY,5,20,1
-17,"De Kalb",THURSDAY,5,21,1
-17,"De Kalb",FRIDAY,6,0,1
-17,"De Kalb",FRIDAY,6,6,5
-17,"De Kalb",FRIDAY,6,7,2
-17,"De Kalb",FRIDAY,6,8,1
-17,"De Kalb",FRIDAY,6,9,1
-17,"De Kalb",FRIDAY,6,10,1
-17,"De Kalb",FRIDAY,6,12,3
-17,"De Kalb",FRIDAY,6,13,1
-17,"De Kalb",FRIDAY,6,14,2
-17,"De Kalb",FRIDAY,6,15,1
-17,"De Kalb",FRIDAY,6,17,1
-17,"De Kalb",FRIDAY,6,23,1
-17,"De Kalb",SATURDAY,7,8,1
-17,"De Kalb",SATURDAY,7,9,1
-17,"De Kalb",SATURDAY,7,10,5
-17,"De Kalb",SATURDAY,7,11,1
-17,"De Kalb",SATURDAY,7,12,2
-17,"De Kalb",SATURDAY,7,13,2
-17,"De Kalb",SATURDAY,7,14,4
-17,"De Kalb",SATURDAY,7,15,4
-17,"De Kalb",SATURDAY,7,17,2
-17,"De Kalb",SATURDAY,7,18,4
-17,"De Kalb",SATURDAY,7,19,1
-17,"De Kalb",SATURDAY,7,21,1
+17,DeKalb,SUNDAY,1,0,1
+17,DeKalb,SUNDAY,1,2,1
+17,DeKalb,SUNDAY,1,3,1
+17,DeKalb,SUNDAY,1,5,1
+17,DeKalb,SUNDAY,1,6,1
+17,DeKalb,SUNDAY,1,10,1
+17,DeKalb,SUNDAY,1,11,1
+17,DeKalb,SUNDAY,1,12,10
+17,DeKalb,SUNDAY,1,13,2
+17,DeKalb,SUNDAY,1,14,3
+17,DeKalb,SUNDAY,1,15,5
+17,DeKalb,SUNDAY,1,16,1
+17,DeKalb,SUNDAY,1,17,2
+17,DeKalb,SUNDAY,1,21,1
+17,DeKalb,MONDAY,2,0,1
+17,DeKalb,MONDAY,2,3,1
+17,DeKalb,MONDAY,2,4,1
+17,DeKalb,MONDAY,2,6,1
+17,DeKalb,MONDAY,2,7,2
+17,DeKalb,MONDAY,2,8,1
+17,DeKalb,MONDAY,2,9,1
+17,DeKalb,MONDAY,2,10,1
+17,DeKalb,MONDAY,2,11,1
+17,DeKalb,MONDAY,2,12,2
+17,DeKalb,MONDAY,2,13,1
+17,DeKalb,MONDAY,2,14,1
+17,DeKalb,MONDAY,2,16,2
+17,DeKalb,MONDAY,2,17,1
+17,DeKalb,MONDAY,2,18,2
+17,DeKalb,MONDAY,2,19,1
+17,DeKalb,MONDAY,2,20,1
+17,DeKalb,TUESDAY,3,7,2
+17,DeKalb,TUESDAY,3,8,1
+17,DeKalb,TUESDAY,3,9,3
+17,DeKalb,TUESDAY,3,11,1
+17,DeKalb,TUESDAY,3,15,1
+17,DeKalb,TUESDAY,3,16,1
+17,DeKalb,TUESDAY,3,17,1
+17,DeKalb,TUESDAY,3,18,1
+17,DeKalb,TUESDAY,3,19,1
+17,DeKalb,TUESDAY,3,21,1
+17,DeKalb,WEDNESDAY,4,2,1
+17,DeKalb,WEDNESDAY,4,3,1
+17,DeKalb,WEDNESDAY,4,7,1
+17,DeKalb,WEDNESDAY,4,9,1
+17,DeKalb,WEDNESDAY,4,10,1
+17,DeKalb,WEDNESDAY,4,13,2
+17,DeKalb,WEDNESDAY,4,15,2
+17,DeKalb,WEDNESDAY,4,18,3
+17,DeKalb,WEDNESDAY,4,19,1
+17,DeKalb,WEDNESDAY,4,20,1
+17,DeKalb,WEDNESDAY,4,21,2
+17,DeKalb,WEDNESDAY,4,22,1
+17,DeKalb,THURSDAY,5,4,2
+17,DeKalb,THURSDAY,5,5,1
+17,DeKalb,THURSDAY,5,6,4
+17,DeKalb,THURSDAY,5,7,1
+17,DeKalb,THURSDAY,5,8,2
+17,DeKalb,THURSDAY,5,9,1
+17,DeKalb,THURSDAY,5,11,2
+17,DeKalb,THURSDAY,5,12,1
+17,DeKalb,THURSDAY,5,15,1
+17,DeKalb,THURSDAY,5,16,1
+17,DeKalb,THURSDAY,5,20,1
+17,DeKalb,THURSDAY,5,21,1
+17,DeKalb,FRIDAY,6,0,1
+17,DeKalb,FRIDAY,6,6,5
+17,DeKalb,FRIDAY,6,7,2
+17,DeKalb,FRIDAY,6,8,1
+17,DeKalb,FRIDAY,6,9,1
+17,DeKalb,FRIDAY,6,10,1
+17,DeKalb,FRIDAY,6,12,3
+17,DeKalb,FRIDAY,6,13,1
+17,DeKalb,FRIDAY,6,14,2
+17,DeKalb,FRIDAY,6,15,1
+17,DeKalb,FRIDAY,6,17,1
+17,DeKalb,FRIDAY,6,23,1
+17,DeKalb,SATURDAY,7,8,1
+17,DeKalb,SATURDAY,7,9,1
+17,DeKalb,SATURDAY,7,10,5
+17,DeKalb,SATURDAY,7,11,1
+17,DeKalb,SATURDAY,7,12,2
+17,DeKalb,SATURDAY,7,13,2
+17,DeKalb,SATURDAY,7,14,4
+17,DeKalb,SATURDAY,7,15,4
+17,DeKalb,SATURDAY,7,17,2
+17,DeKalb,SATURDAY,7,18,4
+17,DeKalb,SATURDAY,7,19,1
+17,DeKalb,SATURDAY,7,21,1
 18,Delaware,SUNDAY,1,0,2
 18,Delaware,SUNDAY,1,3,1
 18,Delaware,SUNDAY,1,5,1
@@ -2446,143 +2446,143 @@ COUNTY_NUM,COUNTY,WEEK_DAY,WEEK_DAY_NUM,COLLISION_TIME,NUM_ACCIDENTS
 31,Harrison,SATURDAY,7,18,2
 31,Harrison,SATURDAY,7,20,3
 31,Harrison,SATURDAY,7,23,1
-32,Hendrick,SUNDAY,1,0,1
-32,Hendrick,SUNDAY,1,2,1
-32,Hendrick,SUNDAY,1,3,1
-32,Hendrick,SUNDAY,1,4,1
-32,Hendrick,SUNDAY,1,6,1
-32,Hendrick,SUNDAY,1,7,2
-32,Hendrick,SUNDAY,1,8,3
-32,Hendrick,SUNDAY,1,9,1
-32,Hendrick,SUNDAY,1,10,2
-32,Hendrick,SUNDAY,1,11,8
-32,Hendrick,SUNDAY,1,12,8
-32,Hendrick,SUNDAY,1,13,5
-32,Hendrick,SUNDAY,1,14,5
-32,Hendrick,SUNDAY,1,15,4
-32,Hendrick,SUNDAY,1,16,5
-32,Hendrick,SUNDAY,1,17,10
-32,Hendrick,SUNDAY,1,18,9
-32,Hendrick,SUNDAY,1,19,5
-32,Hendrick,SUNDAY,1,20,2
-32,Hendrick,SUNDAY,1,21,2
-32,Hendrick,SUNDAY,1,22,2
-32,Hendrick,MONDAY,2,3,1
-32,Hendrick,MONDAY,2,5,1
-32,Hendrick,MONDAY,2,6,1
-32,Hendrick,MONDAY,2,7,6
-32,Hendrick,MONDAY,2,9,3
-32,Hendrick,MONDAY,2,10,2
-32,Hendrick,MONDAY,2,11,2
-32,Hendrick,MONDAY,2,12,6
-32,Hendrick,MONDAY,2,13,2
-32,Hendrick,MONDAY,2,15,8
-32,Hendrick,MONDAY,2,16,4
-32,Hendrick,MONDAY,2,17,3
-32,Hendrick,MONDAY,2,18,6
-32,Hendrick,MONDAY,2,19,1
-32,Hendrick,MONDAY,2,20,2
-32,Hendrick,MONDAY,2,21,1
-32,Hendrick,MONDAY,2,22,2
-32,Hendrick,TUESDAY,3,0,1
-32,Hendrick,TUESDAY,3,5,1
-32,Hendrick,TUESDAY,3,6,6
-32,Hendrick,TUESDAY,3,7,2
-32,Hendrick,TUESDAY,3,9,1
-32,Hendrick,TUESDAY,3,10,1
-32,Hendrick,TUESDAY,3,11,2
-32,Hendrick,TUESDAY,3,12,3
-32,Hendrick,TUESDAY,3,13,5
-32,Hendrick,TUESDAY,3,14,6
-32,Hendrick,TUESDAY,3,15,5
-32,Hendrick,TUESDAY,3,16,7
-32,Hendrick,TUESDAY,3,17,4
-32,Hendrick,TUESDAY,3,18,1
-32,Hendrick,TUESDAY,3,19,3
-32,Hendrick,TUESDAY,3,20,2
-32,Hendrick,TUESDAY,3,21,3
-32,Hendrick,TUESDAY,3,22,1
-32,Hendrick,TUESDAY,3,23,1
-32,Hendrick,WEDNESDAY,4,0,1
-32,Hendrick,WEDNESDAY,4,1,2
-32,Hendrick,WEDNESDAY,4,5,2
-32,Hendrick,WEDNESDAY,4,6,6
-32,Hendrick,WEDNESDAY,4,7,3
-32,Hendrick,WEDNESDAY,4,8,2
-32,Hendrick,WEDNESDAY,4,9,1
-32,Hendrick,WEDNESDAY,4,10,3
-32,Hendrick,WEDNESDAY,4,11,4
-32,Hendrick,WEDNESDAY,4,12,1
-32,Hendrick,WEDNESDAY,4,13,1
-32,Hendrick,WEDNESDAY,4,14,4
-32,Hendrick,WEDNESDAY,4,15,5
-32,Hendrick,WEDNESDAY,4,16,5
-32,Hendrick,WEDNESDAY,4,17,1
-32,Hendrick,WEDNESDAY,4,18,4
-32,Hendrick,WEDNESDAY,4,19,1
-32,Hendrick,WEDNESDAY,4,20,2
-32,Hendrick,THURSDAY,5,0,1
-32,Hendrick,THURSDAY,5,2,1
-32,Hendrick,THURSDAY,5,3,1
-32,Hendrick,THURSDAY,5,7,1
-32,Hendrick,THURSDAY,5,8,4
-32,Hendrick,THURSDAY,5,9,1
-32,Hendrick,THURSDAY,5,11,2
-32,Hendrick,THURSDAY,5,12,2
-32,Hendrick,THURSDAY,5,13,3
-32,Hendrick,THURSDAY,5,14,5
-32,Hendrick,THURSDAY,5,15,5
-32,Hendrick,THURSDAY,5,16,2
-32,Hendrick,THURSDAY,5,17,7
-32,Hendrick,THURSDAY,5,18,6
-32,Hendrick,THURSDAY,5,19,1
-32,Hendrick,THURSDAY,5,20,2
-32,Hendrick,THURSDAY,5,21,1
-32,Hendrick,THURSDAY,5,22,5
-32,Hendrick,THURSDAY,5,23,1
-32,Hendrick,FRIDAY,6,0,1
-32,Hendrick,FRIDAY,6,2,2
-32,Hendrick,FRIDAY,6,5,1
-32,Hendrick,FRIDAY,6,6,8
-32,Hendrick,FRIDAY,6,7,3
-32,Hendrick,FRIDAY,6,8,5
-32,Hendrick,FRIDAY,6,9,2
-32,Hendrick,FRIDAY,6,10,2
-32,Hendrick,FRIDAY,6,11,4
-32,Hendrick,FRIDAY,6,12,4
-32,Hendrick,FRIDAY,6,13,8
-32,Hendrick,FRIDAY,6,14,7
-32,Hendrick,FRIDAY,6,15,11
-32,Hendrick,FRIDAY,6,16,8
-32,Hendrick,FRIDAY,6,17,7
-32,Hendrick,FRIDAY,6,18,11
-32,Hendrick,FRIDAY,6,19,3
-32,Hendrick,FRIDAY,6,20,1
-32,Hendrick,FRIDAY,6,21,1
-32,Hendrick,FRIDAY,6,22,1
-32,Hendrick,FRIDAY,6,23,1
-32,Hendrick,SATURDAY,7,0,4
-32,Hendrick,SATURDAY,7,1,1
-32,Hendrick,SATURDAY,7,3,1
-32,Hendrick,SATURDAY,7,4,1
-32,Hendrick,SATURDAY,7,5,2
-32,Hendrick,SATURDAY,7,6,1
-32,Hendrick,SATURDAY,7,7,3
-32,Hendrick,SATURDAY,7,8,1
-32,Hendrick,SATURDAY,7,9,4
-32,Hendrick,SATURDAY,7,10,9
-32,Hendrick,SATURDAY,7,11,2
-32,Hendrick,SATURDAY,7,12,6
-32,Hendrick,SATURDAY,7,13,5
-32,Hendrick,SATURDAY,7,15,5
-32,Hendrick,SATURDAY,7,16,2
-32,Hendrick,SATURDAY,7,17,7
-32,Hendrick,SATURDAY,7,18,2
-32,Hendrick,SATURDAY,7,19,1
-32,Hendrick,SATURDAY,7,20,5
-32,Hendrick,SATURDAY,7,21,3
-32,Hendrick,SATURDAY,7,22,4
-32,Hendrick,SATURDAY,7,23,2
+32,Hendricks,SUNDAY,1,0,1
+32,Hendricks,SUNDAY,1,2,1
+32,Hendricks,SUNDAY,1,3,1
+32,Hendricks,SUNDAY,1,4,1
+32,Hendricks,SUNDAY,1,6,1
+32,Hendricks,SUNDAY,1,7,2
+32,Hendricks,SUNDAY,1,8,3
+32,Hendricks,SUNDAY,1,9,1
+32,Hendricks,SUNDAY,1,10,2
+32,Hendricks,SUNDAY,1,11,8
+32,Hendricks,SUNDAY,1,12,8
+32,Hendricks,SUNDAY,1,13,5
+32,Hendricks,SUNDAY,1,14,5
+32,Hendricks,SUNDAY,1,15,4
+32,Hendricks,SUNDAY,1,16,5
+32,Hendricks,SUNDAY,1,17,10
+32,Hendricks,SUNDAY,1,18,9
+32,Hendricks,SUNDAY,1,19,5
+32,Hendricks,SUNDAY,1,20,2
+32,Hendricks,SUNDAY,1,21,2
+32,Hendricks,SUNDAY,1,22,2
+32,Hendricks,MONDAY,2,3,1
+32,Hendricks,MONDAY,2,5,1
+32,Hendricks,MONDAY,2,6,1
+32,Hendricks,MONDAY,2,7,6
+32,Hendricks,MONDAY,2,9,3
+32,Hendricks,MONDAY,2,10,2
+32,Hendricks,MONDAY,2,11,2
+32,Hendricks,MONDAY,2,12,6
+32,Hendricks,MONDAY,2,13,2
+32,Hendricks,MONDAY,2,15,8
+32,Hendricks,MONDAY,2,16,4
+32,Hendricks,MONDAY,2,17,3
+32,Hendricks,MONDAY,2,18,6
+32,Hendricks,MONDAY,2,19,1
+32,Hendricks,MONDAY,2,20,2
+32,Hendricks,MONDAY,2,21,1
+32,Hendricks,MONDAY,2,22,2
+32,Hendricks,TUESDAY,3,0,1
+32,Hendricks,TUESDAY,3,5,1
+32,Hendricks,TUESDAY,3,6,6
+32,Hendricks,TUESDAY,3,7,2
+32,Hendricks,TUESDAY,3,9,1
+32,Hendricks,TUESDAY,3,10,1
+32,Hendricks,TUESDAY,3,11,2
+32,Hendricks,TUESDAY,3,12,3
+32,Hendricks,TUESDAY,3,13,5
+32,Hendricks,TUESDAY,3,14,6
+32,Hendricks,TUESDAY,3,15,5
+32,Hendricks,TUESDAY,3,16,7
+32,Hendricks,TUESDAY,3,17,4
+32,Hendricks,TUESDAY,3,18,1
+32,Hendricks,TUESDAY,3,19,3
+32,Hendricks,TUESDAY,3,20,2
+32,Hendricks,TUESDAY,3,21,3
+32,Hendricks,TUESDAY,3,22,1
+32,Hendricks,TUESDAY,3,23,1
+32,Hendricks,WEDNESDAY,4,0,1
+32,Hendricks,WEDNESDAY,4,1,2
+32,Hendricks,WEDNESDAY,4,5,2
+32,Hendricks,WEDNESDAY,4,6,6
+32,Hendricks,WEDNESDAY,4,7,3
+32,Hendricks,WEDNESDAY,4,8,2
+32,Hendricks,WEDNESDAY,4,9,1
+32,Hendricks,WEDNESDAY,4,10,3
+32,Hendricks,WEDNESDAY,4,11,4
+32,Hendricks,WEDNESDAY,4,12,1
+32,Hendricks,WEDNESDAY,4,13,1
+32,Hendricks,WEDNESDAY,4,14,4
+32,Hendricks,WEDNESDAY,4,15,5
+32,Hendricks,WEDNESDAY,4,16,5
+32,Hendricks,WEDNESDAY,4,17,1
+32,Hendricks,WEDNESDAY,4,18,4
+32,Hendricks,WEDNESDAY,4,19,1
+32,Hendricks,WEDNESDAY,4,20,2
+32,Hendricks,THURSDAY,5,0,1
+32,Hendricks,THURSDAY,5,2,1
+32,Hendricks,THURSDAY,5,3,1
+32,Hendricks,THURSDAY,5,7,1
+32,Hendricks,THURSDAY,5,8,4
+32,Hendricks,THURSDAY,5,9,1
+32,Hendricks,THURSDAY,5,11,2
+32,Hendricks,THURSDAY,5,12,2
+32,Hendricks,THURSDAY,5,13,3
+32,Hendricks,THURSDAY,5,14,5
+32,Hendricks,THURSDAY,5,15,5
+32,Hendricks,THURSDAY,5,16,2
+32,Hendricks,THURSDAY,5,17,7
+32,Hendricks,THURSDAY,5,18,6
+32,Hendricks,THURSDAY,5,19,1
+32,Hendricks,THURSDAY,5,20,2
+32,Hendricks,THURSDAY,5,21,1
+32,Hendricks,THURSDAY,5,22,5
+32,Hendricks,THURSDAY,5,23,1
+32,Hendricks,FRIDAY,6,0,1
+32,Hendricks,FRIDAY,6,2,2
+32,Hendricks,FRIDAY,6,5,1
+32,Hendricks,FRIDAY,6,6,8
+32,Hendricks,FRIDAY,6,7,3
+32,Hendricks,FRIDAY,6,8,5
+32,Hendricks,FRIDAY,6,9,2
+32,Hendricks,FRIDAY,6,10,2
+32,Hendricks,FRIDAY,6,11,4
+32,Hendricks,FRIDAY,6,12,4
+32,Hendricks,FRIDAY,6,13,8
+32,Hendricks,FRIDAY,6,14,7
+32,Hendricks,FRIDAY,6,15,11
+32,Hendricks,FRIDAY,6,16,8
+32,Hendricks,FRIDAY,6,17,7
+32,Hendricks,FRIDAY,6,18,11
+32,Hendricks,FRIDAY,6,19,3
+32,Hendricks,FRIDAY,6,20,1
+32,Hendricks,FRIDAY,6,21,1
+32,Hendricks,FRIDAY,6,22,1
+32,Hendricks,FRIDAY,6,23,1
+32,Hendricks,SATURDAY,7,0,4
+32,Hendricks,SATURDAY,7,1,1
+32,Hendricks,SATURDAY,7,3,1
+32,Hendricks,SATURDAY,7,4,1
+32,Hendricks,SATURDAY,7,5,2
+32,Hendricks,SATURDAY,7,6,1
+32,Hendricks,SATURDAY,7,7,3
+32,Hendricks,SATURDAY,7,8,1
+32,Hendricks,SATURDAY,7,9,4
+32,Hendricks,SATURDAY,7,10,9
+32,Hendricks,SATURDAY,7,11,2
+32,Hendricks,SATURDAY,7,12,6
+32,Hendricks,SATURDAY,7,13,5
+32,Hendricks,SATURDAY,7,15,5
+32,Hendricks,SATURDAY,7,16,2
+32,Hendricks,SATURDAY,7,17,7
+32,Hendricks,SATURDAY,7,18,2
+32,Hendricks,SATURDAY,7,19,1
+32,Hendricks,SATURDAY,7,20,5
+32,Hendricks,SATURDAY,7,21,3
+32,Hendricks,SATURDAY,7,22,4
+32,Hendricks,SATURDAY,7,23,2
 33,Henry,SUNDAY,1,4,1
 33,Henry,SUNDAY,1,7,1
 33,Henry,SUNDAY,1,10,1
@@ -2774,92 +2774,92 @@ COUNTY_NUM,COUNTY,WEEK_DAY,WEEK_DAY_NUM,COLLISION_TIME,NUM_ACCIDENTS
 34,Howard,SATURDAY,7,21,1
 34,Howard,SATURDAY,7,22,2
 34,Howard,SATURDAY,7,23,3
-35,Huntingt,SUNDAY,1,2,1
-35,Huntingt,SUNDAY,1,7,1
-35,Huntingt,SUNDAY,1,8,1
-35,Huntingt,SUNDAY,1,9,2
-35,Huntingt,SUNDAY,1,10,3
-35,Huntingt,SUNDAY,1,11,2
-35,Huntingt,SUNDAY,1,12,4
-35,Huntingt,SUNDAY,1,13,7
-35,Huntingt,SUNDAY,1,14,5
-35,Huntingt,SUNDAY,1,15,4
-35,Huntingt,SUNDAY,1,16,1
-35,Huntingt,SUNDAY,1,17,1
-35,Huntingt,SUNDAY,1,18,2
-35,Huntingt,SUNDAY,1,19,1
-35,Huntingt,SUNDAY,1,21,3
-35,Huntingt,SUNDAY,1,23,2
-35,Huntingt,MONDAY,2,6,1
-35,Huntingt,MONDAY,2,9,1
-35,Huntingt,MONDAY,2,13,1
-35,Huntingt,MONDAY,2,15,2
-35,Huntingt,MONDAY,2,16,1
-35,Huntingt,MONDAY,2,17,3
-35,Huntingt,MONDAY,2,18,2
-35,Huntingt,MONDAY,2,19,1
-35,Huntingt,MONDAY,2,21,1
-35,Huntingt,TUESDAY,3,2,1
-35,Huntingt,TUESDAY,3,3,1
-35,Huntingt,TUESDAY,3,6,1
-35,Huntingt,TUESDAY,3,7,1
-35,Huntingt,TUESDAY,3,9,2
-35,Huntingt,TUESDAY,3,13,1
-35,Huntingt,TUESDAY,3,15,1
-35,Huntingt,TUESDAY,3,16,3
-35,Huntingt,TUESDAY,3,17,3
-35,Huntingt,TUESDAY,3,18,1
-35,Huntingt,TUESDAY,3,19,1
-35,Huntingt,WEDNESDAY,4,4,1
-35,Huntingt,WEDNESDAY,4,13,1
-35,Huntingt,WEDNESDAY,4,15,3
-35,Huntingt,WEDNESDAY,4,16,3
-35,Huntingt,WEDNESDAY,4,17,3
-35,Huntingt,WEDNESDAY,4,20,1
-35,Huntingt,WEDNESDAY,4,21,1
-35,Huntingt,WEDNESDAY,4,22,1
-35,Huntingt,THURSDAY,5,4,2
-35,Huntingt,THURSDAY,5,6,1
-35,Huntingt,THURSDAY,5,14,1
-35,Huntingt,THURSDAY,5,15,1
-35,Huntingt,THURSDAY,5,16,1
-35,Huntingt,THURSDAY,5,17,2
-35,Huntingt,THURSDAY,5,18,1
-35,Huntingt,THURSDAY,5,19,2
-35,Huntingt,THURSDAY,5,20,1
-35,Huntingt,THURSDAY,5,21,2
-35,Huntingt,THURSDAY,5,23,1
-35,Huntingt,FRIDAY,6,0,1
-35,Huntingt,FRIDAY,6,2,1
-35,Huntingt,FRIDAY,6,3,1
-35,Huntingt,FRIDAY,6,5,2
-35,Huntingt,FRIDAY,6,6,2
-35,Huntingt,FRIDAY,6,7,3
-35,Huntingt,FRIDAY,6,8,2
-35,Huntingt,FRIDAY,6,9,2
-35,Huntingt,FRIDAY,6,12,1
-35,Huntingt,FRIDAY,6,13,3
-35,Huntingt,FRIDAY,6,15,2
-35,Huntingt,FRIDAY,6,16,2
-35,Huntingt,FRIDAY,6,17,3
-35,Huntingt,FRIDAY,6,18,3
-35,Huntingt,FRIDAY,6,19,1
-35,Huntingt,FRIDAY,6,20,2
-35,Huntingt,FRIDAY,6,23,2
-35,Huntingt,SATURDAY,7,2,2
-35,Huntingt,SATURDAY,7,5,1
-35,Huntingt,SATURDAY,7,8,1
-35,Huntingt,SATURDAY,7,9,1
-35,Huntingt,SATURDAY,7,10,2
-35,Huntingt,SATURDAY,7,11,2
-35,Huntingt,SATURDAY,7,12,5
-35,Huntingt,SATURDAY,7,13,4
-35,Huntingt,SATURDAY,7,15,4
-35,Huntingt,SATURDAY,7,16,4
-35,Huntingt,SATURDAY,7,17,3
-35,Huntingt,SATURDAY,7,18,3
-35,Huntingt,SATURDAY,7,19,2
-35,Huntingt,SATURDAY,7,21,1
+35,Huntington,SUNDAY,1,2,1
+35,Huntington,SUNDAY,1,7,1
+35,Huntington,SUNDAY,1,8,1
+35,Huntington,SUNDAY,1,9,2
+35,Huntington,SUNDAY,1,10,3
+35,Huntington,SUNDAY,1,11,2
+35,Huntington,SUNDAY,1,12,4
+35,Huntington,SUNDAY,1,13,7
+35,Huntington,SUNDAY,1,14,5
+35,Huntington,SUNDAY,1,15,4
+35,Huntington,SUNDAY,1,16,1
+35,Huntington,SUNDAY,1,17,1
+35,Huntington,SUNDAY,1,18,2
+35,Huntington,SUNDAY,1,19,1
+35,Huntington,SUNDAY,1,21,3
+35,Huntington,SUNDAY,1,23,2
+35,Huntington,MONDAY,2,6,1
+35,Huntington,MONDAY,2,9,1
+35,Huntington,MONDAY,2,13,1
+35,Huntington,MONDAY,2,15,2
+35,Huntington,MONDAY,2,16,1
+35,Huntington,MONDAY,2,17,3
+35,Huntington,MONDAY,2,18,2
+35,Huntington,MONDAY,2,19,1
+35,Huntington,MONDAY,2,21,1
+35,Huntington,TUESDAY,3,2,1
+35,Huntington,TUESDAY,3,3,1
+35,Huntington,TUESDAY,3,6,1
+35,Huntington,TUESDAY,3,7,1
+35,Huntington,TUESDAY,3,9,2
+35,Huntington,TUESDAY,3,13,1
+35,Huntington,TUESDAY,3,15,1
+35,Huntington,TUESDAY,3,16,3
+35,Huntington,TUESDAY,3,17,3
+35,Huntington,TUESDAY,3,18,1
+35,Huntington,TUESDAY,3,19,1
+35,Huntington,WEDNESDAY,4,4,1
+35,Huntington,WEDNESDAY,4,13,1
+35,Huntington,WEDNESDAY,4,15,3
+35,Huntington,WEDNESDAY,4,16,3
+35,Huntington,WEDNESDAY,4,17,3
+35,Huntington,WEDNESDAY,4,20,1
+35,Huntington,WEDNESDAY,4,21,1
+35,Huntington,WEDNESDAY,4,22,1
+35,Huntington,THURSDAY,5,4,2
+35,Huntington,THURSDAY,5,6,1
+35,Huntington,THURSDAY,5,14,1
+35,Huntington,THURSDAY,5,15,1
+35,Huntington,THURSDAY,5,16,1
+35,Huntington,THURSDAY,5,17,2
+35,Huntington,THURSDAY,5,18,1
+35,Huntington,THURSDAY,5,19,2
+35,Huntington,THURSDAY,5,20,1
+35,Huntington,THURSDAY,5,21,2
+35,Huntington,THURSDAY,5,23,1
+35,Huntington,FRIDAY,6,0,1
+35,Huntington,FRIDAY,6,2,1
+35,Huntington,FRIDAY,6,3,1
+35,Huntington,FRIDAY,6,5,2
+35,Huntington,FRIDAY,6,6,2
+35,Huntington,FRIDAY,6,7,3
+35,Huntington,FRIDAY,6,8,2
+35,Huntington,FRIDAY,6,9,2
+35,Huntington,FRIDAY,6,12,1
+35,Huntington,FRIDAY,6,13,3
+35,Huntington,FRIDAY,6,15,2
+35,Huntington,FRIDAY,6,16,2
+35,Huntington,FRIDAY,6,17,3
+35,Huntington,FRIDAY,6,18,3
+35,Huntington,FRIDAY,6,19,1
+35,Huntington,FRIDAY,6,20,2
+35,Huntington,FRIDAY,6,23,2
+35,Huntington,SATURDAY,7,2,2
+35,Huntington,SATURDAY,7,5,1
+35,Huntington,SATURDAY,7,8,1
+35,Huntington,SATURDAY,7,9,1
+35,Huntington,SATURDAY,7,10,2
+35,Huntington,SATURDAY,7,11,2
+35,Huntington,SATURDAY,7,12,5
+35,Huntington,SATURDAY,7,13,4
+35,Huntington,SATURDAY,7,15,4
+35,Huntington,SATURDAY,7,16,4
+35,Huntington,SATURDAY,7,17,3
+35,Huntington,SATURDAY,7,18,3
+35,Huntington,SATURDAY,7,19,2
+35,Huntington,SATURDAY,7,21,1
 36,Jackson,SUNDAY,1,2,1
 36,Jackson,SUNDAY,1,8,1
 36,Jackson,SUNDAY,1,10,1
@@ -3068,67 +3068,67 @@ COUNTY_NUM,COUNTY,WEEK_DAY,WEEK_DAY_NUM,COLLISION_TIME,NUM_ACCIDENTS
 38,Jay,SATURDAY,7,16,2
 38,Jay,SATURDAY,7,18,3
 38,Jay,SATURDAY,7,20,1
-39,Jefferso,SUNDAY,1,9,1
-39,Jefferso,SUNDAY,1,11,1
-39,Jefferso,SUNDAY,1,12,2
-39,Jefferso,SUNDAY,1,13,1
-39,Jefferso,SUNDAY,1,14,2
-39,Jefferso,SUNDAY,1,16,1
-39,Jefferso,SUNDAY,1,18,2
-39,Jefferso,SUNDAY,1,21,1
-39,Jefferso,MONDAY,2,3,1
-39,Jefferso,MONDAY,2,6,1
-39,Jefferso,MONDAY,2,11,1
-39,Jefferso,MONDAY,2,12,1
-39,Jefferso,MONDAY,2,16,1
-39,Jefferso,MONDAY,2,19,2
-39,Jefferso,MONDAY,2,20,1
-39,Jefferso,MONDAY,2,22,1
-39,Jefferso,TUESDAY,3,8,1
-39,Jefferso,TUESDAY,3,9,1
-39,Jefferso,TUESDAY,3,11,1
-39,Jefferso,TUESDAY,3,12,1
-39,Jefferso,TUESDAY,3,13,1
-39,Jefferso,TUESDAY,3,16,2
-39,Jefferso,TUESDAY,3,17,1
-39,Jefferso,TUESDAY,3,19,1
-39,Jefferso,TUESDAY,3,20,1
-39,Jefferso,TUESDAY,3,21,1
-39,Jefferso,TUESDAY,3,22,1
-39,Jefferso,WEDNESDAY,4,4,1
-39,Jefferso,WEDNESDAY,4,7,1
-39,Jefferso,WEDNESDAY,4,10,1
-39,Jefferso,WEDNESDAY,4,11,2
-39,Jefferso,WEDNESDAY,4,14,2
-39,Jefferso,WEDNESDAY,4,18,1
-39,Jefferso,WEDNESDAY,4,19,1
-39,Jefferso,WEDNESDAY,4,21,1
-39,Jefferso,THURSDAY,5,3,1
-39,Jefferso,THURSDAY,5,6,1
-39,Jefferso,THURSDAY,5,7,1
-39,Jefferso,THURSDAY,5,8,1
-39,Jefferso,THURSDAY,5,12,1
-39,Jefferso,THURSDAY,5,15,1
-39,Jefferso,THURSDAY,5,16,1
-39,Jefferso,THURSDAY,5,18,2
-39,Jefferso,FRIDAY,6,1,1
-39,Jefferso,FRIDAY,6,3,1
-39,Jefferso,FRIDAY,6,10,1
-39,Jefferso,FRIDAY,6,11,1
-39,Jefferso,FRIDAY,6,12,1
-39,Jefferso,FRIDAY,6,14,1
-39,Jefferso,FRIDAY,6,16,3
-39,Jefferso,FRIDAY,6,18,1
-39,Jefferso,FRIDAY,6,19,1
-39,Jefferso,SATURDAY,7,3,1
-39,Jefferso,SATURDAY,7,8,1
-39,Jefferso,SATURDAY,7,11,1
-39,Jefferso,SATURDAY,7,12,1
-39,Jefferso,SATURDAY,7,13,4
-39,Jefferso,SATURDAY,7,16,1
-39,Jefferso,SATURDAY,7,17,5
-39,Jefferso,SATURDAY,7,18,4
-39,Jefferso,SATURDAY,7,21,2
+39,Jefferson,SUNDAY,1,9,1
+39,Jefferson,SUNDAY,1,11,1
+39,Jefferson,SUNDAY,1,12,2
+39,Jefferson,SUNDAY,1,13,1
+39,Jefferson,SUNDAY,1,14,2
+39,Jefferson,SUNDAY,1,16,1
+39,Jefferson,SUNDAY,1,18,2
+39,Jefferson,SUNDAY,1,21,1
+39,Jefferson,MONDAY,2,3,1
+39,Jefferson,MONDAY,2,6,1
+39,Jefferson,MONDAY,2,11,1
+39,Jefferson,MONDAY,2,12,1
+39,Jefferson,MONDAY,2,16,1
+39,Jefferson,MONDAY,2,19,2
+39,Jefferson,MONDAY,2,20,1
+39,Jefferson,MONDAY,2,22,1
+39,Jefferson,TUESDAY,3,8,1
+39,Jefferson,TUESDAY,3,9,1
+39,Jefferson,TUESDAY,3,11,1
+39,Jefferson,TUESDAY,3,12,1
+39,Jefferson,TUESDAY,3,13,1
+39,Jefferson,TUESDAY,3,16,2
+39,Jefferson,TUESDAY,3,17,1
+39,Jefferson,TUESDAY,3,19,1
+39,Jefferson,TUESDAY,3,20,1
+39,Jefferson,TUESDAY,3,21,1
+39,Jefferson,TUESDAY,3,22,1
+39,Jefferson,WEDNESDAY,4,4,1
+39,Jefferson,WEDNESDAY,4,7,1
+39,Jefferson,WEDNESDAY,4,10,1
+39,Jefferson,WEDNESDAY,4,11,2
+39,Jefferson,WEDNESDAY,4,14,2
+39,Jefferson,WEDNESDAY,4,18,1
+39,Jefferson,WEDNESDAY,4,19,1
+39,Jefferson,WEDNESDAY,4,21,1
+39,Jefferson,THURSDAY,5,3,1
+39,Jefferson,THURSDAY,5,6,1
+39,Jefferson,THURSDAY,5,7,1
+39,Jefferson,THURSDAY,5,8,1
+39,Jefferson,THURSDAY,5,12,1
+39,Jefferson,THURSDAY,5,15,1
+39,Jefferson,THURSDAY,5,16,1
+39,Jefferson,THURSDAY,5,18,2
+39,Jefferson,FRIDAY,6,1,1
+39,Jefferson,FRIDAY,6,3,1
+39,Jefferson,FRIDAY,6,10,1
+39,Jefferson,FRIDAY,6,11,1
+39,Jefferson,FRIDAY,6,12,1
+39,Jefferson,FRIDAY,6,14,1
+39,Jefferson,FRIDAY,6,16,3
+39,Jefferson,FRIDAY,6,18,1
+39,Jefferson,FRIDAY,6,19,1
+39,Jefferson,SATURDAY,7,3,1
+39,Jefferson,SATURDAY,7,8,1
+39,Jefferson,SATURDAY,7,11,1
+39,Jefferson,SATURDAY,7,12,1
+39,Jefferson,SATURDAY,7,13,4
+39,Jefferson,SATURDAY,7,16,1
+39,Jefferson,SATURDAY,7,17,5
+39,Jefferson,SATURDAY,7,18,4
+39,Jefferson,SATURDAY,7,21,2
 40,Jennings,SUNDAY,1,16,1
 40,Jennings,SUNDAY,1,17,1
 40,Jennings,SUNDAY,1,18,2
@@ -3363,125 +3363,125 @@ COUNTY_NUM,COUNTY,WEEK_DAY,WEEK_DAY_NUM,COLLISION_TIME,NUM_ACCIDENTS
 42,Knox,SATURDAY,7,18,1
 42,Knox,SATURDAY,7,21,1
 42,Knox,SATURDAY,7,22,1
-43,Kosciusk,SUNDAY,1,1,1
-43,Kosciusk,SUNDAY,1,6,1
-43,Kosciusk,SUNDAY,1,9,3
-43,Kosciusk,SUNDAY,1,10,4
-43,Kosciusk,SUNDAY,1,11,9
-43,Kosciusk,SUNDAY,1,12,7
-43,Kosciusk,SUNDAY,1,13,1
-43,Kosciusk,SUNDAY,1,14,3
-43,Kosciusk,SUNDAY,1,15,4
-43,Kosciusk,SUNDAY,1,16,7
-43,Kosciusk,SUNDAY,1,17,2
-43,Kosciusk,SUNDAY,1,18,5
-43,Kosciusk,SUNDAY,1,19,3
-43,Kosciusk,SUNDAY,1,20,3
-43,Kosciusk,SUNDAY,1,21,4
-43,Kosciusk,MONDAY,2,0,1
-43,Kosciusk,MONDAY,2,5,1
-43,Kosciusk,MONDAY,2,6,3
-43,Kosciusk,MONDAY,2,7,1
-43,Kosciusk,MONDAY,2,8,2
-43,Kosciusk,MONDAY,2,10,2
-43,Kosciusk,MONDAY,2,11,3
-43,Kosciusk,MONDAY,2,12,2
-43,Kosciusk,MONDAY,2,13,1
-43,Kosciusk,MONDAY,2,14,1
-43,Kosciusk,MONDAY,2,15,1
-43,Kosciusk,MONDAY,2,16,3
-43,Kosciusk,MONDAY,2,17,1
-43,Kosciusk,MONDAY,2,18,3
-43,Kosciusk,MONDAY,2,19,1
-43,Kosciusk,MONDAY,2,20,2
-43,Kosciusk,MONDAY,2,21,1
-43,Kosciusk,TUESDAY,3,1,1
-43,Kosciusk,TUESDAY,3,4,1
-43,Kosciusk,TUESDAY,3,5,1
-43,Kosciusk,TUESDAY,3,6,2
-43,Kosciusk,TUESDAY,3,7,5
-43,Kosciusk,TUESDAY,3,8,3
-43,Kosciusk,TUESDAY,3,9,4
-43,Kosciusk,TUESDAY,3,11,1
-43,Kosciusk,TUESDAY,3,13,5
-43,Kosciusk,TUESDAY,3,15,2
-43,Kosciusk,TUESDAY,3,16,5
-43,Kosciusk,TUESDAY,3,17,2
-43,Kosciusk,TUESDAY,3,18,1
-43,Kosciusk,TUESDAY,3,21,2
-43,Kosciusk,TUESDAY,3,22,1
-43,Kosciusk,WEDNESDAY,4,4,1
-43,Kosciusk,WEDNESDAY,4,6,2
-43,Kosciusk,WEDNESDAY,4,8,2
-43,Kosciusk,WEDNESDAY,4,10,2
-43,Kosciusk,WEDNESDAY,4,12,1
-43,Kosciusk,WEDNESDAY,4,13,4
-43,Kosciusk,WEDNESDAY,4,14,1
-43,Kosciusk,WEDNESDAY,4,15,1
-43,Kosciusk,WEDNESDAY,4,16,4
-43,Kosciusk,WEDNESDAY,4,17,2
-43,Kosciusk,WEDNESDAY,4,18,1
-43,Kosciusk,WEDNESDAY,4,19,2
-43,Kosciusk,WEDNESDAY,4,20,4
-43,Kosciusk,WEDNESDAY,4,21,3
-43,Kosciusk,WEDNESDAY,4,22,1
-43,Kosciusk,THURSDAY,5,3,1
-43,Kosciusk,THURSDAY,5,4,1
-43,Kosciusk,THURSDAY,5,7,6
-43,Kosciusk,THURSDAY,5,8,4
-43,Kosciusk,THURSDAY,5,9,1
-43,Kosciusk,THURSDAY,5,10,2
-43,Kosciusk,THURSDAY,5,11,1
-43,Kosciusk,THURSDAY,5,12,1
-43,Kosciusk,THURSDAY,5,13,1
-43,Kosciusk,THURSDAY,5,14,3
-43,Kosciusk,THURSDAY,5,15,4
-43,Kosciusk,THURSDAY,5,16,7
-43,Kosciusk,THURSDAY,5,17,3
-43,Kosciusk,THURSDAY,5,18,1
-43,Kosciusk,THURSDAY,5,19,1
-43,Kosciusk,THURSDAY,5,20,1
-43,Kosciusk,THURSDAY,5,21,1
-43,Kosciusk,THURSDAY,5,22,1
-43,Kosciusk,THURSDAY,5,23,1
-43,Kosciusk,FRIDAY,6,1,1
-43,Kosciusk,FRIDAY,6,3,2
-43,Kosciusk,FRIDAY,6,5,1
-43,Kosciusk,FRIDAY,6,6,3
-43,Kosciusk,FRIDAY,6,7,4
-43,Kosciusk,FRIDAY,6,8,2
-43,Kosciusk,FRIDAY,6,10,1
-43,Kosciusk,FRIDAY,6,11,2
-43,Kosciusk,FRIDAY,6,12,4
-43,Kosciusk,FRIDAY,6,13,3
-43,Kosciusk,FRIDAY,6,14,6
-43,Kosciusk,FRIDAY,6,15,3
-43,Kosciusk,FRIDAY,6,16,5
-43,Kosciusk,FRIDAY,6,17,6
-43,Kosciusk,FRIDAY,6,18,4
-43,Kosciusk,FRIDAY,6,19,1
-43,Kosciusk,FRIDAY,6,20,3
-43,Kosciusk,FRIDAY,6,21,1
-43,Kosciusk,FRIDAY,6,22,1
-43,Kosciusk,FRIDAY,6,23,2
-43,Kosciusk,SATURDAY,7,0,2
-43,Kosciusk,SATURDAY,7,4,1
-43,Kosciusk,SATURDAY,7,6,1
-43,Kosciusk,SATURDAY,7,7,3
-43,Kosciusk,SATURDAY,7,8,5
-43,Kosciusk,SATURDAY,7,9,2
-43,Kosciusk,SATURDAY,7,10,9
-43,Kosciusk,SATURDAY,7,11,4
-43,Kosciusk,SATURDAY,7,12,5
-43,Kosciusk,SATURDAY,7,13,6
-43,Kosciusk,SATURDAY,7,14,6
-43,Kosciusk,SATURDAY,7,15,6
-43,Kosciusk,SATURDAY,7,16,4
-43,Kosciusk,SATURDAY,7,17,2
-43,Kosciusk,SATURDAY,7,18,4
-43,Kosciusk,SATURDAY,7,19,1
-43,Kosciusk,SATURDAY,7,22,4
-43,Kosciusk,SATURDAY,7,23,1
+43,Kosciusko,SUNDAY,1,1,1
+43,Kosciusko,SUNDAY,1,6,1
+43,Kosciusko,SUNDAY,1,9,3
+43,Kosciusko,SUNDAY,1,10,4
+43,Kosciusko,SUNDAY,1,11,9
+43,Kosciusko,SUNDAY,1,12,7
+43,Kosciusko,SUNDAY,1,13,1
+43,Kosciusko,SUNDAY,1,14,3
+43,Kosciusko,SUNDAY,1,15,4
+43,Kosciusko,SUNDAY,1,16,7
+43,Kosciusko,SUNDAY,1,17,2
+43,Kosciusko,SUNDAY,1,18,5
+43,Kosciusko,SUNDAY,1,19,3
+43,Kosciusko,SUNDAY,1,20,3
+43,Kosciusko,SUNDAY,1,21,4
+43,Kosciusko,MONDAY,2,0,1
+43,Kosciusko,MONDAY,2,5,1
+43,Kosciusko,MONDAY,2,6,3
+43,Kosciusko,MONDAY,2,7,1
+43,Kosciusko,MONDAY,2,8,2
+43,Kosciusko,MONDAY,2,10,2
+43,Kosciusko,MONDAY,2,11,3
+43,Kosciusko,MONDAY,2,12,2
+43,Kosciusko,MONDAY,2,13,1
+43,Kosciusko,MONDAY,2,14,1
+43,Kosciusko,MONDAY,2,15,1
+43,Kosciusko,MONDAY,2,16,3
+43,Kosciusko,MONDAY,2,17,1
+43,Kosciusko,MONDAY,2,18,3
+43,Kosciusko,MONDAY,2,19,1
+43,Kosciusko,MONDAY,2,20,2
+43,Kosciusko,MONDAY,2,21,1
+43,Kosciusko,TUESDAY,3,1,1
+43,Kosciusko,TUESDAY,3,4,1
+43,Kosciusko,TUESDAY,3,5,1
+43,Kosciusko,TUESDAY,3,6,2
+43,Kosciusko,TUESDAY,3,7,5
+43,Kosciusko,TUESDAY,3,8,3
+43,Kosciusko,TUESDAY,3,9,4
+43,Kosciusko,TUESDAY,3,11,1
+43,Kosciusko,TUESDAY,3,13,5
+43,Kosciusko,TUESDAY,3,15,2
+43,Kosciusko,TUESDAY,3,16,5
+43,Kosciusko,TUESDAY,3,17,2
+43,Kosciusko,TUESDAY,3,18,1
+43,Kosciusko,TUESDAY,3,21,2
+43,Kosciusko,TUESDAY,3,22,1
+43,Kosciusko,WEDNESDAY,4,4,1
+43,Kosciusko,WEDNESDAY,4,6,2
+43,Kosciusko,WEDNESDAY,4,8,2
+43,Kosciusko,WEDNESDAY,4,10,2
+43,Kosciusko,WEDNESDAY,4,12,1
+43,Kosciusko,WEDNESDAY,4,13,4
+43,Kosciusko,WEDNESDAY,4,14,1
+43,Kosciusko,WEDNESDAY,4,15,1
+43,Kosciusko,WEDNESDAY,4,16,4
+43,Kosciusko,WEDNESDAY,4,17,2
+43,Kosciusko,WEDNESDAY,4,18,1
+43,Kosciusko,WEDNESDAY,4,19,2
+43,Kosciusko,WEDNESDAY,4,20,4
+43,Kosciusko,WEDNESDAY,4,21,3
+43,Kosciusko,WEDNESDAY,4,22,1
+43,Kosciusko,THURSDAY,5,3,1
+43,Kosciusko,THURSDAY,5,4,1
+43,Kosciusko,THURSDAY,5,7,6
+43,Kosciusko,THURSDAY,5,8,4
+43,Kosciusko,THURSDAY,5,9,1
+43,Kosciusko,THURSDAY,5,10,2
+43,Kosciusko,THURSDAY,5,11,1
+43,Kosciusko,THURSDAY,5,12,1
+43,Kosciusko,THURSDAY,5,13,1
+43,Kosciusko,THURSDAY,5,14,3
+43,Kosciusko,THURSDAY,5,15,4
+43,Kosciusko,THURSDAY,5,16,7
+43,Kosciusko,THURSDAY,5,17,3
+43,Kosciusko,THURSDAY,5,18,1
+43,Kosciusko,THURSDAY,5,19,1
+43,Kosciusko,THURSDAY,5,20,1
+43,Kosciusko,THURSDAY,5,21,1
+43,Kosciusko,THURSDAY,5,22,1
+43,Kosciusko,THURSDAY,5,23,1
+43,Kosciusko,FRIDAY,6,1,1
+43,Kosciusko,FRIDAY,6,3,2
+43,Kosciusko,FRIDAY,6,5,1
+43,Kosciusko,FRIDAY,6,6,3
+43,Kosciusko,FRIDAY,6,7,4
+43,Kosciusko,FRIDAY,6,8,2
+43,Kosciusko,FRIDAY,6,10,1
+43,Kosciusko,FRIDAY,6,11,2
+43,Kosciusko,FRIDAY,6,12,4
+43,Kosciusko,FRIDAY,6,13,3
+43,Kosciusko,FRIDAY,6,14,6
+43,Kosciusko,FRIDAY,6,15,3
+43,Kosciusko,FRIDAY,6,16,5
+43,Kosciusko,FRIDAY,6,17,6
+43,Kosciusko,FRIDAY,6,18,4
+43,Kosciusko,FRIDAY,6,19,1
+43,Kosciusko,FRIDAY,6,20,3
+43,Kosciusko,FRIDAY,6,21,1
+43,Kosciusko,FRIDAY,6,22,1
+43,Kosciusko,FRIDAY,6,23,2
+43,Kosciusko,SATURDAY,7,0,2
+43,Kosciusko,SATURDAY,7,4,1
+43,Kosciusko,SATURDAY,7,6,1
+43,Kosciusko,SATURDAY,7,7,3
+43,Kosciusko,SATURDAY,7,8,5
+43,Kosciusko,SATURDAY,7,9,2
+43,Kosciusko,SATURDAY,7,10,9
+43,Kosciusko,SATURDAY,7,11,4
+43,Kosciusko,SATURDAY,7,12,5
+43,Kosciusko,SATURDAY,7,13,6
+43,Kosciusko,SATURDAY,7,14,6
+43,Kosciusko,SATURDAY,7,15,6
+43,Kosciusko,SATURDAY,7,16,4
+43,Kosciusko,SATURDAY,7,17,2
+43,Kosciusko,SATURDAY,7,18,4
+43,Kosciusko,SATURDAY,7,19,1
+43,Kosciusko,SATURDAY,7,22,4
+43,Kosciusko,SATURDAY,7,23,1
 44,LaGrange,SUNDAY,1,1,1
 44,LaGrange,SUNDAY,1,2,1
 44,LaGrange,SUNDAY,1,10,1
@@ -4573,81 +4573,81 @@ COUNTY_NUM,COUNTY,WEEK_DAY,WEEK_DAY_NUM,COLLISION_TIME,NUM_ACCIDENTS
 53,Monroe,SATURDAY,7,20,2
 53,Monroe,SATURDAY,7,21,2
 53,Monroe,SATURDAY,7,22,2
-54,Montgome,SUNDAY,1,0,1
-54,Montgome,SUNDAY,1,3,1
-54,Montgome,SUNDAY,1,5,1
-54,Montgome,SUNDAY,1,9,3
-54,Montgome,SUNDAY,1,10,2
-54,Montgome,SUNDAY,1,12,1
-54,Montgome,SUNDAY,1,14,3
-54,Montgome,SUNDAY,1,15,1
-54,Montgome,SUNDAY,1,16,2
-54,Montgome,SUNDAY,1,17,4
-54,Montgome,SUNDAY,1,19,1
-54,Montgome,SUNDAY,1,20,1
-54,Montgome,SUNDAY,1,21,1
-54,Montgome,MONDAY,2,6,1
-54,Montgome,MONDAY,2,7,1
-54,Montgome,MONDAY,2,10,1
-54,Montgome,MONDAY,2,11,1
-54,Montgome,MONDAY,2,13,1
-54,Montgome,MONDAY,2,16,2
-54,Montgome,MONDAY,2,18,1
-54,Montgome,MONDAY,2,19,1
-54,Montgome,MONDAY,2,20,2
-54,Montgome,MONDAY,2,21,1
-54,Montgome,TUESDAY,3,0,1
-54,Montgome,TUESDAY,3,2,1
-54,Montgome,TUESDAY,3,5,1
-54,Montgome,TUESDAY,3,6,1
-54,Montgome,TUESDAY,3,7,1
-54,Montgome,TUESDAY,3,10,1
-54,Montgome,TUESDAY,3,12,1
-54,Montgome,TUESDAY,3,13,1
-54,Montgome,TUESDAY,3,14,1
-54,Montgome,TUESDAY,3,15,2
-54,Montgome,TUESDAY,3,17,1
-54,Montgome,TUESDAY,3,18,2
-54,Montgome,WEDNESDAY,4,0,1
-54,Montgome,WEDNESDAY,4,6,2
-54,Montgome,WEDNESDAY,4,7,1
-54,Montgome,WEDNESDAY,4,10,1
-54,Montgome,WEDNESDAY,4,12,1
-54,Montgome,WEDNESDAY,4,14,1
-54,Montgome,WEDNESDAY,4,15,1
-54,Montgome,WEDNESDAY,4,19,1
-54,Montgome,THURSDAY,5,10,1
-54,Montgome,THURSDAY,5,11,1
-54,Montgome,THURSDAY,5,16,1
-54,Montgome,THURSDAY,5,17,1
-54,Montgome,THURSDAY,5,18,3
-54,Montgome,THURSDAY,5,21,1
-54,Montgome,THURSDAY,5,23,1
-54,Montgome,FRIDAY,6,1,1
-54,Montgome,FRIDAY,6,6,1
-54,Montgome,FRIDAY,6,7,2
-54,Montgome,FRIDAY,6,9,1
-54,Montgome,FRIDAY,6,10,1
-54,Montgome,FRIDAY,6,12,2
-54,Montgome,FRIDAY,6,14,1
-54,Montgome,FRIDAY,6,15,5
-54,Montgome,FRIDAY,6,16,5
-54,Montgome,FRIDAY,6,17,2
-54,Montgome,FRIDAY,6,18,2
-54,Montgome,FRIDAY,6,19,3
-54,Montgome,FRIDAY,6,20,1
-54,Montgome,FRIDAY,6,21,3
-54,Montgome,FRIDAY,6,22,1
-54,Montgome,FRIDAY,6,23,1
-54,Montgome,SATURDAY,7,5,1
-54,Montgome,SATURDAY,7,11,1
-54,Montgome,SATURDAY,7,12,2
-54,Montgome,SATURDAY,7,13,1
-54,Montgome,SATURDAY,7,17,2
-54,Montgome,SATURDAY,7,19,2
-54,Montgome,SATURDAY,7,20,1
-54,Montgome,SATURDAY,7,21,1
-54,Montgome,SATURDAY,7,22,2
+54,Montgomery,SUNDAY,1,0,1
+54,Montgomery,SUNDAY,1,3,1
+54,Montgomery,SUNDAY,1,5,1
+54,Montgomery,SUNDAY,1,9,3
+54,Montgomery,SUNDAY,1,10,2
+54,Montgomery,SUNDAY,1,12,1
+54,Montgomery,SUNDAY,1,14,3
+54,Montgomery,SUNDAY,1,15,1
+54,Montgomery,SUNDAY,1,16,2
+54,Montgomery,SUNDAY,1,17,4
+54,Montgomery,SUNDAY,1,19,1
+54,Montgomery,SUNDAY,1,20,1
+54,Montgomery,SUNDAY,1,21,1
+54,Montgomery,MONDAY,2,6,1
+54,Montgomery,MONDAY,2,7,1
+54,Montgomery,MONDAY,2,10,1
+54,Montgomery,MONDAY,2,11,1
+54,Montgomery,MONDAY,2,13,1
+54,Montgomery,MONDAY,2,16,2
+54,Montgomery,MONDAY,2,18,1
+54,Montgomery,MONDAY,2,19,1
+54,Montgomery,MONDAY,2,20,2
+54,Montgomery,MONDAY,2,21,1
+54,Montgomery,TUESDAY,3,0,1
+54,Montgomery,TUESDAY,3,2,1
+54,Montgomery,TUESDAY,3,5,1
+54,Montgomery,TUESDAY,3,6,1
+54,Montgomery,TUESDAY,3,7,1
+54,Montgomery,TUESDAY,3,10,1
+54,Montgomery,TUESDAY,3,12,1
+54,Montgomery,TUESDAY,3,13,1
+54,Montgomery,TUESDAY,3,14,1
+54,Montgomery,TUESDAY,3,15,2
+54,Montgomery,TUESDAY,3,17,1
+54,Montgomery,TUESDAY,3,18,2
+54,Montgomery,WEDNESDAY,4,0,1
+54,Montgomery,WEDNESDAY,4,6,2
+54,Montgomery,WEDNESDAY,4,7,1
+54,Montgomery,WEDNESDAY,4,10,1
+54,Montgomery,WEDNESDAY,4,12,1
+54,Montgomery,WEDNESDAY,4,14,1
+54,Montgomery,WEDNESDAY,4,15,1
+54,Montgomery,WEDNESDAY,4,19,1
+54,Montgomery,THURSDAY,5,10,1
+54,Montgomery,THURSDAY,5,11,1
+54,Montgomery,THURSDAY,5,16,1
+54,Montgomery,THURSDAY,5,17,1
+54,Montgomery,THURSDAY,5,18,3
+54,Montgomery,THURSDAY,5,21,1
+54,Montgomery,THURSDAY,5,23,1
+54,Montgomery,FRIDAY,6,1,1
+54,Montgomery,FRIDAY,6,6,1
+54,Montgomery,FRIDAY,6,7,2
+54,Montgomery,FRIDAY,6,9,1
+54,Montgomery,FRIDAY,6,10,1
+54,Montgomery,FRIDAY,6,12,2
+54,Montgomery,FRIDAY,6,14,1
+54,Montgomery,FRIDAY,6,15,5
+54,Montgomery,FRIDAY,6,16,5
+54,Montgomery,FRIDAY,6,17,2
+54,Montgomery,FRIDAY,6,18,2
+54,Montgomery,FRIDAY,6,19,3
+54,Montgomery,FRIDAY,6,20,1
+54,Montgomery,FRIDAY,6,21,3
+54,Montgomery,FRIDAY,6,22,1
+54,Montgomery,FRIDAY,6,23,1
+54,Montgomery,SATURDAY,7,5,1
+54,Montgomery,SATURDAY,7,11,1
+54,Montgomery,SATURDAY,7,12,2
+54,Montgomery,SATURDAY,7,13,1
+54,Montgomery,SATURDAY,7,17,2
+54,Montgomery,SATURDAY,7,19,2
+54,Montgomery,SATURDAY,7,20,1
+54,Montgomery,SATURDAY,7,21,1
+54,Montgomery,SATURDAY,7,22,2
 55,Morgan,SUNDAY,1,1,2
 55,Morgan,SUNDAY,1,6,1
 55,Morgan,SUNDAY,1,10,2
@@ -5545,161 +5545,161 @@ COUNTY_NUM,COUNTY,WEEK_DAY,WEEK_DAY_NUM,COLLISION_TIME,NUM_ACCIDENTS
 70,Rush,SATURDAY,7,17,1
 70,Rush,SATURDAY,7,21,1
 70,Rush,SATURDAY,7,23,1
-71,"St Josep",SUNDAY,1,0,5
-71,"St Josep",SUNDAY,1,1,3
-71,"St Josep",SUNDAY,1,2,1
-71,"St Josep",SUNDAY,1,3,6
-71,"St Josep",SUNDAY,1,4,2
-71,"St Josep",SUNDAY,1,6,1
-71,"St Josep",SUNDAY,1,7,2
-71,"St Josep",SUNDAY,1,8,4
-71,"St Josep",SUNDAY,1,9,3
-71,"St Josep",SUNDAY,1,10,4
-71,"St Josep",SUNDAY,1,11,13
-71,"St Josep",SUNDAY,1,12,13
-71,"St Josep",SUNDAY,1,13,13
-71,"St Josep",SUNDAY,1,14,6
-71,"St Josep",SUNDAY,1,15,10
-71,"St Josep",SUNDAY,1,16,11
-71,"St Josep",SUNDAY,1,17,9
-71,"St Josep",SUNDAY,1,18,5
-71,"St Josep",SUNDAY,1,19,6
-71,"St Josep",SUNDAY,1,20,3
-71,"St Josep",SUNDAY,1,21,4
-71,"St Josep",SUNDAY,1,22,7
-71,"St Josep",SUNDAY,1,23,3
-71,"St Josep",MONDAY,2,0,1
-71,"St Josep",MONDAY,2,3,2
-71,"St Josep",MONDAY,2,4,1
-71,"St Josep",MONDAY,2,5,1
-71,"St Josep",MONDAY,2,6,1
-71,"St Josep",MONDAY,2,7,6
-71,"St Josep",MONDAY,2,8,4
-71,"St Josep",MONDAY,2,9,3
-71,"St Josep",MONDAY,2,10,4
-71,"St Josep",MONDAY,2,11,1
-71,"St Josep",MONDAY,2,12,4
-71,"St Josep",MONDAY,2,13,3
-71,"St Josep",MONDAY,2,14,4
-71,"St Josep",MONDAY,2,15,13
-71,"St Josep",MONDAY,2,16,4
-71,"St Josep",MONDAY,2,17,13
-71,"St Josep",MONDAY,2,18,4
-71,"St Josep",MONDAY,2,19,5
-71,"St Josep",MONDAY,2,20,1
-71,"St Josep",MONDAY,2,21,1
-71,"St Josep",MONDAY,2,23,2
-71,"St Josep",TUESDAY,3,0,2
-71,"St Josep",TUESDAY,3,1,1
-71,"St Josep",TUESDAY,3,5,1
-71,"St Josep",TUESDAY,3,6,4
-71,"St Josep",TUESDAY,3,7,12
-71,"St Josep",TUESDAY,3,8,13
-71,"St Josep",TUESDAY,3,9,7
-71,"St Josep",TUESDAY,3,10,8
-71,"St Josep",TUESDAY,3,11,18
-71,"St Josep",TUESDAY,3,12,19
-71,"St Josep",TUESDAY,3,13,6
-71,"St Josep",TUESDAY,3,14,13
-71,"St Josep",TUESDAY,3,15,17
-71,"St Josep",TUESDAY,3,16,8
-71,"St Josep",TUESDAY,3,17,12
-71,"St Josep",TUESDAY,3,18,6
-71,"St Josep",TUESDAY,3,19,2
-71,"St Josep",TUESDAY,3,20,5
-71,"St Josep",TUESDAY,3,21,5
-71,"St Josep",TUESDAY,3,22,2
-71,"St Josep",TUESDAY,3,23,2
-71,"St Josep",WEDNESDAY,4,0,4
-71,"St Josep",WEDNESDAY,4,3,1
-71,"St Josep",WEDNESDAY,4,4,1
-71,"St Josep",WEDNESDAY,4,5,3
-71,"St Josep",WEDNESDAY,4,6,3
-71,"St Josep",WEDNESDAY,4,7,7
-71,"St Josep",WEDNESDAY,4,8,8
-71,"St Josep",WEDNESDAY,4,9,6
-71,"St Josep",WEDNESDAY,4,10,12
-71,"St Josep",WEDNESDAY,4,11,10
-71,"St Josep",WEDNESDAY,4,12,7
-71,"St Josep",WEDNESDAY,4,13,15
-71,"St Josep",WEDNESDAY,4,14,10
-71,"St Josep",WEDNESDAY,4,15,16
-71,"St Josep",WEDNESDAY,4,16,10
-71,"St Josep",WEDNESDAY,4,17,12
-71,"St Josep",WEDNESDAY,4,18,9
-71,"St Josep",WEDNESDAY,4,19,7
-71,"St Josep",WEDNESDAY,4,20,8
-71,"St Josep",WEDNESDAY,4,21,4
-71,"St Josep",WEDNESDAY,4,22,4
-71,"St Josep",THURSDAY,5,0,1
-71,"St Josep",THURSDAY,5,2,3
-71,"St Josep",THURSDAY,5,4,1
-71,"St Josep",THURSDAY,5,5,2
-71,"St Josep",THURSDAY,5,6,21
-71,"St Josep",THURSDAY,5,7,42
-71,"St Josep",THURSDAY,5,8,39
-71,"St Josep",THURSDAY,5,9,23
-71,"St Josep",THURSDAY,5,10,11
-71,"St Josep",THURSDAY,5,11,8
-71,"St Josep",THURSDAY,5,12,8
-71,"St Josep",THURSDAY,5,13,10
-71,"St Josep",THURSDAY,5,14,8
-71,"St Josep",THURSDAY,5,15,9
-71,"St Josep",THURSDAY,5,16,11
-71,"St Josep",THURSDAY,5,17,16
-71,"St Josep",THURSDAY,5,18,4
-71,"St Josep",THURSDAY,5,19,1
-71,"St Josep",THURSDAY,5,20,3
-71,"St Josep",THURSDAY,5,21,7
-71,"St Josep",THURSDAY,5,22,6
-71,"St Josep",THURSDAY,5,23,2
-71,"St Josep",FRIDAY,6,0,4
-71,"St Josep",FRIDAY,6,2,2
-71,"St Josep",FRIDAY,6,3,1
-71,"St Josep",FRIDAY,6,4,6
-71,"St Josep",FRIDAY,6,5,1
-71,"St Josep",FRIDAY,6,6,3
-71,"St Josep",FRIDAY,6,7,9
-71,"St Josep",FRIDAY,6,8,8
-71,"St Josep",FRIDAY,6,9,11
-71,"St Josep",FRIDAY,6,10,7
-71,"St Josep",FRIDAY,6,11,7
-71,"St Josep",FRIDAY,6,12,17
-71,"St Josep",FRIDAY,6,13,8
-71,"St Josep",FRIDAY,6,14,12
-71,"St Josep",FRIDAY,6,15,14
-71,"St Josep",FRIDAY,6,16,16
-71,"St Josep",FRIDAY,6,17,11
-71,"St Josep",FRIDAY,6,18,14
-71,"St Josep",FRIDAY,6,19,4
-71,"St Josep",FRIDAY,6,20,6
-71,"St Josep",FRIDAY,6,21,4
-71,"St Josep",FRIDAY,6,22,8
-71,"St Josep",FRIDAY,6,23,5
-71,"St Josep",SATURDAY,7,0,2
-71,"St Josep",SATURDAY,7,1,3
-71,"St Josep",SATURDAY,7,2,2
-71,"St Josep",SATURDAY,7,3,1
-71,"St Josep",SATURDAY,7,4,4
-71,"St Josep",SATURDAY,7,5,5
-71,"St Josep",SATURDAY,7,6,3
-71,"St Josep",SATURDAY,7,7,4
-71,"St Josep",SATURDAY,7,8,5
-71,"St Josep",SATURDAY,7,9,5
-71,"St Josep",SATURDAY,7,10,14
-71,"St Josep",SATURDAY,7,11,6
-71,"St Josep",SATURDAY,7,12,22
-71,"St Josep",SATURDAY,7,13,6
-71,"St Josep",SATURDAY,7,14,6
-71,"St Josep",SATURDAY,7,15,16
-71,"St Josep",SATURDAY,7,16,10
-71,"St Josep",SATURDAY,7,17,12
-71,"St Josep",SATURDAY,7,18,6
-71,"St Josep",SATURDAY,7,19,9
-71,"St Josep",SATURDAY,7,20,11
-71,"St Josep",SATURDAY,7,21,10
-71,"St Josep",SATURDAY,7,22,9
-71,"St Josep",SATURDAY,7,23,4
+71,"St. Joseph",SUNDAY,1,0,5
+71,"St. Joseph",SUNDAY,1,1,3
+71,"St. Joseph",SUNDAY,1,2,1
+71,"St. Joseph",SUNDAY,1,3,6
+71,"St. Joseph",SUNDAY,1,4,2
+71,"St. Joseph",SUNDAY,1,6,1
+71,"St. Joseph",SUNDAY,1,7,2
+71,"St. Joseph",SUNDAY,1,8,4
+71,"St. Joseph",SUNDAY,1,9,3
+71,"St. Joseph",SUNDAY,1,10,4
+71,"St. Joseph",SUNDAY,1,11,13
+71,"St. Joseph",SUNDAY,1,12,13
+71,"St. Joseph",SUNDAY,1,13,13
+71,"St. Joseph",SUNDAY,1,14,6
+71,"St. Joseph",SUNDAY,1,15,10
+71,"St. Joseph",SUNDAY,1,16,11
+71,"St. Joseph",SUNDAY,1,17,9
+71,"St. Joseph",SUNDAY,1,18,5
+71,"St. Joseph",SUNDAY,1,19,6
+71,"St. Joseph",SUNDAY,1,20,3
+71,"St. Joseph",SUNDAY,1,21,4
+71,"St. Joseph",SUNDAY,1,22,7
+71,"St. Joseph",SUNDAY,1,23,3
+71,"St. Joseph",MONDAY,2,0,1
+71,"St. Joseph",MONDAY,2,3,2
+71,"St. Joseph",MONDAY,2,4,1
+71,"St. Joseph",MONDAY,2,5,1
+71,"St. Joseph",MONDAY,2,6,1
+71,"St. Joseph",MONDAY,2,7,6
+71,"St. Joseph",MONDAY,2,8,4
+71,"St. Joseph",MONDAY,2,9,3
+71,"St. Joseph",MONDAY,2,10,4
+71,"St. Joseph",MONDAY,2,11,1
+71,"St. Joseph",MONDAY,2,12,4
+71,"St. Joseph",MONDAY,2,13,3
+71,"St. Joseph",MONDAY,2,14,4
+71,"St. Joseph",MONDAY,2,15,13
+71,"St. Joseph",MONDAY,2,16,4
+71,"St. Joseph",MONDAY,2,17,13
+71,"St. Joseph",MONDAY,2,18,4
+71,"St. Joseph",MONDAY,2,19,5
+71,"St. Joseph",MONDAY,2,20,1
+71,"St. Joseph",MONDAY,2,21,1
+71,"St. Joseph",MONDAY,2,23,2
+71,"St. Joseph",TUESDAY,3,0,2
+71,"St. Joseph",TUESDAY,3,1,1
+71,"St. Joseph",TUESDAY,3,5,1
+71,"St. Joseph",TUESDAY,3,6,4
+71,"St. Joseph",TUESDAY,3,7,12
+71,"St. Joseph",TUESDAY,3,8,13
+71,"St. Joseph",TUESDAY,3,9,7
+71,"St. Joseph",TUESDAY,3,10,8
+71,"St. Joseph",TUESDAY,3,11,18
+71,"St. Joseph",TUESDAY,3,12,19
+71,"St. Joseph",TUESDAY,3,13,6
+71,"St. Joseph",TUESDAY,3,14,13
+71,"St. Joseph",TUESDAY,3,15,17
+71,"St. Joseph",TUESDAY,3,16,8
+71,"St. Joseph",TUESDAY,3,17,12
+71,"St. Joseph",TUESDAY,3,18,6
+71,"St. Joseph",TUESDAY,3,19,2
+71,"St. Joseph",TUESDAY,3,20,5
+71,"St. Joseph",TUESDAY,3,21,5
+71,"St. Joseph",TUESDAY,3,22,2
+71,"St. Joseph",TUESDAY,3,23,2
+71,"St. Joseph",WEDNESDAY,4,0,4
+71,"St. Joseph",WEDNESDAY,4,3,1
+71,"St. Joseph",WEDNESDAY,4,4,1
+71,"St. Joseph",WEDNESDAY,4,5,3
+71,"St. Joseph",WEDNESDAY,4,6,3
+71,"St. Joseph",WEDNESDAY,4,7,7
+71,"St. Joseph",WEDNESDAY,4,8,8
+71,"St. Joseph",WEDNESDAY,4,9,6
+71,"St. Joseph",WEDNESDAY,4,10,12
+71,"St. Joseph",WEDNESDAY,4,11,10
+71,"St. Joseph",WEDNESDAY,4,12,7
+71,"St. Joseph",WEDNESDAY,4,13,15
+71,"St. Joseph",WEDNESDAY,4,14,10
+71,"St. Joseph",WEDNESDAY,4,15,16
+71,"St. Joseph",WEDNESDAY,4,16,10
+71,"St. Joseph",WEDNESDAY,4,17,12
+71,"St. Joseph",WEDNESDAY,4,18,9
+71,"St. Joseph",WEDNESDAY,4,19,7
+71,"St. Joseph",WEDNESDAY,4,20,8
+71,"St. Joseph",WEDNESDAY,4,21,4
+71,"St. Joseph",WEDNESDAY,4,22,4
+71,"St. Joseph",THURSDAY,5,0,1
+71,"St. Joseph",THURSDAY,5,2,3
+71,"St. Joseph",THURSDAY,5,4,1
+71,"St. Joseph",THURSDAY,5,5,2
+71,"St. Joseph",THURSDAY,5,6,21
+71,"St. Joseph",THURSDAY,5,7,42
+71,"St. Joseph",THURSDAY,5,8,39
+71,"St. Joseph",THURSDAY,5,9,23
+71,"St. Joseph",THURSDAY,5,10,11
+71,"St. Joseph",THURSDAY,5,11,8
+71,"St. Joseph",THURSDAY,5,12,8
+71,"St. Joseph",THURSDAY,5,13,10
+71,"St. Joseph",THURSDAY,5,14,8
+71,"St. Joseph",THURSDAY,5,15,9
+71,"St. Joseph",THURSDAY,5,16,11
+71,"St. Joseph",THURSDAY,5,17,16
+71,"St. Joseph",THURSDAY,5,18,4
+71,"St. Joseph",THURSDAY,5,19,1
+71,"St. Joseph",THURSDAY,5,20,3
+71,"St. Joseph",THURSDAY,5,21,7
+71,"St. Joseph",THURSDAY,5,22,6
+71,"St. Joseph",THURSDAY,5,23,2
+71,"St. Joseph",FRIDAY,6,0,4
+71,"St. Joseph",FRIDAY,6,2,2
+71,"St. Joseph",FRIDAY,6,3,1
+71,"St. Joseph",FRIDAY,6,4,6
+71,"St. Joseph",FRIDAY,6,5,1
+71,"St. Joseph",FRIDAY,6,6,3
+71,"St. Joseph",FRIDAY,6,7,9
+71,"St. Joseph",FRIDAY,6,8,8
+71,"St. Joseph",FRIDAY,6,9,11
+71,"St. Joseph",FRIDAY,6,10,7
+71,"St. Joseph",FRIDAY,6,11,7
+71,"St. Joseph",FRIDAY,6,12,17
+71,"St. Joseph",FRIDAY,6,13,8
+71,"St. Joseph",FRIDAY,6,14,12
+71,"St. Joseph",FRIDAY,6,15,14
+71,"St. Joseph",FRIDAY,6,16,16
+71,"St. Joseph",FRIDAY,6,17,11
+71,"St. Joseph",FRIDAY,6,18,14
+71,"St. Joseph",FRIDAY,6,19,4
+71,"St. Joseph",FRIDAY,6,20,6
+71,"St. Joseph",FRIDAY,6,21,4
+71,"St. Joseph",FRIDAY,6,22,8
+71,"St. Joseph",FRIDAY,6,23,5
+71,"St. Joseph",SATURDAY,7,0,2
+71,"St. Joseph",SATURDAY,7,1,3
+71,"St. Joseph",SATURDAY,7,2,2
+71,"St. Joseph",SATURDAY,7,3,1
+71,"St. Joseph",SATURDAY,7,4,4
+71,"St. Joseph",SATURDAY,7,5,5
+71,"St. Joseph",SATURDAY,7,6,3
+71,"St. Joseph",SATURDAY,7,7,4
+71,"St. Joseph",SATURDAY,7,8,5
+71,"St. Joseph",SATURDAY,7,9,5
+71,"St. Joseph",SATURDAY,7,10,14
+71,"St. Joseph",SATURDAY,7,11,6
+71,"St. Joseph",SATURDAY,7,12,22
+71,"St. Joseph",SATURDAY,7,13,6
+71,"St. Joseph",SATURDAY,7,14,6
+71,"St. Joseph",SATURDAY,7,15,16
+71,"St. Joseph",SATURDAY,7,16,10
+71,"St. Joseph",SATURDAY,7,17,12
+71,"St. Joseph",SATURDAY,7,18,6
+71,"St. Joseph",SATURDAY,7,19,9
+71,"St. Joseph",SATURDAY,7,20,11
+71,"St. Joseph",SATURDAY,7,21,10
+71,"St. Joseph",SATURDAY,7,22,9
+71,"St. Joseph",SATURDAY,7,23,4
 72,Scott,SUNDAY,1,3,1
 72,Scott,SUNDAY,1,16,1
 72,Scott,SUNDAY,1,18,1
@@ -6068,156 +6068,156 @@ COUNTY_NUM,COUNTY,WEEK_DAY,WEEK_DAY_NUM,COLLISION_TIME,NUM_ACCIDENTS
 77,Sullivan,SATURDAY,7,14,1
 77,Sullivan,SATURDAY,7,16,1
 77,Sullivan,SATURDAY,7,20,1
-78,Switzerl,SUNDAY,1,6,1
-78,Switzerl,SUNDAY,1,10,1
-78,Switzerl,SUNDAY,1,13,1
-78,Switzerl,TUESDAY,3,7,1
-78,Switzerl,WEDNESDAY,4,14,1
-78,Switzerl,THURSDAY,5,18,1
-78,Switzerl,SATURDAY,7,5,1
-78,Switzerl,SATURDAY,7,10,1
-79,Tippecan,SUNDAY,1,0,3
-79,Tippecan,SUNDAY,1,1,1
-79,Tippecan,SUNDAY,1,3,1
-79,Tippecan,SUNDAY,1,5,2
-79,Tippecan,SUNDAY,1,6,1
-79,Tippecan,SUNDAY,1,8,3
-79,Tippecan,SUNDAY,1,9,9
-79,Tippecan,SUNDAY,1,10,6
-79,Tippecan,SUNDAY,1,11,12
-79,Tippecan,SUNDAY,1,12,12
-79,Tippecan,SUNDAY,1,13,14
-79,Tippecan,SUNDAY,1,14,15
-79,Tippecan,SUNDAY,1,15,4
-79,Tippecan,SUNDAY,1,16,9
-79,Tippecan,SUNDAY,1,17,4
-79,Tippecan,SUNDAY,1,18,11
-79,Tippecan,SUNDAY,1,19,8
-79,Tippecan,SUNDAY,1,20,3
-79,Tippecan,SUNDAY,1,21,5
-79,Tippecan,MONDAY,2,0,1
-79,Tippecan,MONDAY,2,1,1
-79,Tippecan,MONDAY,2,6,2
-79,Tippecan,MONDAY,2,7,3
-79,Tippecan,MONDAY,2,8,4
-79,Tippecan,MONDAY,2,9,4
-79,Tippecan,MONDAY,2,10,1
-79,Tippecan,MONDAY,2,11,6
-79,Tippecan,MONDAY,2,12,4
-79,Tippecan,MONDAY,2,13,6
-79,Tippecan,MONDAY,2,14,8
-79,Tippecan,MONDAY,2,15,5
-79,Tippecan,MONDAY,2,16,8
-79,Tippecan,MONDAY,2,17,3
-79,Tippecan,MONDAY,2,18,6
-79,Tippecan,MONDAY,2,19,1
-79,Tippecan,MONDAY,2,20,3
-79,Tippecan,MONDAY,2,21,1
-79,Tippecan,MONDAY,2,22,1
-79,Tippecan,MONDAY,2,23,2
-79,Tippecan,TUESDAY,3,0,2
-79,Tippecan,TUESDAY,3,1,2
-79,Tippecan,TUESDAY,3,4,1
-79,Tippecan,TUESDAY,3,5,1
-79,Tippecan,TUESDAY,3,6,2
-79,Tippecan,TUESDAY,3,7,8
-79,Tippecan,TUESDAY,3,8,5
-79,Tippecan,TUESDAY,3,9,3
-79,Tippecan,TUESDAY,3,10,4
-79,Tippecan,TUESDAY,3,11,6
-79,Tippecan,TUESDAY,3,12,5
-79,Tippecan,TUESDAY,3,13,5
-79,Tippecan,TUESDAY,3,14,6
-79,Tippecan,TUESDAY,3,15,17
-79,Tippecan,TUESDAY,3,16,8
-79,Tippecan,TUESDAY,3,17,8
-79,Tippecan,TUESDAY,3,18,4
-79,Tippecan,TUESDAY,3,19,6
-79,Tippecan,TUESDAY,3,20,2
-79,Tippecan,TUESDAY,3,21,2
-79,Tippecan,TUESDAY,3,22,1
-79,Tippecan,TUESDAY,3,23,1
-79,Tippecan,WEDNESDAY,4,0,1
-79,Tippecan,WEDNESDAY,4,3,1
-79,Tippecan,WEDNESDAY,4,5,3
-79,Tippecan,WEDNESDAY,4,7,5
-79,Tippecan,WEDNESDAY,4,8,5
-79,Tippecan,WEDNESDAY,4,9,4
-79,Tippecan,WEDNESDAY,4,10,5
-79,Tippecan,WEDNESDAY,4,11,6
-79,Tippecan,WEDNESDAY,4,12,7
-79,Tippecan,WEDNESDAY,4,13,4
-79,Tippecan,WEDNESDAY,4,14,15
-79,Tippecan,WEDNESDAY,4,15,12
-79,Tippecan,WEDNESDAY,4,16,11
-79,Tippecan,WEDNESDAY,4,17,6
-79,Tippecan,WEDNESDAY,4,18,7
-79,Tippecan,WEDNESDAY,4,19,5
-79,Tippecan,WEDNESDAY,4,21,1
-79,Tippecan,WEDNESDAY,4,22,1
-79,Tippecan,WEDNESDAY,4,23,2
-79,Tippecan,THURSDAY,5,1,1
-79,Tippecan,THURSDAY,5,5,3
-79,Tippecan,THURSDAY,5,6,2
-79,Tippecan,THURSDAY,5,7,3
-79,Tippecan,THURSDAY,5,8,3
-79,Tippecan,THURSDAY,5,9,4
-79,Tippecan,THURSDAY,5,10,3
-79,Tippecan,THURSDAY,5,11,4
-79,Tippecan,THURSDAY,5,12,10
-79,Tippecan,THURSDAY,5,13,8
-79,Tippecan,THURSDAY,5,14,3
-79,Tippecan,THURSDAY,5,15,7
-79,Tippecan,THURSDAY,5,16,4
-79,Tippecan,THURSDAY,5,17,12
-79,Tippecan,THURSDAY,5,18,9
-79,Tippecan,THURSDAY,5,19,5
-79,Tippecan,THURSDAY,5,21,3
-79,Tippecan,THURSDAY,5,23,2
-79,Tippecan,FRIDAY,6,1,1
-79,Tippecan,FRIDAY,6,3,2
-79,Tippecan,FRIDAY,6,4,2
-79,Tippecan,FRIDAY,6,6,1
-79,Tippecan,FRIDAY,6,7,2
-79,Tippecan,FRIDAY,6,8,2
-79,Tippecan,FRIDAY,6,9,5
-79,Tippecan,FRIDAY,6,10,8
-79,Tippecan,FRIDAY,6,11,4
-79,Tippecan,FRIDAY,6,12,12
-79,Tippecan,FRIDAY,6,13,7
-79,Tippecan,FRIDAY,6,14,14
-79,Tippecan,FRIDAY,6,15,18
-79,Tippecan,FRIDAY,6,16,14
-79,Tippecan,FRIDAY,6,17,14
-79,Tippecan,FRIDAY,6,18,16
-79,Tippecan,FRIDAY,6,19,6
-79,Tippecan,FRIDAY,6,20,1
-79,Tippecan,FRIDAY,6,21,2
-79,Tippecan,FRIDAY,6,22,9
-79,Tippecan,FRIDAY,6,23,4
-79,Tippecan,SATURDAY,7,0,1
-79,Tippecan,SATURDAY,7,1,2
-79,Tippecan,SATURDAY,7,2,3
-79,Tippecan,SATURDAY,7,3,1
-79,Tippecan,SATURDAY,7,4,1
-79,Tippecan,SATURDAY,7,5,3
-79,Tippecan,SATURDAY,7,6,2
-79,Tippecan,SATURDAY,7,8,4
-79,Tippecan,SATURDAY,7,9,2
-79,Tippecan,SATURDAY,7,10,4
-79,Tippecan,SATURDAY,7,11,11
-79,Tippecan,SATURDAY,7,12,7
-79,Tippecan,SATURDAY,7,13,7
-79,Tippecan,SATURDAY,7,14,6
-79,Tippecan,SATURDAY,7,15,6
-79,Tippecan,SATURDAY,7,16,7
-79,Tippecan,SATURDAY,7,17,4
-79,Tippecan,SATURDAY,7,18,5
-79,Tippecan,SATURDAY,7,19,2
-79,Tippecan,SATURDAY,7,20,2
-79,Tippecan,SATURDAY,7,21,6
-79,Tippecan,SATURDAY,7,22,3
-79,Tippecan,SATURDAY,7,23,1
+78,Switzerland,SUNDAY,1,6,1
+78,Switzerland,SUNDAY,1,10,1
+78,Switzerland,SUNDAY,1,13,1
+78,Switzerland,TUESDAY,3,7,1
+78,Switzerland,WEDNESDAY,4,14,1
+78,Switzerland,THURSDAY,5,18,1
+78,Switzerland,SATURDAY,7,5,1
+78,Switzerland,SATURDAY,7,10,1
+79,Tippecanoe,SUNDAY,1,0,3
+79,Tippecanoe,SUNDAY,1,1,1
+79,Tippecanoe,SUNDAY,1,3,1
+79,Tippecanoe,SUNDAY,1,5,2
+79,Tippecanoe,SUNDAY,1,6,1
+79,Tippecanoe,SUNDAY,1,8,3
+79,Tippecanoe,SUNDAY,1,9,9
+79,Tippecanoe,SUNDAY,1,10,6
+79,Tippecanoe,SUNDAY,1,11,12
+79,Tippecanoe,SUNDAY,1,12,12
+79,Tippecanoe,SUNDAY,1,13,14
+79,Tippecanoe,SUNDAY,1,14,15
+79,Tippecanoe,SUNDAY,1,15,4
+79,Tippecanoe,SUNDAY,1,16,9
+79,Tippecanoe,SUNDAY,1,17,4
+79,Tippecanoe,SUNDAY,1,18,11
+79,Tippecanoe,SUNDAY,1,19,8
+79,Tippecanoe,SUNDAY,1,20,3
+79,Tippecanoe,SUNDAY,1,21,5
+79,Tippecanoe,MONDAY,2,0,1
+79,Tippecanoe,MONDAY,2,1,1
+79,Tippecanoe,MONDAY,2,6,2
+79,Tippecanoe,MONDAY,2,7,3
+79,Tippecanoe,MONDAY,2,8,4
+79,Tippecanoe,MONDAY,2,9,4
+79,Tippecanoe,MONDAY,2,10,1
+79,Tippecanoe,MONDAY,2,11,6
+79,Tippecanoe,MONDAY,2,12,4
+79,Tippecanoe,MONDAY,2,13,6
+79,Tippecanoe,MONDAY,2,14,8
+79,Tippecanoe,MONDAY,2,15,5
+79,Tippecanoe,MONDAY,2,16,8
+79,Tippecanoe,MONDAY,2,17,3
+79,Tippecanoe,MONDAY,2,18,6
+79,Tippecanoe,MONDAY,2,19,1
+79,Tippecanoe,MONDAY,2,20,3
+79,Tippecanoe,MONDAY,2,21,1
+79,Tippecanoe,MONDAY,2,22,1
+79,Tippecanoe,MONDAY,2,23,2
+79,Tippecanoe,TUESDAY,3,0,2
+79,Tippecanoe,TUESDAY,3,1,2
+79,Tippecanoe,TUESDAY,3,4,1
+79,Tippecanoe,TUESDAY,3,5,1
+79,Tippecanoe,TUESDAY,3,6,2
+79,Tippecanoe,TUESDAY,3,7,8
+79,Tippecanoe,TUESDAY,3,8,5
+79,Tippecanoe,TUESDAY,3,9,3
+79,Tippecanoe,TUESDAY,3,10,4
+79,Tippecanoe,TUESDAY,3,11,6
+79,Tippecanoe,TUESDAY,3,12,5
+79,Tippecanoe,TUESDAY,3,13,5
+79,Tippecanoe,TUESDAY,3,14,6
+79,Tippecanoe,TUESDAY,3,15,17
+79,Tippecanoe,TUESDAY,3,16,8
+79,Tippecanoe,TUESDAY,3,17,8
+79,Tippecanoe,TUESDAY,3,18,4
+79,Tippecanoe,TUESDAY,3,19,6
+79,Tippecanoe,TUESDAY,3,20,2
+79,Tippecanoe,TUESDAY,3,21,2
+79,Tippecanoe,TUESDAY,3,22,1
+79,Tippecanoe,TUESDAY,3,23,1
+79,Tippecanoe,WEDNESDAY,4,0,1
+79,Tippecanoe,WEDNESDAY,4,3,1
+79,Tippecanoe,WEDNESDAY,4,5,3
+79,Tippecanoe,WEDNESDAY,4,7,5
+79,Tippecanoe,WEDNESDAY,4,8,5
+79,Tippecanoe,WEDNESDAY,4,9,4
+79,Tippecanoe,WEDNESDAY,4,10,5
+79,Tippecanoe,WEDNESDAY,4,11,6
+79,Tippecanoe,WEDNESDAY,4,12,7
+79,Tippecanoe,WEDNESDAY,4,13,4
+79,Tippecanoe,WEDNESDAY,4,14,15
+79,Tippecanoe,WEDNESDAY,4,15,12
+79,Tippecanoe,WEDNESDAY,4,16,11
+79,Tippecanoe,WEDNESDAY,4,17,6
+79,Tippecanoe,WEDNESDAY,4,18,7
+79,Tippecanoe,WEDNESDAY,4,19,5
+79,Tippecanoe,WEDNESDAY,4,21,1
+79,Tippecanoe,WEDNESDAY,4,22,1
+79,Tippecanoe,WEDNESDAY,4,23,2
+79,Tippecanoe,THURSDAY,5,1,1
+79,Tippecanoe,THURSDAY,5,5,3
+79,Tippecanoe,THURSDAY,5,6,2
+79,Tippecanoe,THURSDAY,5,7,3
+79,Tippecanoe,THURSDAY,5,8,3
+79,Tippecanoe,THURSDAY,5,9,4
+79,Tippecanoe,THURSDAY,5,10,3
+79,Tippecanoe,THURSDAY,5,11,4
+79,Tippecanoe,THURSDAY,5,12,10
+79,Tippecanoe,THURSDAY,5,13,8
+79,Tippecanoe,THURSDAY,5,14,3
+79,Tippecanoe,THURSDAY,5,15,7
+79,Tippecanoe,THURSDAY,5,16,4
+79,Tippecanoe,THURSDAY,5,17,12
+79,Tippecanoe,THURSDAY,5,18,9
+79,Tippecanoe,THURSDAY,5,19,5
+79,Tippecanoe,THURSDAY,5,21,3
+79,Tippecanoe,THURSDAY,5,23,2
+79,Tippecanoe,FRIDAY,6,1,1
+79,Tippecanoe,FRIDAY,6,3,2
+79,Tippecanoe,FRIDAY,6,4,2
+79,Tippecanoe,FRIDAY,6,6,1
+79,Tippecanoe,FRIDAY,6,7,2
+79,Tippecanoe,FRIDAY,6,8,2
+79,Tippecanoe,FRIDAY,6,9,5
+79,Tippecanoe,FRIDAY,6,10,8
+79,Tippecanoe,FRIDAY,6,11,4
+79,Tippecanoe,FRIDAY,6,12,12
+79,Tippecanoe,FRIDAY,6,13,7
+79,Tippecanoe,FRIDAY,6,14,14
+79,Tippecanoe,FRIDAY,6,15,18
+79,Tippecanoe,FRIDAY,6,16,14
+79,Tippecanoe,FRIDAY,6,17,14
+79,Tippecanoe,FRIDAY,6,18,16
+79,Tippecanoe,FRIDAY,6,19,6
+79,Tippecanoe,FRIDAY,6,20,1
+79,Tippecanoe,FRIDAY,6,21,2
+79,Tippecanoe,FRIDAY,6,22,9
+79,Tippecanoe,FRIDAY,6,23,4
+79,Tippecanoe,SATURDAY,7,0,1
+79,Tippecanoe,SATURDAY,7,1,2
+79,Tippecanoe,SATURDAY,7,2,3
+79,Tippecanoe,SATURDAY,7,3,1
+79,Tippecanoe,SATURDAY,7,4,1
+79,Tippecanoe,SATURDAY,7,5,3
+79,Tippecanoe,SATURDAY,7,6,2
+79,Tippecanoe,SATURDAY,7,8,4
+79,Tippecanoe,SATURDAY,7,9,2
+79,Tippecanoe,SATURDAY,7,10,4
+79,Tippecanoe,SATURDAY,7,11,11
+79,Tippecanoe,SATURDAY,7,12,7
+79,Tippecanoe,SATURDAY,7,13,7
+79,Tippecanoe,SATURDAY,7,14,6
+79,Tippecanoe,SATURDAY,7,15,6
+79,Tippecanoe,SATURDAY,7,16,7
+79,Tippecanoe,SATURDAY,7,17,4
+79,Tippecanoe,SATURDAY,7,18,5
+79,Tippecanoe,SATURDAY,7,19,2
+79,Tippecanoe,SATURDAY,7,20,2
+79,Tippecanoe,SATURDAY,7,21,6
+79,Tippecanoe,SATURDAY,7,22,3
+79,Tippecanoe,SATURDAY,7,23,1
 80,Tipton,SUNDAY,1,7,2
 80,Tipton,SUNDAY,1,9,1
 80,Tipton,SUNDAY,1,12,1
@@ -6263,173 +6263,173 @@ COUNTY_NUM,COUNTY,WEEK_DAY,WEEK_DAY_NUM,COLLISION_TIME,NUM_ACCIDENTS
 81,Union,THURSDAY,5,15,1
 81,Union,SATURDAY,7,6,1
 81,Union,SATURDAY,7,15,1
-82,Vanderbu,SUNDAY,1,0,1
-82,Vanderbu,SUNDAY,1,2,3
-82,Vanderbu,SUNDAY,1,7,1
-82,Vanderbu,SUNDAY,1,8,1
-82,Vanderbu,SUNDAY,1,9,2
-82,Vanderbu,SUNDAY,1,10,3
-82,Vanderbu,SUNDAY,1,11,3
-82,Vanderbu,SUNDAY,1,12,8
-82,Vanderbu,SUNDAY,1,13,3
-82,Vanderbu,SUNDAY,1,14,5
-82,Vanderbu,SUNDAY,1,15,4
-82,Vanderbu,SUNDAY,1,16,11
-82,Vanderbu,SUNDAY,1,17,17
-82,Vanderbu,SUNDAY,1,18,7
-82,Vanderbu,SUNDAY,1,19,6
-82,Vanderbu,SUNDAY,1,20,1
-82,Vanderbu,SUNDAY,1,21,3
-82,Vanderbu,SUNDAY,1,23,1
-82,Vanderbu,MONDAY,2,0,1
-82,Vanderbu,MONDAY,2,5,1
-82,Vanderbu,MONDAY,2,6,2
-82,Vanderbu,MONDAY,2,7,2
-82,Vanderbu,MONDAY,2,8,4
-82,Vanderbu,MONDAY,2,9,3
-82,Vanderbu,MONDAY,2,10,2
-82,Vanderbu,MONDAY,2,11,6
-82,Vanderbu,MONDAY,2,12,5
-82,Vanderbu,MONDAY,2,13,7
-82,Vanderbu,MONDAY,2,14,4
-82,Vanderbu,MONDAY,2,15,6
-82,Vanderbu,MONDAY,2,16,5
-82,Vanderbu,MONDAY,2,17,16
-82,Vanderbu,MONDAY,2,18,4
-82,Vanderbu,MONDAY,2,20,2
-82,Vanderbu,MONDAY,2,21,2
-82,Vanderbu,MONDAY,2,22,1
-82,Vanderbu,TUESDAY,3,1,1
-82,Vanderbu,TUESDAY,3,3,1
-82,Vanderbu,TUESDAY,3,4,1
-82,Vanderbu,TUESDAY,3,6,4
-82,Vanderbu,TUESDAY,3,7,5
-82,Vanderbu,TUESDAY,3,10,4
-82,Vanderbu,TUESDAY,3,11,5
-82,Vanderbu,TUESDAY,3,12,5
-82,Vanderbu,TUESDAY,3,13,5
-82,Vanderbu,TUESDAY,3,14,6
-82,Vanderbu,TUESDAY,3,15,6
-82,Vanderbu,TUESDAY,3,16,5
-82,Vanderbu,TUESDAY,3,17,10
-82,Vanderbu,TUESDAY,3,18,8
-82,Vanderbu,TUESDAY,3,20,5
-82,Vanderbu,TUESDAY,3,21,1
-82,Vanderbu,TUESDAY,3,22,1
-82,Vanderbu,TUESDAY,3,23,1
-82,Vanderbu,WEDNESDAY,4,0,1
-82,Vanderbu,WEDNESDAY,4,1,1
-82,Vanderbu,WEDNESDAY,4,2,2
-82,Vanderbu,WEDNESDAY,4,3,1
-82,Vanderbu,WEDNESDAY,4,6,1
-82,Vanderbu,WEDNESDAY,4,7,2
-82,Vanderbu,WEDNESDAY,4,8,2
-82,Vanderbu,WEDNESDAY,4,9,2
-82,Vanderbu,WEDNESDAY,4,10,4
-82,Vanderbu,WEDNESDAY,4,11,8
-82,Vanderbu,WEDNESDAY,4,12,10
-82,Vanderbu,WEDNESDAY,4,13,5
-82,Vanderbu,WEDNESDAY,4,14,7
-82,Vanderbu,WEDNESDAY,4,15,7
-82,Vanderbu,WEDNESDAY,4,16,6
-82,Vanderbu,WEDNESDAY,4,17,10
-82,Vanderbu,WEDNESDAY,4,18,3
-82,Vanderbu,WEDNESDAY,4,19,3
-82,Vanderbu,WEDNESDAY,4,20,2
-82,Vanderbu,WEDNESDAY,4,21,1
-82,Vanderbu,THURSDAY,5,5,2
-82,Vanderbu,THURSDAY,5,6,3
-82,Vanderbu,THURSDAY,5,7,3
-82,Vanderbu,THURSDAY,5,8,4
-82,Vanderbu,THURSDAY,5,9,4
-82,Vanderbu,THURSDAY,5,10,3
-82,Vanderbu,THURSDAY,5,11,3
-82,Vanderbu,THURSDAY,5,12,6
-82,Vanderbu,THURSDAY,5,13,6
-82,Vanderbu,THURSDAY,5,14,4
-82,Vanderbu,THURSDAY,5,15,3
-82,Vanderbu,THURSDAY,5,16,8
-82,Vanderbu,THURSDAY,5,17,16
-82,Vanderbu,THURSDAY,5,18,4
-82,Vanderbu,THURSDAY,5,19,4
-82,Vanderbu,THURSDAY,5,20,1
-82,Vanderbu,THURSDAY,5,22,1
-82,Vanderbu,THURSDAY,5,23,2
-82,Vanderbu,FRIDAY,6,0,2
-82,Vanderbu,FRIDAY,6,2,2
-82,Vanderbu,FRIDAY,6,3,1
-82,Vanderbu,FRIDAY,6,4,1
-82,Vanderbu,FRIDAY,6,5,1
-82,Vanderbu,FRIDAY,6,6,1
-82,Vanderbu,FRIDAY,6,7,2
-82,Vanderbu,FRIDAY,6,8,5
-82,Vanderbu,FRIDAY,6,10,1
-82,Vanderbu,FRIDAY,6,11,9
-82,Vanderbu,FRIDAY,6,12,5
-82,Vanderbu,FRIDAY,6,13,6
-82,Vanderbu,FRIDAY,6,14,8
-82,Vanderbu,FRIDAY,6,15,5
-82,Vanderbu,FRIDAY,6,16,16
-82,Vanderbu,FRIDAY,6,17,15
-82,Vanderbu,FRIDAY,6,18,7
-82,Vanderbu,FRIDAY,6,19,3
-82,Vanderbu,FRIDAY,6,20,7
-82,Vanderbu,FRIDAY,6,21,4
-82,Vanderbu,FRIDAY,6,22,2
-82,Vanderbu,FRIDAY,6,23,2
-82,Vanderbu,SATURDAY,7,0,1
-82,Vanderbu,SATURDAY,7,1,1
-82,Vanderbu,SATURDAY,7,3,1
-82,Vanderbu,SATURDAY,7,8,4
-82,Vanderbu,SATURDAY,7,9,3
-82,Vanderbu,SATURDAY,7,10,7
-82,Vanderbu,SATURDAY,7,11,7
-82,Vanderbu,SATURDAY,7,12,8
-82,Vanderbu,SATURDAY,7,13,7
-82,Vanderbu,SATURDAY,7,14,7
-82,Vanderbu,SATURDAY,7,15,4
-82,Vanderbu,SATURDAY,7,16,3
-82,Vanderbu,SATURDAY,7,17,6
-82,Vanderbu,SATURDAY,7,18,5
-82,Vanderbu,SATURDAY,7,19,2
-82,Vanderbu,SATURDAY,7,21,3
-82,Vanderbu,SATURDAY,7,22,3
-82,Vanderbu,SATURDAY,7,23,4
-83,Vermilli,SUNDAY,1,8,2
-83,Vermilli,SUNDAY,1,12,1
-83,Vermilli,SUNDAY,1,15,2
-83,Vermilli,SUNDAY,1,16,1
-83,Vermilli,SUNDAY,1,17,1
-83,Vermilli,SUNDAY,1,18,1
-83,Vermilli,SUNDAY,1,23,1
-83,Vermilli,MONDAY,2,9,1
-83,Vermilli,MONDAY,2,11,1
-83,Vermilli,MONDAY,2,14,1
-83,Vermilli,MONDAY,2,15,1
-83,Vermilli,MONDAY,2,17,1
-83,Vermilli,MONDAY,2,18,1
-83,Vermilli,MONDAY,2,19,1
-83,Vermilli,TUESDAY,3,6,1
-83,Vermilli,TUESDAY,3,8,1
-83,Vermilli,TUESDAY,3,10,1
-83,Vermilli,TUESDAY,3,12,1
-83,Vermilli,TUESDAY,3,16,2
-83,Vermilli,TUESDAY,3,18,1
-83,Vermilli,WEDNESDAY,4,18,1
-83,Vermilli,WEDNESDAY,4,23,1
-83,Vermilli,THURSDAY,5,6,1
-83,Vermilli,THURSDAY,5,9,2
-83,Vermilli,THURSDAY,5,15,1
-83,Vermilli,THURSDAY,5,16,1
-83,Vermilli,THURSDAY,5,20,1
-83,Vermilli,FRIDAY,6,7,1
-83,Vermilli,FRIDAY,6,11,1
-83,Vermilli,FRIDAY,6,17,3
-83,Vermilli,FRIDAY,6,18,1
-83,Vermilli,SATURDAY,7,7,1
-83,Vermilli,SATURDAY,7,14,1
-83,Vermilli,SATURDAY,7,17,1
-83,Vermilli,SATURDAY,7,21,1
+82,Vanderburgh,SUNDAY,1,0,1
+82,Vanderburgh,SUNDAY,1,2,3
+82,Vanderburgh,SUNDAY,1,7,1
+82,Vanderburgh,SUNDAY,1,8,1
+82,Vanderburgh,SUNDAY,1,9,2
+82,Vanderburgh,SUNDAY,1,10,3
+82,Vanderburgh,SUNDAY,1,11,3
+82,Vanderburgh,SUNDAY,1,12,8
+82,Vanderburgh,SUNDAY,1,13,3
+82,Vanderburgh,SUNDAY,1,14,5
+82,Vanderburgh,SUNDAY,1,15,4
+82,Vanderburgh,SUNDAY,1,16,11
+82,Vanderburgh,SUNDAY,1,17,17
+82,Vanderburgh,SUNDAY,1,18,7
+82,Vanderburgh,SUNDAY,1,19,6
+82,Vanderburgh,SUNDAY,1,20,1
+82,Vanderburgh,SUNDAY,1,21,3
+82,Vanderburgh,SUNDAY,1,23,1
+82,Vanderburgh,MONDAY,2,0,1
+82,Vanderburgh,MONDAY,2,5,1
+82,Vanderburgh,MONDAY,2,6,2
+82,Vanderburgh,MONDAY,2,7,2
+82,Vanderburgh,MONDAY,2,8,4
+82,Vanderburgh,MONDAY,2,9,3
+82,Vanderburgh,MONDAY,2,10,2
+82,Vanderburgh,MONDAY,2,11,6
+82,Vanderburgh,MONDAY,2,12,5
+82,Vanderburgh,MONDAY,2,13,7
+82,Vanderburgh,MONDAY,2,14,4
+82,Vanderburgh,MONDAY,2,15,6
+82,Vanderburgh,MONDAY,2,16,5
+82,Vanderburgh,MONDAY,2,17,16
+82,Vanderburgh,MONDAY,2,18,4
+82,Vanderburgh,MONDAY,2,20,2
+82,Vanderburgh,MONDAY,2,21,2
+82,Vanderburgh,MONDAY,2,22,1
+82,Vanderburgh,TUESDAY,3,1,1
+82,Vanderburgh,TUESDAY,3,3,1
+82,Vanderburgh,TUESDAY,3,4,1
+82,Vanderburgh,TUESDAY,3,6,4
+82,Vanderburgh,TUESDAY,3,7,5
+82,Vanderburgh,TUESDAY,3,10,4
+82,Vanderburgh,TUESDAY,3,11,5
+82,Vanderburgh,TUESDAY,3,12,5
+82,Vanderburgh,TUESDAY,3,13,5
+82,Vanderburgh,TUESDAY,3,14,6
+82,Vanderburgh,TUESDAY,3,15,6
+82,Vanderburgh,TUESDAY,3,16,5
+82,Vanderburgh,TUESDAY,3,17,10
+82,Vanderburgh,TUESDAY,3,18,8
+82,Vanderburgh,TUESDAY,3,20,5
+82,Vanderburgh,TUESDAY,3,21,1
+82,Vanderburgh,TUESDAY,3,22,1
+82,Vanderburgh,TUESDAY,3,23,1
+82,Vanderburgh,WEDNESDAY,4,0,1
+82,Vanderburgh,WEDNESDAY,4,1,1
+82,Vanderburgh,WEDNESDAY,4,2,2
+82,Vanderburgh,WEDNESDAY,4,3,1
+82,Vanderburgh,WEDNESDAY,4,6,1
+82,Vanderburgh,WEDNESDAY,4,7,2
+82,Vanderburgh,WEDNESDAY,4,8,2
+82,Vanderburgh,WEDNESDAY,4,9,2
+82,Vanderburgh,WEDNESDAY,4,10,4
+82,Vanderburgh,WEDNESDAY,4,11,8
+82,Vanderburgh,WEDNESDAY,4,12,10
+82,Vanderburgh,WEDNESDAY,4,13,5
+82,Vanderburgh,WEDNESDAY,4,14,7
+82,Vanderburgh,WEDNESDAY,4,15,7
+82,Vanderburgh,WEDNESDAY,4,16,6
+82,Vanderburgh,WEDNESDAY,4,17,10
+82,Vanderburgh,WEDNESDAY,4,18,3
+82,Vanderburgh,WEDNESDAY,4,19,3
+82,Vanderburgh,WEDNESDAY,4,20,2
+82,Vanderburgh,WEDNESDAY,4,21,1
+82,Vanderburgh,THURSDAY,5,5,2
+82,Vanderburgh,THURSDAY,5,6,3
+82,Vanderburgh,THURSDAY,5,7,3
+82,Vanderburgh,THURSDAY,5,8,4
+82,Vanderburgh,THURSDAY,5,9,4
+82,Vanderburgh,THURSDAY,5,10,3
+82,Vanderburgh,THURSDAY,5,11,3
+82,Vanderburgh,THURSDAY,5,12,6
+82,Vanderburgh,THURSDAY,5,13,6
+82,Vanderburgh,THURSDAY,5,14,4
+82,Vanderburgh,THURSDAY,5,15,3
+82,Vanderburgh,THURSDAY,5,16,8
+82,Vanderburgh,THURSDAY,5,17,16
+82,Vanderburgh,THURSDAY,5,18,4
+82,Vanderburgh,THURSDAY,5,19,4
+82,Vanderburgh,THURSDAY,5,20,1
+82,Vanderburgh,THURSDAY,5,22,1
+82,Vanderburgh,THURSDAY,5,23,2
+82,Vanderburgh,FRIDAY,6,0,2
+82,Vanderburgh,FRIDAY,6,2,2
+82,Vanderburgh,FRIDAY,6,3,1
+82,Vanderburgh,FRIDAY,6,4,1
+82,Vanderburgh,FRIDAY,6,5,1
+82,Vanderburgh,FRIDAY,6,6,1
+82,Vanderburgh,FRIDAY,6,7,2
+82,Vanderburgh,FRIDAY,6,8,5
+82,Vanderburgh,FRIDAY,6,10,1
+82,Vanderburgh,FRIDAY,6,11,9
+82,Vanderburgh,FRIDAY,6,12,5
+82,Vanderburgh,FRIDAY,6,13,6
+82,Vanderburgh,FRIDAY,6,14,8
+82,Vanderburgh,FRIDAY,6,15,5
+82,Vanderburgh,FRIDAY,6,16,16
+82,Vanderburgh,FRIDAY,6,17,15
+82,Vanderburgh,FRIDAY,6,18,7
+82,Vanderburgh,FRIDAY,6,19,3
+82,Vanderburgh,FRIDAY,6,20,7
+82,Vanderburgh,FRIDAY,6,21,4
+82,Vanderburgh,FRIDAY,6,22,2
+82,Vanderburgh,FRIDAY,6,23,2
+82,Vanderburgh,SATURDAY,7,0,1
+82,Vanderburgh,SATURDAY,7,1,1
+82,Vanderburgh,SATURDAY,7,3,1
+82,Vanderburgh,SATURDAY,7,8,4
+82,Vanderburgh,SATURDAY,7,9,3
+82,Vanderburgh,SATURDAY,7,10,7
+82,Vanderburgh,SATURDAY,7,11,7
+82,Vanderburgh,SATURDAY,7,12,8
+82,Vanderburgh,SATURDAY,7,13,7
+82,Vanderburgh,SATURDAY,7,14,7
+82,Vanderburgh,SATURDAY,7,15,4
+82,Vanderburgh,SATURDAY,7,16,3
+82,Vanderburgh,SATURDAY,7,17,6
+82,Vanderburgh,SATURDAY,7,18,5
+82,Vanderburgh,SATURDAY,7,19,2
+82,Vanderburgh,SATURDAY,7,21,3
+82,Vanderburgh,SATURDAY,7,22,3
+82,Vanderburgh,SATURDAY,7,23,4
+83,Vermillion,SUNDAY,1,8,2
+83,Vermillion,SUNDAY,1,12,1
+83,Vermillion,SUNDAY,1,15,2
+83,Vermillion,SUNDAY,1,16,1
+83,Vermillion,SUNDAY,1,17,1
+83,Vermillion,SUNDAY,1,18,1
+83,Vermillion,SUNDAY,1,23,1
+83,Vermillion,MONDAY,2,9,1
+83,Vermillion,MONDAY,2,11,1
+83,Vermillion,MONDAY,2,14,1
+83,Vermillion,MONDAY,2,15,1
+83,Vermillion,MONDAY,2,17,1
+83,Vermillion,MONDAY,2,18,1
+83,Vermillion,MONDAY,2,19,1
+83,Vermillion,TUESDAY,3,6,1
+83,Vermillion,TUESDAY,3,8,1
+83,Vermillion,TUESDAY,3,10,1
+83,Vermillion,TUESDAY,3,12,1
+83,Vermillion,TUESDAY,3,16,2
+83,Vermillion,TUESDAY,3,18,1
+83,Vermillion,WEDNESDAY,4,18,1
+83,Vermillion,WEDNESDAY,4,23,1
+83,Vermillion,THURSDAY,5,6,1
+83,Vermillion,THURSDAY,5,9,2
+83,Vermillion,THURSDAY,5,15,1
+83,Vermillion,THURSDAY,5,16,1
+83,Vermillion,THURSDAY,5,20,1
+83,Vermillion,FRIDAY,6,7,1
+83,Vermillion,FRIDAY,6,11,1
+83,Vermillion,FRIDAY,6,17,3
+83,Vermillion,FRIDAY,6,18,1
+83,Vermillion,SATURDAY,7,7,1
+83,Vermillion,SATURDAY,7,14,1
+83,Vermillion,SATURDAY,7,17,1
+83,Vermillion,SATURDAY,7,21,1
 84,Vigo,SUNDAY,1,0,5
 84,Vigo,SUNDAY,1,1,1
 84,Vigo,SUNDAY,1,2,1
@@ -6727,57 +6727,57 @@ COUNTY_NUM,COUNTY,WEEK_DAY,WEEK_DAY_NUM,COLLISION_TIME,NUM_ACCIDENTS
 87,Warrick,SATURDAY,7,19,2
 87,Warrick,SATURDAY,7,20,3
 87,Warrick,SATURDAY,7,22,1
-88,Washingt,SUNDAY,1,7,1
-88,Washingt,SUNDAY,1,8,1
-88,Washingt,SUNDAY,1,18,1
-88,Washingt,SUNDAY,1,19,1
-88,Washingt,SUNDAY,1,20,2
-88,Washingt,SUNDAY,1,21,1
-88,Washingt,SUNDAY,1,23,1
-88,Washingt,MONDAY,2,5,1
-88,Washingt,MONDAY,2,6,2
-88,Washingt,MONDAY,2,11,1
-88,Washingt,MONDAY,2,12,1
-88,Washingt,MONDAY,2,18,2
-88,Washingt,MONDAY,2,19,1
-88,Washingt,MONDAY,2,23,1
-88,Washingt,TUESDAY,3,8,1
-88,Washingt,TUESDAY,3,9,1
-88,Washingt,TUESDAY,3,14,2
-88,Washingt,TUESDAY,3,19,1
-88,Washingt,TUESDAY,3,20,1
-88,Washingt,TUESDAY,3,23,1
-88,Washingt,WEDNESDAY,4,6,1
-88,Washingt,WEDNESDAY,4,7,2
-88,Washingt,WEDNESDAY,4,8,1
-88,Washingt,WEDNESDAY,4,12,1
-88,Washingt,WEDNESDAY,4,14,1
-88,Washingt,WEDNESDAY,4,17,2
-88,Washingt,WEDNESDAY,4,19,1
-88,Washingt,THURSDAY,5,5,1
-88,Washingt,THURSDAY,5,10,1
-88,Washingt,THURSDAY,5,12,1
-88,Washingt,THURSDAY,5,17,1
-88,Washingt,THURSDAY,5,18,1
-88,Washingt,THURSDAY,5,19,1
-88,Washingt,THURSDAY,5,22,1
-88,Washingt,FRIDAY,6,2,1
-88,Washingt,FRIDAY,6,9,1
-88,Washingt,FRIDAY,6,10,1
-88,Washingt,FRIDAY,6,14,1
-88,Washingt,FRIDAY,6,16,1
-88,Washingt,FRIDAY,6,18,2
-88,Washingt,FRIDAY,6,19,1
-88,Washingt,FRIDAY,6,23,1
-88,Washingt,SATURDAY,7,2,1
-88,Washingt,SATURDAY,7,7,2
-88,Washingt,SATURDAY,7,8,1
-88,Washingt,SATURDAY,7,9,1
-88,Washingt,SATURDAY,7,11,1
-88,Washingt,SATURDAY,7,12,1
-88,Washingt,SATURDAY,7,14,1
-88,Washingt,SATURDAY,7,15,1
-88,Washingt,SATURDAY,7,18,1
+88,Washington,SUNDAY,1,7,1
+88,Washington,SUNDAY,1,8,1
+88,Washington,SUNDAY,1,18,1
+88,Washington,SUNDAY,1,19,1
+88,Washington,SUNDAY,1,20,2
+88,Washington,SUNDAY,1,21,1
+88,Washington,SUNDAY,1,23,1
+88,Washington,MONDAY,2,5,1
+88,Washington,MONDAY,2,6,2
+88,Washington,MONDAY,2,11,1
+88,Washington,MONDAY,2,12,1
+88,Washington,MONDAY,2,18,2
+88,Washington,MONDAY,2,19,1
+88,Washington,MONDAY,2,23,1
+88,Washington,TUESDAY,3,8,1
+88,Washington,TUESDAY,3,9,1
+88,Washington,TUESDAY,3,14,2
+88,Washington,TUESDAY,3,19,1
+88,Washington,TUESDAY,3,20,1
+88,Washington,TUESDAY,3,23,1
+88,Washington,WEDNESDAY,4,6,1
+88,Washington,WEDNESDAY,4,7,2
+88,Washington,WEDNESDAY,4,8,1
+88,Washington,WEDNESDAY,4,12,1
+88,Washington,WEDNESDAY,4,14,1
+88,Washington,WEDNESDAY,4,17,2
+88,Washington,WEDNESDAY,4,19,1
+88,Washington,THURSDAY,5,5,1
+88,Washington,THURSDAY,5,10,1
+88,Washington,THURSDAY,5,12,1
+88,Washington,THURSDAY,5,17,1
+88,Washington,THURSDAY,5,18,1
+88,Washington,THURSDAY,5,19,1
+88,Washington,THURSDAY,5,22,1
+88,Washington,FRIDAY,6,2,1
+88,Washington,FRIDAY,6,9,1
+88,Washington,FRIDAY,6,10,1
+88,Washington,FRIDAY,6,14,1
+88,Washington,FRIDAY,6,16,1
+88,Washington,FRIDAY,6,18,2
+88,Washington,FRIDAY,6,19,1
+88,Washington,FRIDAY,6,23,1
+88,Washington,SATURDAY,7,2,1
+88,Washington,SATURDAY,7,7,2
+88,Washington,SATURDAY,7,8,1
+88,Washington,SATURDAY,7,9,1
+88,Washington,SATURDAY,7,11,1
+88,Washington,SATURDAY,7,12,1
+88,Washington,SATURDAY,7,14,1
+88,Washington,SATURDAY,7,15,1
+88,Washington,SATURDAY,7,18,1
 89,Wayne,SUNDAY,1,0,2
 89,Wayne,SUNDAY,1,1,2
 89,Wayne,SUNDAY,1,6,1
