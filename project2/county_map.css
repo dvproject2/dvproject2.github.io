@@ -40,6 +40,7 @@ body {
 
 #charts{
   float: left;
+  width:30%;
 }
 
 .chart {
@@ -106,7 +107,8 @@ body {
   
   
 #map {
-  
+  width:25%;
+  float:left;
 }
 
 #scatterplot {
@@ -163,7 +165,7 @@ table {
             visibility: hidden;
             position: absolute;
             top: 600px;
-            right:200px;
+            right:140px;
             font-family: sans-serif;
             font-size: 0.7em;
         }
@@ -212,6 +214,7 @@ svg {
 
 #pieChart {
   float: left;
+  width:45%;
 }
 
 
