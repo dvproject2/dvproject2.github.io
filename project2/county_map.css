@@ -106,7 +106,7 @@ body {
   
   
 #map {
-  float: right;
+  
 }
 
 #scatterplot {
@@ -225,6 +225,7 @@ svg {
 }
 .packedCircle {
 	float: left;
+	width:50%;
 }
 
 .node {
