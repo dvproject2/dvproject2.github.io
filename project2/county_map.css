@@ -39,7 +39,7 @@ body {
 }
 
 #charts{
-  float: right;
+  float: left;
 }
 
 .chart {
