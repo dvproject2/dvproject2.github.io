@@ -223,6 +223,9 @@ svg {
 #packedCircle {
 	float: left;
 }
+.packedCircle {
+	float: left;
+}
 
 .node {
   cursor: pointer;
