@@ -72,6 +72,16 @@ body {
   font: 10px sans-serif;
 }
 
+.Xaxis path, .Xaxis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.Xaxis text {
+  font: 10px sans-serif;
+}
+
 .brush rect.extent {
   fill: steelblue;
   fill-opacity: .125;
