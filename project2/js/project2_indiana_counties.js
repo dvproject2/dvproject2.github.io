@@ -312,7 +312,7 @@ function buildViz(error, indiana) {
 						//		console.log(county);
 								var count = county[0].value;
 					
-								return quantize(count);	
+								return quantize(logval(count));	
 										} 
 							else if (indCounties.indexOf(data.COUNTY) >= 0) 
 									{
