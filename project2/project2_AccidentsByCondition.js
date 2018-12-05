@@ -111,6 +111,7 @@ function change(data) {
     slice.exit()
         .remove();
 		
+		
 		// add tooltip to mouse events
             d3.selectAll('.labelName text, .slices path').call(toolTip);
        
