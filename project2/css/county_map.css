@@ -125,6 +125,9 @@ body {
   text-align: left; 
 }
 
+#map-legend.title {
+	float:left;
+	 }
 
 <!!!!!!!!!!!!!!1--- additional css from Abhirami--->
 polytext {
