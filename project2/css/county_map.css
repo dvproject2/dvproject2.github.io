@@ -1,0 +1,267 @@
+#title {
+  text-align: left;
+  padding-bottom: 60px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#row1{
+	column-count:3;
+	column-gap: 20px;
+	column-rule: 1px;
+	column-rule-color: lightblue;
+}
+
+#row2{
+	column-count:2;
+	column-gap: 20px;
+	column-rule: 1px;
+}
+
+.d3-tip {
+  line-height: 1.5;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 0px;
+  text-align: center;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  width: 1260px;
+  height: 900px;
+  margin:auto;
+  margin-top: 10px;
+}
+
+#charts{
+  float: left;
+  width:30%;
+}
+
+.chart {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.reset {
+  padding-left: 1em;
+  font-size: smaller;
+  color: blue;
+}
+
+.background.bar {
+  fill: #ccc;
+}
+
+.foreground.bar {
+  fill: steelblue;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.brush rect.extent {
+  fill: steelblue;
+  fill-opacity: .125;
+}
+
+.brush .resize path {
+  fill: #eee;
+  stroke: #666;
+}
+
+#chart path {
+  stroke: #fff;
+}
+
+#chart path.highlighted {
+  cursor: pointer;
+}
+
+.counties {
+  fill: none;
+  stroke: black;
+  stroke-linejoin: round;
+}
+
+  .q7-8 { fill:#b2182b; }
+  .q6-8 { fill:#d6604d; }
+  .q5-8 { fill:#f4a582; }
+  .q4-8 { fill:#fddbc7; }
+  .q3-8 { fill:#f7f7f7; }
+  .q2-8 { fill:#d1e5f0; }
+  .q1-8 { fill:#92c5de; }
+  .q0-8 { fill:#4393c3; }
+  
+  
+  
+#map {
+  width:25%;
+  float:left;
+}
+
+#scatterplot {
+  float: left;
+}
+
+.map {
+ -- height: 400px;
+ -- margin-bottom: 20px;
+}
+
+#map-legend{
+  text-align: center; 
+}
+
+
+<!!!!!!!!!!!!!!1--- additional css from Abhirami--->
+polytext {
+  font: 12px sans-serif;
+}
+
+.dot {
+  stroke: black;
+}
+
+.lasso path {
+  stroke: rgb(80,80,80);
+  stroke-width:2px;
+}
+
+.lasso .drawn {
+  fill-opacity:.05 ;
+}
+
+.lasso .loop_close {
+  fill:none;
+  stroke-dasharray: 4,4;
+}
+
+.lasso .origin {
+  fill:#3399FF;
+  fill-opacity:.5;
+}
+
+.not_possible {
+  fill:rgb(200,200,200);
+}
+
+.possible {
+  fill:#EC888C;
+}
+
+table {
+            visibility: hidden;
+            position: absolute;
+            top: 600px;
+            right:140px;
+            font-family: sans-serif;
+            font-size: 0.7em;
+        }
+
+tr:nth-child(even) {
+            background-color: #d9d9d9;
+        }
+
+<!!!!!!!!!!1-- end of css items from abhirami --->
+
+<!!!!!!!--- below css values for pie chart ---->
+svg {
+	width: 50%;
+	height: 50%;
+}
+
+path.slice{
+	stroke-width:2px;
+
+}
+
+polyline{
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+
+}
+
+.labelValue
+{
+	font-size: 60%;
+	opacity: .5;
+	
+}
+
+text {
+  font: 12px sans-serif;
+}
+
+svg {
+    -webkit-filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.3) );
+    filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.25) );
+}
+
+
+#pieChart {
+  float: left;
+  width:45%;
+}
+
+
+<!!!!!!!!!!!!!!!!! -- end of css values for pie chart ---->
+
+
+<!!!!!!!!!!--- style values for packed cicles  ---->
+
+#packedCircle {
+	float: left;
+}
+.packedCircle {
+	float: left;
+	width:50%;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--root {
+  stroke: #777;
+  stroke-width: 2px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+  font: 11px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}
+
+<!!!!!!!!!!!!!!!!!!!!!!------- End of Style values for packed Circles --->
+
+

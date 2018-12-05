@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Visualization Project 2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    	text { 
+			font-family: Arial; 
+			font-size: 15px;
+		}
+		.axis path, .axis line {
+			fill: none;
+			stroke: black;
+			shape-rendering: crispEdges;
+		}
+		.tick text {
+			fill: gray;
+			font-size: 11px;
+		}
+
+		rect {
+			stroke: white;
+		}
+		
+	div.tooltip { 
+    position: absolute;     
+    text-align: center;     
+    width: 80px;          
+    height: 28px;         
+    padding: 2px;       
+    font: 12px sans-serif;    
+    background: lightsteelblue; 
+    border: 0px;    
+    border-radius: 8px;     
+    pointer-events: none;     
+}
+
+.bar1 {
+  fill: steelblue;
+}
+.bar2 {
+  fill: pink;
+}
+
+.bar1:hover {
+  fill: brown;
+}
+
+.bar2:hover {
+  fill: brown;
+}
+
+
+.axis--x path {
+  display: none;
+}
+
+.svg {
+  position: absolute;
+  animation: panZoom 10s linear 1;
+}
+
+@keyframes panZoom {
+  0%   {transform: translateX(0) scale(1);}
+  100% {transform: translateX(1000px) scale(3);}
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/mac.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.legend rect {
+  fill: white;
+  fill-opacity: .85;
+  stroke: white;
+}
+.legend text {
+  font-size: 12px;
+}
+	</style>
+</head>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="project2-index.html" class="w3-bar-item w3-button w3-wide"><b>VEHICLE CRASH DATA ANALYSIS IN INDIANA DEC - 2017</b></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="project2-index.html" class="w3-bar-item w3-button"><b>ABOUT PROJECT</b></a>
+	  <a href="project2-visualization.html" class="w3-bar-item w3-button"><b>VISUALIZATION</b></a>
+      <a href="project2-documentation.html" class="w3-bar-item w3-button"></i><b>DOCUMENTATION</b></a>
+	  <a href="project2-video.html" class="w3-bar-item w3-button"><b></i>VIDEO</b></a>
+    </div>
+	    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+</div>
+<!-- About Section -->
+<div class="w3-container" style="padding:70px 160px" id="about">
+  <h3>About the Author</h3>
+  <p></p>
+  <h3>About the Project</h3>
+  <p></p>
+  <h3>Data Source</h3>
+  <p></p>
+  </div>	
+</body>
+</html>					

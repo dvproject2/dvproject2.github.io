@@ -4,42 +4,88 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="county_map.css"/>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="http://d3js.org/queue.v1.min.js"></script>
-<script src="http://d3js.org/topojson.v1.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.1/crossfilter.min.js"></script>
-<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>  
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/queue.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.1/crossfilter.min.js"></script>
+<script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>  
+<script src="lasso.min.js"></script>
 
 <body>
 <div id="title">Number of accidents in Indiana across counties in Dec - 2017 </div>
 
-<div class="myobjects" style="height:400px">
-	<div id="charts">
-		<div id="pop-chart" class="chart">
+<div class="row1" style="height:400px">
+
+<div id="pieChart">
+		    <div id="AccByCond" class="pieChart">
+			  <div class="title">Accidents by Conditions</div>
+				<form>
+				     <label><input type="radio" name="dataset" id="dataset" value="primaryfactor">Primary Factors</label>
+				     <label><input type="radio" name="dataset" id="dataset" value="light">Light Conditions</label>
+				     <label><input type="radio" name="dataset" id="dataset" value="weather">Weather Conditions</label>
+				     <label><input type="radio" name="dataset" id="dataset" value="surface">Surface Types</label>
+			    </form>
+			  </div>
+	        </div>
+
+
+<div id="map">
+	
+	<div id="map-legend">
+		<div class="title">Accidents by County </div>
+			<div class="title">Accidents in Indiana Counties in Dec 2017</div>
+			<div class="title">0 . . . . . . . . . . . . . . . . . 4000</div>
+		
+	</div>
+		
+	
+</div>
+<div id="charts">
+		<div id="perHour" class="chart">
 		  <div class="title">Number of Accidents by Hour</div>
 	    </div>
-	    <div id="per_cap-chart" class="chart">
+	    <div id="perWeekDay" class="chart">
 		  <div class="title">Number of Accidents by Week Day</div>
 	    </div>
-	</div>
+</div>
 	
-<div id="map">
 
-		<div class="title">Accidents by County </div>
-	
+
+</div>
+</div>
+<div class="row2" style="height:400px">
+   
+	<div id="packedCircle" class="packedCircle">
+			<div class="title">Makes and Models of cars involved in Accidents </div>
 	</div>
+	<div id="scatterplot">
+		<div class="title">Response Time of police Department</div>
+		<div id='table'>
+			<table>
+				<tr>
+					<th>County</th>
+					<th>Police Department</th>
+					<th>Incidents</th>
+					<th>Avg. Time</th>
+				</tr>
+			</table>
+					
+		</div>
+   </div>
 	
-<div id="map2">
-		<div class="title">Place for another chart................</div>
-	</div>
+	
 </div>
 
-
 <script type="text/javascript">
+
       // Hack to make this example display correctly in an iframe on bl.ocks.org
-      d3.select(self.frameElement).style("height", "1000px");
+      d3.select(self.frameElement).style("height", "1200px");
   </script> 
 <script src="project2_indiana_counties.js"></script>
+<script src="project2_ageny_response.js"></script>
+<script src="project2_AccidentsByCondition.js"></script>
+<script src="project2_PackedCircles.js"></script>
+
 <script>
 
 

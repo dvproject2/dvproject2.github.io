@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Visualization Project 2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    	text { 
+			font-family: Arial; 
+			font-size: 15px;
+		}
+		.axis path, .axis line {
+			fill: none;
+			stroke: black;
+			shape-rendering: crispEdges;
+		}
+		.tick text {
+			fill: gray;
+			font-size: 11px;
+		}
+
+		rect {
+			stroke: white;
+		}
+		
+	div.tooltip { 
+    position: absolute;     
+    text-align: center;     
+    width: 80px;          
+    height: 28px;         
+    padding: 2px;       
+    font: 12px sans-serif;    
+    background: lightsteelblue; 
+    border: 0px;    
+    border-radius: 8px;     
+    pointer-events: none;     
+}
+
+.bar1 {
+  fill: steelblue;
+}
+.bar2 {
+  fill: pink;
+}
+
+.bar1:hover {
+  fill: brown;
+}
+
+.bar2:hover {
+  fill: brown;
+}
+
+
+.axis--x path {
+  display: none;
+}
+
+.svg {
+  position: absolute;
+  animation: panZoom 10s linear 1;
+}
+
+@keyframes panZoom {
+  0%   {transform: translateX(0) scale(1);}
+  100% {transform: translateX(1000px) scale(3);}
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/mac.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.legend rect {
+  fill: white;
+  fill-opacity: .85;
+  stroke: white;
+}
+.legend text {
+  font-size: 12px;
+}
+	</style>
+</head>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button w3-wide"><b>VEHICLE CRASH DATA ANALYSIS IN INDIANA DEC - 2017</b></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="project2-index.html" class="w3-bar-item w3-button"><b>ABOUT PROJECT</b></a>
+	  <a href="project2-visualization.html" class="w3-bar-item w3-button"><b>VISUALIZATION</b></a>
+      <a href="project2-documentation.html" class="w3-bar-item w3-button"></i><b>DOCUMENTATION</b></a>
+	  <a href="project2-video.html" class="w3-bar-item w3-button"><b></i>VIDEO</b></a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<!-- documentation Section -->
+<div class="w3-container" style="padding:10px 16px" id="documentation">
+  <h3 class="w3-center">DOCUMENTATION</h3>
+  
+   <h3>Introduction</h3>
+	<p>
+	With the increasing number of population, the number of accidents has been increasing rapidly in Indiana. 
+	Even though the state is less crowded when compared to other states like Newyork, Chicago etc., the vehicle crashes reporting in Indiana is not any less.
+	National and state government reports tell us that there were 205,532 motor vehicle accidents in Indiana in 2014 that caused injury or property damage, 
+	and 821 fatal traffic accidents in Indiana in 2015, of which 178 involved drunk driving(Craig, Kelley & Faultless LLC, 2017).
+	This topic drived out interest to study more about the accidents happening in Indiana and to analyse the leading causes along with other related factors.
+	</p>
+	
+	<h3>Motivation</h3>
+	<p>
+	
+	</p>
+	
+	<h3>Design Process</h3>
+	<p>
+	I first looked in to the datasets provided and tried to understand the requirements for the project. Next step was to list out what all steps have to be done as shown in fig1. I decided to plot the number of deaths based on the date in a line chart and was confused about plotting the number of deaths based on age group in a pie chart or bar chart. 
+	</p>
+	<img src="img/requirement_list.jpg" width="30%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig1.</p>
+  <p>
+  Then the layout design was considered and I tried a basic design that shows how the various contents should be aligned in the web page. The D3 book by Scott Murray <a href="http://chimera.labs.oreilly.com/books/1230000000345/index.html" class="page-scroll" >"Interactive Data Visualization for the Web with D3"(Scott Murray,  March 2013) </a> helped me to understand the basics of d3 coding. The initial design lay outs are as shown in figures below. 
+  </p>
+  
+  <table><tr>
+  <td><img src="img/designlayout1.jpg" width="70%" height="10%" ></img></br><p style="text-align: center;color: black;">Fig2.</p></td>
+  <td><img src="img/designlayout2.jpg" width="70%" height="10%" ></img></br><p style="text-align: center;color: black;">Fig3.</p></td>
+  </table></tr>
+  <p>
+  In order to get an idea of how the datasets are working, I used tableau to plot the data in the provided datasets and this helped me to understand the insights in the datasets to be more focused.
+  I could not plot all the datasets effectively as expected in tableau and so I analyzed the data by reading through the datasets. Some of the results from tableau plotting is given below:
+  After having an idea of what should be plotted, I began to work on the plotting of street map.
+  </p>
+  <img src="img/bar_deaths_date.PNG" width="30%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig4.</p>
+
+  <h3>Rationale of design choices</h3>
+  <p>In order to start with the designing, I researched a lot in internet to get more ideas such as usage of color, shapes, orientations etc.</p>
+  
+  <h4>Main street Map</h4>
+  <p>
+  The position of the street map is set at left top as I understood that the street map is the most important part of the visualization. 
+  I first choose black for the street coordinates, but then realized the difficulty in viewing the other constraints and changed the color in to gray.
+  As the requirements suggested, I had to show the victims grouped based on gender (male and female) and age group.I decided to use color as a constrain to separate the gender and age groups.
+  So, I just chose a simple way that the female is pink, the male is blue, and used different color in saturation sequence to identify the age so that the victims could be identified based on both sex and age.
+  As I wanted the victims and water pumps to be easily identified, I used shape constrain to separate them. The pump is denoted as circle filled with black to make them notable and the victims are denoted as small rectangles.
+  Also, the set of color has been tested by <a href="http://colororacle.org/" class="page-scroll" >colororacle</a>. 
+  </p>
+  <img src="img/street map.PNG" width="30%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig5.</p>
+  
+  <h4>Timeline Graph</h4>
+  <p>
+  As the time line graph has to show not only the show the number of deaths per day but also be able to choose which day to visualize the deaths on the map, I choose a line chart for this purpose and added dots on each dates.
+  Initially the position of the line chart was kept just below the street map but, when I started working on transitions from line chart to street map, it became difficult to see it without scrolling. 
+  In order to avoid difficulty, I changed the  position of the line graph to the right of street map. 
+  The line is drawn with thick gray and the area inside the graph is filled black. Different dots are given according to date points for mouse over function so that when the user mouse overs on the dots, the number of deaths till that date is shown in the street map.
+  The victims shown on street map as a mouse over transition is classified based on gender.
+  The mouse over also shows a label with no. of deaths on that day and total no. of deaths untill that date. The blue shade represents male and pink shade represends female.
+  I choose these colors based on the normal consideration that pink is for women and blue is for men.
+  A mouse out function is also given such that it shows the total victims on street map classified based on age with color variations.
+  I have also added color variation for the dots on the line graph in such a way that as the no. of deaths increases, the blue color saturation increases.
+  </p>
+  <img src="img/linechart.PNG" width="30%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig6.</p>
+  
+  <h4>Bar Graph</h4>
+  <p>
+  When compared the efficiency of pie chart and bar chart in user's perspective, I realized that bar chart would be better to read the data plotted.
+  Two bars are given in x axis to represent no. of deaths of male and female according to the age group.
+  The color selection for male and female is taken similar as that used in the line chart mouse over with slite variation.
+  </p>
+  <img src="img/barchart.PNG" width="30%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig7.</p>
+
+  <h4>Buildings color and street name</h4>
+  <p>
+  The major street names and the location of the brewery and the work house has been added in the street map.
+  The buildings are given highlighted colors totally different from colors of victims, to make them visible easily and the building name is in black color which reduces the visual interference.
+  </p>
+
+  <h4>Color Test</h4>
+  <p>
+  I have used the tool called Color Oracle to test the colors used in the visualization. 
+  I have tested colors for users having Deuteranopia(Common), Protanopia(Rare) and Tritanopia(Very rare). 
+  The color chose for Deuteranopia seemed difficult for me but, I tried to change colors as much as possible to make it visible for people with vision difficulties.
+  The screenshots of various tests are given below:
+  </p>
+  
+
+	<img src="img/Normalvision.PNG" width="80%" height="30%" ></img></br><p style="text-align: center;color: black;">Fig8.Normal Vision</p>
+	
+    <img src="img/Deuteranopia.png" width="80%" height="30%" ></img></br><p style="text-align: center;color: black;">Fig9.Deuteranopia(Common)</p>
+
+
+	<img src="img/protanopia.png" width="80%" height="30%" ></img></br><p style="text-align: center;color: black;">Fig10.Protanopia(Rare)</p>
+   
+	<img src="img/Tritanopia.png" width="80%" height="30%" ></img></br><p style="text-align: center;color: black;">Fig11.Tritanopia(Very rare)</p>
+ 
+  <h3>Questions & Discoveries</h3>
+  
+  <p>When I started analysing the datasets and tried to plot the data using tableau, the questions I had in mind was regarding the the date on which the total number of deaths happened and the role of gender and sex in determining the deaths caused by cholera.
+	 Another point for analysis was that to check how correct Dr. Snow’s analysis was.
+	 My questions and the way I arrived at conclusions are explained below:
+  </p></br>
+  
+  <h4>Q1.Is there a particular day or range of dates where the no. of deaths is the highest? </h4>
+  <p>
+  While analysing the timeline graph that plots the no.of deaths on particular dates, it is evident that the graph has a steep increase on sep1 when compared with the other death dates.
+  Hence sept1 is the date on which the maximum no. of deaths happened. It is clear that the more no. of deaths occured between Aug 30 to Sept 7.
+  When focusing on the 1-Sep, the map shows that the deaths mainly concentrate on Broad Street, and the color of death points show that the age is mainly concentrate on >80.
+  </p>
+  <img src="img/linechart.PNG" width="50%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig12.</p>
+  
+
+<h4>Q2.What is the location of deaths till sept 7 and does this support Dr. Snow's hypothesis? </h4>
+ <p>
+ When used the interaction between the timeline graph and street map, a mouseover on the date gives the total number of deaths, based on gender and at the particular locations.
+ When moseover on sept7, the street map shows the victims and most of the deaths are near to broad street.The deaths are scattered around the pump in the broad street and this supports dr. Snow's hypothesis.
+ The image below shows this. The mouseover area in line chart is shown with yellow color label.
+ </p>
+ <img src="img/no.of deathsatbroadstreet.png" width="70%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig13.</p>
+
+ 
+  <h4>Q3.Where is the first death occured and how the no. of deaths increased? Does the replacement of the pump on sept 8 completely prevented the deaths? </h4>
+  <p>
+  I filtered the first deaths by mouse over on the initial dates on the line graph and found that the number of deaths is very less during initial days (Aug 17 to Aug 29), but it is near to the broad street pump.
+  After Aug 29, the no. of deaths has been increased rapidly and more deaths are shown near the broad street pump.
+  I could infer that the reason for more deaths may be the disease spread from already affected people and also from the pump water which is virus affected.
+  In order to identify the effect of pump handle removal on sept 8, I analysed the line graph and the street map with victims.
+  From the line graph, it is evident that the no. of deaths has been decreased after sept 8, but still a few number deaths happened as the total no. of deaths on the street map increases when mouse over from sept 8 to sept 23.
+  This may be because the disease was spreading from already affected people as it was a viral disease, but the spreading from the pump might have been prevented which reduced the no. of deaths.
+  The findings are depicted in the figures below:
+  </p>
+  <table><tr>
+  <td><img src="img/deathsAug17-29.png" width="90%" height="40%" ></img></br><p style="text-align: center;color: black;">Fig14.Total no. of deaths on Aug 19</p></td>
+  <td><img src="img/deathstillsept1.png" width="90%" height="40%" ></img></br><p style="text-align: center;color: black;">Fig15.Total no. of deaths on and till sept 1</p></td>
+  </table></tr>
+  <p> Now we can look at the no. of deaths from sept 8 after the removal of pump handle.</p></br>
+  <table><tr>
+  <td><img src="img/deathstillsept8.png" width="80%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig16.Total no. of deaths on and till sept 8</p></td>
+  <td><img src="img/deathsaftersept8.png" width="90%" height="40%" ></img></br><p style="text-align: center;color: black;">Fig17.Total no. of deaths after sept 8</p></td>
+  </table></tr>
+  
+  
+  <table><tr>
+  <td><img src="img/linedeathsdrop.png" width="80%" height="60%" ></img></br><p style="text-align: center;color: black;">Fig18.Line graph shows the no. of deaths dropped after sept 8</p></td>
+ 
+  </table></tr>
+  <p>
+  It is evident that the no. of deaths has been rapidly increased by sept 1 and then dropped by sept 8.
+  Eventhough the deaths has been decreased, we cannot say that the deaths has completely stopped.
+  Still a few more deaths occured even after the replacement of the pump.
+  </p>
+  
+  <h4>Q4. Does the age or gender have any influence on the no. of deaths?</h4>
+  <p> The no. of deaths based on age group is marked in different colors on the street map.
+  The color varies from red to blue as age group varies from 0-10 to >80. 
+  From the street map we can see that the color for most of the victims are red and blue. 
+  This means most of the people died is from age group 0-10 and age group higher than 80.
+  Considering the gender, we can see from street map that the no. of male victims represented in blue and female victims represented in pink are almost equal in no.
+  The figures below explains this:
+  </p>
+  
+  <table><tr>
+  <td><img src="img/totaldeathsonage.PNG" width="100%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig20.Total no. of deaths based on age group</p></td>
+  <td><img src="img/deathsaftersept8.png" width="100%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig21.Total no. of deaths based on gender</p></td>
+  </table></tr>
+ 
+  <p>Also, the bar chart depicts the no. of deaths based on age group and gender. 
+  It is evident from the bar chart that the more no. of deaths is from age group above 80 and then from age group 0-10.
+  It is also clear from the bar chart that the no. of deaths of male and female at each age group is almost similar with slight variation.
+  The blue color represents male and pink represents female in each age group in the bar chart.
+  This is shown in figure below:
+  </p>
+  <img src="img/barchart.PNG" width="60%" height="40%" ></img></br><p style="text-align: start;color: black;">Fig22.Bar chart showing no. of deaths based on age group and gender</p>
+
+  <p>Hence I conclude that age has an influence on no. of deaths as the most affected people are in age groups 1-10 and above 80.
+  This may be because the immunity would be comparatively low in kids and aged people.
+  Also, it is inferred that gender has no significant influence on the no. of deaths due to cholera. </p>
+  
+	<h3>Conclusion</h3>
+	<p>
+	This project based on the London Broad Street cholera outbreak started with Dr.Snows hypothesis that the broad street pump is the major source from where the cholera was spread, causing the deaths for hundreads of people.
+    The visualizations created in this project supports Dr. Snow's hypothesis and also found some other insights from the data.
+	The important conclusion is that age has great influence on no. of deaths where as gender does not have.
+	this project has given a great opportunity to analyse, understand and visualize the given data effectively.
+	</p>
+<h3>References</h3>
+
+<p>
+Scott Murray,  March 2013.Interactive Data Visualization for the Web with D3</br>
+<a href="http://chimera.labs.oreilly.com/books/1230000000345/index.html" class="page-scroll">http://chimera.labs.oreilly.com/books/1230000000345/index.html</a >
+</p>
+
+<p>Sample Project
+<a href="http://www.vmateevitsi.com/2009/09/01/john-snows-interactive-cholera-map/" class="page-scroll" >http://chellynov.github.io</a>  
+</p>
+
+<p>Colororacle</br>
+<a href="http://colororacle.org/" class="page-scroll" >http://colororacle.org</a>  
+</p>
+
+<p>StackOverFlow</br>
+<a href="https://stackoverflow.com/" class="page-scroll" >https://stackoverflow.com</a>  
+</p>
+
+<p>Bl.Ocks</br>
+<a href="https://bl.ocks.org" class="page-scroll" >https://bl.ocks.org</a>  
+</p>
+
+<p>Website Design</br>
+<a href="https://www.w3schools.com/w3css/w3css_templates.asp" class="page-scroll" >https://www.w3schools.com/w3css/w3css_templates.asp</a>  
+</p>
+
+<p>D3 coding</br>
+<a href="https://bl.ocks.org/mbostock" class="page-scroll" >https://bl.ocks.org/mbostock</a>  
+</p>
+
+<p>D3 coding</br>
+<a href="https://d3js.org/" class="page-scroll" >https://d3js.org/</a>  
+</p>
+
+  
+  </div>
+			
+</body>
+</html>					
