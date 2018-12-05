@@ -150,7 +150,7 @@ d3.tsv("data/agency_response_count_avg.tsv", function(error, data) {
       .attr("x", width)
       .attr("y", -6)
       .style("text-anchor", "end")
-      .text("Total No of Incidents Reported by Each Police Department");
+      .text("No.of Accidents reported in each PD");
 
   svg.append("g")
       .attr("class", "y axis")
@@ -161,7 +161,7 @@ d3.tsv("data/agency_response_count_avg.tsv", function(error, data) {
       .attr("y", 6)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Average Response Time in Minutes")
+      .text("Avg. Response Time(mins)")
 
   svg.selectAll(".dot")
       .data(data)
