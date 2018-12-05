@@ -62,7 +62,7 @@ d3.json("data/vehicle.json", function(error, root) {
     y.domain([d.y - d.r, d.y + d.r]);
     d3.event.stopPropagation();
 
-    var transition = d3.selectAll("text,circle").transition()
+    var transition = d3.selectAll("#packedCircle").selectAll("text,circle").transition()
         .duration(d3.event.altKey ? 5500 : 750)
         .attr("transform", function(d) { return "translate(" + x(d.x) + "," + y(d.y) + ")"; });
 
