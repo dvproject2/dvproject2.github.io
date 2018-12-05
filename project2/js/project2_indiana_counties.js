@@ -136,10 +136,10 @@ function buildViz(error, indiana) {
     incBar = typeof incBar !== 'undefined' ? incBar : false;
     var formatAsNumber = d3.format(",d");
     
-    var Xaxis = d3.svg.axis().orient("bottom");
+    var axis = d3.svg.axis().orient("bottom");
 
     if (incBar == true) {
-      Xaxis.tickFormat(formatAsNumber);
+      axis.tickFormat(formatAsNumber);
       
     }
     var margin = {top: 10, right: 10, bottom: 20, left: 10},
@@ -202,9 +202,9 @@ function buildViz(error, indiana) {
               .attr("clip-path", "url(#clip-" + id + ")");
 
           g.append("g")
-              .attr("class", "Xaxis")
+              .attr("class", "axis")
               .attr("transform", "translate(0," + height + ")")
-              .call(Xaxis);
+              .call(axis);
 			  
           // Initialize the brush component with pretty resize handles.
           var gBrush = g.append("g").attr("class", "brush").call(brush);
@@ -345,7 +345,7 @@ function buildViz(error, indiana) {
     chart.x = function(_) {
       if (!arguments.length) return x;
       x = _;
-      Xaxis.scale(x);
+      axis.scale(x);
       brush.x(x);
       return chart;
     };
