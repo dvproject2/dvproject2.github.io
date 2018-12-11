@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Visualization Project 2</title>
+<title>Project 2</title>
+<script type="text/javascript" src="./d3/d3.js"></script>
+<!--<script type="text/javascript" src="https://d3js.org//d3.v3.min.js"></script> -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -92,7 +94,13 @@ body, html {
 .legend text {
   font-size: 12px;
 }
-	</style>
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+</style>
 </head>
 
 <body>
@@ -100,7 +108,7 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="index.html" class="w3-bar-item w3-button w3-wide"><b>VEHICLE CRASH DATA ANALYSIS IN INDIANA DEC - 2017</b></a>
+    <a href="project2-index.html" class="w3-bar-item w3-button w3-wide"><b>VEHICLE CRASH DATA ANALYSIS IN INDIANA DEC - 2017</b></a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="project2-index.html" class="w3-bar-item w3-button"><b>ABOUT PROJECT</b></a>
@@ -125,198 +133,383 @@ body, html {
   
    <h3>Introduction</h3>
 	<p>
-	With the increasing number of population, the number of accidents has been increasing rapidly in Indiana. 
-	Even though the state is less crowded when compared to other states like Newyork, Chicago etc., the vehicle crashes reporting in Indiana is not any less.
-	National and state government reports tell us that there were 205,532 motor vehicle accidents in Indiana in 2014 that caused injury or property damage, 
+	With the increase in population and the number of vehicles on the road, Indiana has seen a rapid increase in the number of accidents. 
+	Though the state is less crowded when compared to other states like Newyork, Illinois etc., the vehicle crashes reported in Indiana are not less.
+	Federal and state government reports tell us that there were 205,532 motor vehicle accidents in Indiana in 2014 that caused injury or property damage, 
 	and 821 fatal traffic accidents in Indiana in 2015, of which 178 involved drunk driving(Craig, Kelley & Faultless LLC, 2017).
-	This topic drived out interest to study more about the accidents happening in Indiana and to analyse the leading causes along with other related factors.
+	This drives our interest to study more about the vehicle crashes reported in Indiana and analyze the leading causes along with other contributing factors.
 	</p>
 	
 	<h3>Motivation</h3>
 	<p>
-	
+	Road safety by any means is a critical issue in everyone’s daily life. Therefore, it is very
+important to look at the past collision history data and see what we can learn from the data to help better
+prevent and/ or avoid collisions in the future. This interesting concept motivated us to take this project.
+Our goal for this project is to create visualizations that help the city and county administrators to
+identify the cause and impacts for collisions and come up with policies, strategies, and programs to reduce
+accidents. 
 	</p>
+
+			<h4>Analysis Questions</h4>
+			<p>
+
+	        <ul style="list-style-type:none">
+            <li> 1) What is the number of accidents in each county?</li>
+			<li> &nbsp;&nbsp;&nbsp;&nbsp;     a) Which county has the maximum number of accidents?</li>
+		    <li> &nbsp;&nbsp;&nbsp;&nbsp;     b) What is the trend of accidents across counties on different weekdays?</li>
+			<li> &nbsp;&nbsp;&nbsp;&nbsp;	  c) What time of day do most accidents happen?</li>
+			 
+			<li> 2) What are the major causes of accidents?</li>
+			<li> &nbsp;&nbsp;&nbsp;&nbsp;     a) Which primary cause contributes most to accidents?</li>
+		    <li> &nbsp;&nbsp;&nbsp;&nbsp;   b) How can these causes be limited?</li>
+			<li> &nbsp;&nbsp;&nbsp;&nbsp;    c) How the surface condition influences the number of accidents?</li>
+			<li> &nbsp;&nbsp;&nbsp;&nbsp;     d) Does weather and light conditions have any effect on the number of accidents?</li>
+			 
+			<li> 3)How fast are the Police departments in Indiana responding to the reported accidents?</li>
+			<li> &nbsp;&nbsp;&nbsp;&nbsp;     a) What's the average time taken by Indiana police departments?</li>
+		    <li> &nbsp;&nbsp;&nbsp;&nbsp;     b) Is this affected by the number of cases reported?</li>
+			<li> &nbsp;&nbsp;&nbsp;&nbsp;     c) Which police department is fastest in responding and which is the slowest?</li>
+			     
+			 
+			<li> 4)What are the vehicles involved in the crashes?</li>
+			<li> &nbsp;&nbsp;&nbsp;&nbsp;     a) What are the top make and model of vehicles involved in accidents?</li>
+		    <li>  &nbsp;&nbsp;&nbsp;&nbsp;    b) Which vehicles are involved in accidents under various weather conditions?</li>
+		
+			</ul>
+			</p>
+
+			<h4>Dataset and Data Process</h4>
+			<p>
+			<br>
+				&nbsp;&nbsp;&nbsp;&nbsp; The ARIES (Automated Reporting Information Exchange System) is maintained by the Indiana State Police to collect all the 
+				crash reports created by the responding officers from various police departments. This data is available to the general public
+				through the Indiana MPH (Management Performance Hub) website. Currently the MPH has data for 11 years (2007 to 2017). As part of 
+				our data vislization efforts, we have selected the data from 2017.	
+			</br>
+				&nbsp;&nbsp;&nbsp;&nbsp; The repository has 761149 records for the year 2017. However, this is not the total number of accidents, this number represents 
+				the total number of individuals who were impacted by the accidents. As the number was very high, we decided to base our visualization
+				on a month’s worth of data and we selected the data for December 2017. The dataset had 73414 records for the month of December 2017
+				and it has  106 attributes. Some of the attributes are descriptions of other attributes in the same row. These attributes capture information
+				like the time of accident, location of accident, number of vehicles involved, incident reported time, first responder arrival time,
+				weather conditions, light conditions , cause of accident etc.
+			</br>
+			<br>
+				Some of the major attributes we used for the analysis process is below:
+
+				<font size="6" >
+				<table style="width:100%">							
+				<tr> <th>	Attribute	</th> <th>	Description	</th> <th>	Data Type	</th> </tr>
+				<tr> <td>	INDEXING_NUMBER	</td> <td>	Value created by concatenating the INDIVIDUAL_MR_RECORD value and the PERSONNMB value.	</td> <td>	Number	</td> </tr>
+				<tr> <td>	INDIVIDUAL_MR_RECORD	</td> <td>	Unique identifier for each collision.	</td> <td>	Number	</td> </tr>
+				<tr> <td>	AGENCYORITXT	</td> <td>	Originating Agency Identifier Number for the police officer's agency.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	AGENCYORIDESCR	</td> <td>	Originating Agency Identifier Description for the police officer's agency.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	COUNTYCDE	</td> <td>	Three-digit code indicating County where collision occurred.	</td> <td>	Number	</td> </tr>
+				<tr> <td>	COUNTY_STATE	</td> <td>	Two-digit number indicating the number of the county in Indiana where the collision occurred.	</td> <td>	Number	</td> </tr>
+				<tr> <td>	COUNTYDESCR	</td> <td>	Name of the county in Indiana where the collision occurred.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	CITYCDE	</td> <td>	Five-digit code indicating the City where collision occurred or nearest city in the county where the collision occurred.	</td> <td>	Number	</td> </tr>
+				<tr> <td>	CITYDESCR	</td> <td>	Name of the City where collision occurred or nearest city in the county where the collision occurred.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	COLLDTE	</td> <td>	Date the collision occurred.	</td> <td>	Date	</td> </tr>
+				<tr> <td>	COLLISION_DAY	</td> <td>	Full name for Day of the week that the collision occurred.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	COLLISION_MONTH	</td> <td>	Three-letter abbreviation for the Month that the collision occurred.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	COLLISION_YEAR	</td> <td>	Four-digit year (YYYY) that the collision occurred.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	COLLISION_TIME	</td> <td>	Time that the collision occurred (HH:SS 0-12 hours).	</td> <td>	Date Time	</td> </tr>
+				<tr> <td>	COLLISION_TIME_AM_PM	</td> <td>	Two-digit code indicating whether the collision occurred in the AM or PM.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	LIGHTCONDCDE	</td> <td>	Two-digit code indicating the light conditions at the time and place of the collision.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	LIGHTCONDDESCR	</td> <td>	Descriptoin indicating the light conditions at the time and place of the collision.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	WEATHERCDE	</td> <td>	Two-digit code indicating the primary atmospheric condition at the time and place of the collision.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	WEATHERDESCR	</td> <td>	Description indicating the primary atmospheric condition at the time and place of the collision.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	SURFACETYPECDE_CONDDESCR	</td> <td>	Description indicating the road surface conditions at the time and place of the collision.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	SURFACETYPECDE	</td> <td>	Two-digit code indicating the type of roadway surface at the scene of the collision.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	SURFACETYPEDESCR	</td> <td>	Description indicating the type of roadway surface at the scene of the collision.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	PRIMARYFACTORCDE	</td> <td>	Two-digit code indicating the primary cause of the collision.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	PRIMARYFACTORDESCR	</td> <td>	Description indicating the primary cause of the collision.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	TIMENOTIFIEDTXT	</td> <td>	Time the investigating officer was notified of the collision (HH:SS 0-12 hours).	</td> <td>	Date	</td> </tr>
+				<tr> <td>	TIMENOTIFIEDAMPMTXT	</td> <td>	Two-digit code indicating whether investigating officer was notified of the collision in the AM or PM.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	TIMEARRIVEDTXT	</td> <td>	Time the investigating officer arrived at the collision (HH:SS 0-12 hours).	</td> <td>	Date	</td> </tr>
+				<tr> <td>	TIMEARRIVEDAMPMTXT	</td> <td>	Two-digit code indicating whether investigating officer arrived at the collision in the AM or PM.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	UNIT_VEHICLE_NUMBER	</td> <td>	Unique nine-digit State Repository Unique Identifier number indicating the collision with which the vehicle is associated .	</td> <td>	Character	</td> </tr>
+				<tr> <td>	UNITTYPECDE	</td> <td>	Two-digit code indicating the type of vehicle involved in the collision.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	UNITTYPEDESCR	</td> <td>	Description indicating the type of vehicle involved in the collision.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	VEHYEARTXT	</td> <td>	Four-digit year (YYYY) indicating the model year of the vehicle.	</td> <td>	Number	</td> </tr>
+				<tr> <td>	VEHMAKETXT	</td> <td>	Description indicating the name of the manufacturer of the vehicle.	</td> <td>	Character	</td> </tr>
+				<tr> <td>	VEHMODELTXT	</td> <td>	Description indicating the name of the model of the vehicle.	</td> <td>	Character	</td> </tr>
+										
+				</table>							
+				</font>
+			</br>
+			<br>
+				We loaded the selected dataset into a table in the MySQL database installed on our local machines. Of the 106 attributes, not all fields
+				were filled in by all officers and some of the fields were completely blank or unusable. 
+			</br>
+			<br>
+			As part of our efforts to split the data into multiple smaller files to be used as inputs to various individual visualizations, 
+			we first tried to generate CSV and JSON files and read them in our scripts using D3 functions. This approach worked for the questions
+			related to weather conditions, the performance of police departments and the vehicle make and model, however, this approach was not feasible
+			to be used along with the interactions we planned for answering the most number of accidents in each county by weekday and hour of the day.
+			So, we tried using the nest function in D3 to aggregate the number of accidents by county and at the same time, use the same dataset
+			to create other interactions, however, the time it required to compute aggregates using nest was not feasible for quick interactions.
+			So, we moved on to CrossFilter, where we were able to build dimensions on the dataset and use different dimensions in different visualizations
+			and aggregate data using the group functions available in CrossFilter.
+			</br>
+			</p>
+	
+	 
 	
 	<h3>Design Process</h3>
 	<p>
-	I first looked in to the datasets provided and tried to understand the requirements for the project. Next step was to list out what all steps have to be done as shown in fig1. I decided to plot the number of deaths based on the date in a line chart and was confused about plotting the number of deaths based on age group in a pie chart or bar chart. 
+	In order to start with the designing, we did research to gather more ideas such as use of color, shapes, orientations etc.
+	After analyzing the overall data available, we discussed the most appropriate visualizations we could use based on the scope of the data.
+    	
 	</p>
-	<img src="img/requirement_list.jpg" width="30%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig1.</p>
-  <p>
-  Then the layout design was considered and I tried a basic design that shows how the various contents should be aligned in the web page. The D3 book by Scott Murray <a href="http://chimera.labs.oreilly.com/books/1230000000345/index.html" class="page-scroll" >"Interactive Data Visualization for the Web with D3"(Scott Murray,  March 2013) </a> helped me to understand the basics of d3 coding. The initial design lay outs are as shown in figures below. 
-  </p>
-  
-  <table><tr>
-  <td><img src="img/designlayout1.jpg" width="70%" height="10%" ></img></br><p style="text-align: center;color: black;">Fig2.</p></td>
-  <td><img src="img/designlayout2.jpg" width="70%" height="10%" ></img></br><p style="text-align: center;color: black;">Fig3.</p></td>
-  </table></tr>
-  <p>
-  In order to get an idea of how the datasets are working, I used tableau to plot the data in the provided datasets and this helped me to understand the insights in the datasets to be more focused.
-  I could not plot all the datasets effectively as expected in tableau and so I analyzed the data by reading through the datasets. Some of the results from tableau plotting is given below:
-  After having an idea of what should be plotted, I began to work on the plotting of street map.
-  </p>
-  <img src="img/bar_deaths_date.PNG" width="30%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig4.</p>
-
-  <h3>Rationale of design choices</h3>
-  <p>In order to start with the designing, I researched a lot in internet to get more ideas such as usage of color, shapes, orientations etc.</p>
-  
-  <h4>Main street Map</h4>
-  <p>
-  The position of the street map is set at left top as I understood that the street map is the most important part of the visualization. 
-  I first choose black for the street coordinates, but then realized the difficulty in viewing the other constraints and changed the color in to gray.
-  As the requirements suggested, I had to show the victims grouped based on gender (male and female) and age group.I decided to use color as a constrain to separate the gender and age groups.
-  So, I just chose a simple way that the female is pink, the male is blue, and used different color in saturation sequence to identify the age so that the victims could be identified based on both sex and age.
-  As I wanted the victims and water pumps to be easily identified, I used shape constrain to separate them. The pump is denoted as circle filled with black to make them notable and the victims are denoted as small rectangles.
-  Also, the set of color has been tested by <a href="http://colororacle.org/" class="page-scroll" >colororacle</a>. 
-  </p>
-  <img src="img/street map.PNG" width="30%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig5.</p>
-  
-  <h4>Timeline Graph</h4>
-  <p>
-  As the time line graph has to show not only the show the number of deaths per day but also be able to choose which day to visualize the deaths on the map, I choose a line chart for this purpose and added dots on each dates.
-  Initially the position of the line chart was kept just below the street map but, when I started working on transitions from line chart to street map, it became difficult to see it without scrolling. 
-  In order to avoid difficulty, I changed the  position of the line graph to the right of street map. 
-  The line is drawn with thick gray and the area inside the graph is filled black. Different dots are given according to date points for mouse over function so that when the user mouse overs on the dots, the number of deaths till that date is shown in the street map.
-  The victims shown on street map as a mouse over transition is classified based on gender.
-  The mouse over also shows a label with no. of deaths on that day and total no. of deaths untill that date. The blue shade represents male and pink shade represends female.
-  I choose these colors based on the normal consideration that pink is for women and blue is for men.
-  A mouse out function is also given such that it shows the total victims on street map classified based on age with color variations.
-  I have also added color variation for the dots on the line graph in such a way that as the no. of deaths increases, the blue color saturation increases.
-  </p>
-  <img src="img/linechart.PNG" width="30%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig6.</p>
-  
-  <h4>Bar Graph</h4>
-  <p>
-  When compared the efficiency of pie chart and bar chart in user's perspective, I realized that bar chart would be better to read the data plotted.
-  Two bars are given in x axis to represent no. of deaths of male and female according to the age group.
-  The color selection for male and female is taken similar as that used in the line chart mouse over with slite variation.
-  </p>
-  <img src="img/barchart.PNG" width="30%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig7.</p>
-
-  <h4>Buildings color and street name</h4>
-  <p>
-  The major street names and the location of the brewery and the work house has been added in the street map.
-  The buildings are given highlighted colors totally different from colors of victims, to make them visible easily and the building name is in black color which reduces the visual interference.
-  </p>
-
-  <h4>Color Test</h4>
-  <p>
-  I have used the tool called Color Oracle to test the colors used in the visualization. 
-  I have tested colors for users having Deuteranopia(Common), Protanopia(Rare) and Tritanopia(Very rare). 
-  The color chose for Deuteranopia seemed difficult for me but, I tried to change colors as much as possible to make it visible for people with vision difficulties.
-  The screenshots of various tests are given below:
-  </p>
-  
-
-	<img src="img/Normalvision.PNG" width="80%" height="30%" ></img></br><p style="text-align: center;color: black;">Fig8.Normal Vision</p>
 	
-    <img src="img/Deuteranopia.png" width="80%" height="30%" ></img></br><p style="text-align: center;color: black;">Fig9.Deuteranopia(Common)</p>
-
-
-	<img src="img/protanopia.png" width="80%" height="30%" ></img></br><p style="text-align: center;color: black;">Fig10.Protanopia(Rare)</p>
-   
-	<img src="img/Tritanopia.png" width="80%" height="30%" ></img></br><p style="text-align: center;color: black;">Fig11.Tritanopia(Very rare)</p>
- 
-  <h3>Questions & Discoveries</h3>
-  
-  <p>When I started analysing the datasets and tried to plot the data using tableau, the questions I had in mind was regarding the the date on which the total number of deaths happened and the role of gender and sex in determining the deaths caused by cholera.
-	 Another point for analysis was that to check how correct Dr. Snow’s analysis was.
-	 My questions and the way I arrived at conclusions are explained below:
-  </p></br>
-  
-  <h4>Q1.Is there a particular day or range of dates where the no. of deaths is the highest? </h4>
-  <p>
-  While analysing the timeline graph that plots the no.of deaths on particular dates, it is evident that the graph has a steep increase on sep1 when compared with the other death dates.
-  Hence sept1 is the date on which the maximum no. of deaths happened. It is clear that the more no. of deaths occured between Aug 30 to Sept 7.
-  When focusing on the 1-Sep, the map shows that the deaths mainly concentrate on Broad Street, and the color of death points show that the age is mainly concentrate on >80.
-  </p>
-  <img src="img/linechart.PNG" width="50%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig12.</p>
-  
-
-<h4>Q2.What is the location of deaths till sept 7 and does this support Dr. Snow's hypothesis? </h4>
- <p>
- When used the interaction between the timeline graph and street map, a mouseover on the date gives the total number of deaths, based on gender and at the particular locations.
- When moseover on sept7, the street map shows the victims and most of the deaths are near to broad street.The deaths are scattered around the pump in the broad street and this supports dr. Snow's hypothesis.
- The image below shows this. The mouseover area in line chart is shown with yellow color label.
- </p>
- <img src="img/no.of deathsatbroadstreet.png" width="70%" height="30%" ></img></br><p style="text-align: start;color: black;">Fig13.</p>
-
- 
-  <h4>Q3.Where is the first death occured and how the no. of deaths increased? Does the replacement of the pump on sept 8 completely prevented the deaths? </h4>
-  <p>
-  I filtered the first deaths by mouse over on the initial dates on the line graph and found that the number of deaths is very less during initial days (Aug 17 to Aug 29), but it is near to the broad street pump.
-  After Aug 29, the no. of deaths has been increased rapidly and more deaths are shown near the broad street pump.
-  I could infer that the reason for more deaths may be the disease spread from already affected people and also from the pump water which is virus affected.
-  In order to identify the effect of pump handle removal on sept 8, I analysed the line graph and the street map with victims.
-  From the line graph, it is evident that the no. of deaths has been decreased after sept 8, but still a few number deaths happened as the total no. of deaths on the street map increases when mouse over from sept 8 to sept 23.
-  This may be because the disease was spreading from already affected people as it was a viral disease, but the spreading from the pump might have been prevented which reduced the no. of deaths.
-  The findings are depicted in the figures below:
-  </p>
-  <table><tr>
-  <td><img src="img/deathsAug17-29.png" width="90%" height="40%" ></img></br><p style="text-align: center;color: black;">Fig14.Total no. of deaths on Aug 19</p></td>
-  <td><img src="img/deathstillsept1.png" width="90%" height="40%" ></img></br><p style="text-align: center;color: black;">Fig15.Total no. of deaths on and till sept 1</p></td>
-  </table></tr>
-  <p> Now we can look at the no. of deaths from sept 8 after the removal of pump handle.</p></br>
-  <table><tr>
-  <td><img src="img/deathstillsept8.png" width="80%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig16.Total no. of deaths on and till sept 8</p></td>
-  <td><img src="img/deathsaftersept8.png" width="90%" height="40%" ></img></br><p style="text-align: center;color: black;">Fig17.Total no. of deaths after sept 8</p></td>
-  </table></tr>
-  
-  
-  <table><tr>
-  <td><img src="img/linedeathsdrop.png" width="80%" height="60%" ></img></br><p style="text-align: center;color: black;">Fig18.Line graph shows the no. of deaths dropped after sept 8</p></td>
- 
-  </table></tr>
-  <p>
-  It is evident that the no. of deaths has been rapidly increased by sept 1 and then dropped by sept 8.
-  Eventhough the deaths has been decreased, we cannot say that the deaths has completely stopped.
-  Still a few more deaths occured even after the replacement of the pump.
-  </p>
-  
-  <h4>Q4. Does the age or gender have any influence on the no. of deaths?</h4>
-  <p> The no. of deaths based on age group is marked in different colors on the street map.
-  The color varies from red to blue as age group varies from 0-10 to >80. 
-  From the street map we can see that the color for most of the victims are red and blue. 
-  This means most of the people died is from age group 0-10 and age group higher than 80.
-  Considering the gender, we can see from street map that the no. of male victims represented in blue and female victims represented in pink are almost equal in no.
-  The figures below explains this:
-  </p>
-  
-  <table><tr>
-  <td><img src="img/totaldeathsonage.PNG" width="100%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig20.Total no. of deaths based on age group</p></td>
-  <td><img src="img/deathsaftersept8.png" width="100%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig21.Total no. of deaths based on gender</p></td>
-  </table></tr>
- 
-  <p>Also, the bar chart depicts the no. of deaths based on age group and gender. 
-  It is evident from the bar chart that the more no. of deaths is from age group above 80 and then from age group 0-10.
-  It is also clear from the bar chart that the no. of deaths of male and female at each age group is almost similar with slight variation.
-  The blue color represents male and pink represents female in each age group in the bar chart.
-  This is shown in figure below:
-  </p>
-  <img src="img/barchart.PNG" width="60%" height="40%" ></img></br><p style="text-align: start;color: black;">Fig22.Bar chart showing no. of deaths based on age group and gender</p>
-
-  <p>Hence I conclude that age has an influence on no. of deaths as the most affected people are in age groups 1-10 and above 80.
-  This may be because the immunity would be comparatively low in kids and aged people.
-  Also, it is inferred that gender has no significant influence on the no. of deaths due to cholera. </p>
-  
-	<h3>Conclusion</h3>
+	<h4>Choropleth Map</h4>
+	
 	<p>
-	This project based on the London Broad Street cholera outbreak started with Dr.Snows hypothesis that the broad street pump is the major source from where the cholera was spread, causing the deaths for hundreads of people.
-    The visualizations created in this project supports Dr. Snow's hypothesis and also found some other insights from the data.
-	The important conclusion is that age has great influence on no. of deaths where as gender does not have.
-	this project has given a great opportunity to analyse, understand and visualize the given data effectively.
+	Evaluating the various suggestions came out of the discussion, we finally decided to represent the number of accidents on a choropleth map of Indiana.
+	As the data deals with various counties, a choropleth map would be best to show the exact location of various counties and the divergent colors from
+	light blue to red would appropriately represent the number of accidents reported in each county.
+	<br>
+	The initial form of the map we created is shown in the figure below:
+	</br>
 	</p>
+	
+	
+	<table><tr>
+	<td><img src="img/Indiana_map.jpg" width="100%" height="100%" ></img></br><p style="text-align: center;color: black;">Indiana Map and Bar charts</p></td>
+	</table></tr>
+	<p>
+	 The above choropleth map along with the two bar charts would appropriately represent the number of accidents in each county, each day of the week
+	 and during each hour of the day. This would also help in an easy interaction between the bar charts and the map. 
+	 </p>
+	<table><tr>
+	<td><img src="img/Initial_map.png" width="100%" height="100%" ></img></br><p style="text-align: center;color: black;">Initial Map without Choropleth</p></td>
+	</table></tr>
+	
+	
+	 <p>
+	 After using the data and D3 code, we were able to generate the map as below.
+     </p>
+  
+  <table><tr>
+  <td><img src="img/map_colorcoded.png" width="40%" height="30%" class="center"></img></br><p style="text-align: start;color: black;">Indiana map with color coding</p></td>
+  </table></tr>
+  
+  <h4>Bar Charts</h4>
+  
+  <p>
+  The below bar charts represent the number of accidents by each hour of the day and each day of the week.
+  </p>
+  
+  <table><tr>
+  <td><img src="img/bar_byhour.png" width="100%" height="40%" class="center"></img></br><p style="text-align: center;color: black;">Accidents by hour of day</p></td>
+  <td><img src="img/bar_byday.png" width="100%" height="40%" class="center"></img></br><p style="text-align: center;color: black;">Accidents by day of week</p></td>
+  </table></tr>
+  <p>
+	Bar Charts would be a good tool to reprasent the number of accidents by hour and day though this is timeseries data, as the span of data is very small 
+	and a slider selector can be easily implemented.  
+  </p>
+ 
+  <table><tr>
+  <td><img src="img/map_barcharts_interaction.png" width="80%" height="40%" class="center"></img></br><p style="text-align: center;color: black;">Interaction demonstration</p></td>
+  </table></tr>
+   
+  <p>
+  The above image represents the interaction between the bar graphs and the choropleth map. By selecting Tuesday, Wednesday and Thursday between the hours of 7 and 11 AM, <br/> we can observe that counties in east central counties and south west counties reported more accidents.
+  </p>
+  
+  <h4>Donut Chart</h4>
+  
+  <p>
+     Inorder to represent the various factors that caused the accidents, we first choose a pie chart. 
+	 Evaluating factors such as surface, weather and light along with other primary factors <br/> had to be represented in
+	 four different pie charts. The initial rough sketch is shown below:
+  </p>
+  
+  <img src="img/initial_piechart.png" width="30%" height="30%" ></img></br><p style="text-align: start;color: black;">Various pie charts representing various contributing factors</p>
+  
+  <p>
+     Later we found donut charts to be appropriate to represent different factors and to control them using a checkbox so that space 
+	 utilization can be efficient. Each slice of the donut chart shows the percentage each factor contributing to the number of accidents in Indiana.
+	 Each slice is represented in different color and size of the slice is based on the percentage contributed by each factor.
+	 The mouse over on each slice of the chart enables a tool tip at the center of the donut in the same color of the slice, showing the 
+	 number of accidents and its percentage.
+  </p>
+  
+  <table><tr>
+	<td><img src="img/donut_primaryfactors.png" width="50%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig8.</p></td>
+	<td><img src="img/donut_weatherconditions.png" width="50%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig9.</p></td>
+  </table></tr>
+  
+  <table><tr>
+	<td><img src="img/donut_lightconditions.png" width="50%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig10.</p></td>
+	<td><img src="img/donut_surfaceconditions.png" width="50%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig11.</p></td>
+  </table></tr>
+  
+  
+  <h4>Scatter Plot</h4>
+  <p>
+    In order to visualize the response time of each police department, we chose a scatter plot with x axis representing the no. of accidents 
+	reported in each police department and y axis representing the average response time in minutes.
+	The scattered dots in different colors are plotted based on no. of accidents and response time of each PD.
+	The mouse over function on each scatter plot highlights the selected dot, showing a tool tip with details such as PD name, 
+	accidents reported, response time and the county where the PD is functioning in, and a click on a dot gives details on a table, as shown below:
+  </p>
+  
+  <table><tr>
+	<td><img src="img/scatter_tooltip.png" width="50%" height="50%"" ></img></br><p style="text-align: center;color: black;">Fig12.</p></td>
+	<td><img src="img/scatter_click.png" width="50%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig13.</p></td>
+  </table></tr>
+  
+  <p>
+  There is a lasso function that enables the user to select multiple dots together to get the details related to all the selected dots on a table
+  beside the scatter.
+  </p>
+  
+  <table><tr>
+	<td><img src="img/scatter_lassoselection.png" width="50%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig14.</p></td>
+	<td><img src="img/scatter_lassooutput.png" width="50%" height="50%" ></img></br><p style="text-align: center;color: black;">Fig15.</p></td>
+  </table></tr>
+  
+  <h4>Packed Circle Plot</h4>
+  <p>
+  
+  The make and model of vehicles involved in crashes can be demonstrated well using a packed circle, with an option to zoom into each make
+and see the count of vehicles by model. <br/>
+This approach will enable the user of the visualization to compare the size of circles with other circles and compare the counts across different makes.  
+   </p>
+   
+  <table><tr>
+	<td><img src="img/packed_circle_planned.png" width="100%" height="100%" ></img></br><p style="text-align: center;color: black;">Packed Circle</p></td>
+	<td><img src="img/packed_circle_output.png" width="100%" height="80%" ></img></br><p style="text-align: center;color: black;">Packed Circle Output</p></td>
+	<td><img src="img/packed_circle_make_select.png" width="100%" height="60%" ></img></br><p style="text-align: center;color: black;">Selected Make - Jeep</p></td>
+	</table></tr>
+<br>
+The above packed circle output shows the various makers as the 2nd level circle and each model is placed inside the circle representing make.<br/> 
+When a make is selected, the circle expands and shows the various models and the count of vehicles.
+ 
+</br>  
+
+  
+  <h3>Design Justification</h3>
+  
+  <p>
+  Our initial plan was to place each of the visualizations on separate pages with a navigation from the main page.
+  Later, we realized that it would be better to place all visualizations on a single page that make the analysis and interactions easier for the user.
+  We created an overall design layout such that all the plots will be visible on a single page without requiring any page change or scrolling.
+  </p>
+  
+  <img src="img/initial_design_layout.png" width="30%" height="30%" ></img></br><p style="text-align: start;color: black;">Visualization Placements</p>
+  
+  <p>
+  The map is placed at the top center so that other plots can be placed on both sides of the map to interact with the map.
+  The donut chart and bar charts are placed on the left and right sides of the map as these three plots represent the number of accidents in different aspects.
+  The scatter plot and packed circle are placed in the second row since they represent concepts that are not really related to the number of accidents.
+  <br/>
+  This would lead the user to view the initial view about the count of accidents by county, day and hour and the cause of these accidents can be seen at a time.
+  <br/>
+  
+  </p>
+  
+  <p>
+  The donut chart best fits the limited space and it is placed on top left corner beside the choropleth with the intention to make the 
+  interaction between donut chart and choropleth easier.
+  Since check points are used to switch between different donut charts, space efficiency is maximized.
+  The decision to place the tool tip inside the center portion of donut chart has helped saving more space
+  and made the interaction more easier and visible.
+  </p>
+  
+  <p>
+  The packed circle visualization representing the number of vehicles by make and model presents a different dimension of data from the once represented in the map and
+  the donut charts. </br>
+  Hence, it makes sense to have this visualization away from the other visualizations to allow the user to interact easily.
+  </p>
+  
+  
+  <p>
+  The scatter plot with selection function has been placed at the bottom right as the lasso function produces a table display. 
+  The lasso selection is used instead of squared brush selection as it gives more freedom of selection to the user.
+  The table is displayed on the right side of the scatterplot so that user won't get confused. 
+  Also, the rows in the table are separated with two color varients to improve the readability.
+  <br>
+  </br>
+  </p>
+  
+  
+  
+   <h3>Findings</h3>
+  
+  <p>
+  <br>
+Based on our visualization we have come to the conclusion that Marion County had the most number of accidents reported in the month 
+of December 2017, followed by Lake, Allen, and St. Joseph Counties. The population of Marion County is about 1 million, so it is not surprising
+to know that there were about  3351 accidents reported, however St. Joseph County which has 10% less population that Hamilton, reported 25%
+more incidents than Hamilton. This can be explained by the fact that a major highway between Chicago and Detroit passes through this county
+and the impact of lake effect snow in this county is very high, this was further confirmed by the fact that most of the accidents reported
+here were during snowy conditions.
+</br>
+<br>
+Contrary to the popular belief, most accidents happened during clear weather conditions.
+Reports shows that DEC 2017 had less snow days and we believe this can be the reason for less number of snow accidents than expected.
+The most common cause of an accident was following too closely and
+failure to yield the right of way. These situations can be easily averted if drivers follow safe driving tactics. Also when considering the light,
+weather and surface conditions contributing to the accidents, most of the accidents happened during daytime, in dry surface and on clear weather.
+The second most common conditions for accidents are snow, dark light condition, and cloudy weather.
+</br>
+<br>
+ When it comes to the performance of various police departments, it was observed that the most of the police departments responded within
+ an average time of 5 to 10 minutes, however the Hendricks County School District took about 30 minutes on average to respond to incidents
+ though they had only 12 incidents. It was also observed that the number of incidents being reported didn't adversely impact the response time
+ of first responders.
+</br>
+<br> 
+ From the analysis of the vehicles involved in the crashes, we observed that Chevrolet and Ford's vehicles were the top two vehicle makes 
+ involved in crashes, which doesn't mean that these vehicles are more accident prone as we don't have data on the proportion of vehicles sold
+by each manufacturer.
+</br>
+<br>
+Due to lack of time, we could not completely integrate all the visualizations and create interactions. Which would have resulted in better
+understanding of the various causes of the accidents.
+</br>
+  </p>
+  
+  <h3>Reflection</h3>
+  
+  <p>
+  <br>
+  Development of the visualization to view the crash data for the state of Indiana for December 2017 was a learning experience.
+  This was the first time, we had to decide on the visualizations based on the data we selected and plan the whole visualization.
+  The first hurdle was to select the dataset, which we could easily understand and build visualizations for. Once we selected the
+  dataset, the next hurdle was to decide the scope of the dataset, which we could use.
+  </br>
+  <br>
+  Once we decided on our dataset, the next big question was to decide on the various visualizations to use and the types of interactions
+  we could implement. Now, we understand that starting early and building a dummy plot of the visualization with planned visualizations give
+  us an understanding of how the visualization would look.
+  Building a coloured dummy visualization would give an even better understanding of how the output would look like. 
+  Preplanning the layout of the visualizations would have allowed us to easily place the various objects using div in HTML.
+  </br>
+  <br>
+  Once we decided on which objects to use and where to place, the next challenge was to read the data and come-up with an approach which would
+  enable us to read the data quickly, so that the interactions could be done without lag. During this process, we tried multiple options to split the 
+  original dataset which was for one whole year and used the trial version of Informatica Cloud Integration service. Then we used various D3 functions
+  and finally used the crossfilter functions to extract the data.
+  </br>
+  <br>
+  Finally, to come up with various visualizations and interactions, we referred to multiple visualizations, which made us understand the perspectives
+  of various experienced developers who built some very useful and meaningful visualizations.
+  </br>
+  
+  </p>
+  
+  
+
 <h3>References</h3>
 
 <p>
 Scott Murray,  March 2013.Interactive Data Visualization for the Web with D3</br>
 <a href="http://chimera.labs.oreilly.com/books/1230000000345/index.html" class="page-scroll">http://chimera.labs.oreilly.com/books/1230000000345/index.html</a >
 </p>
-
-<p>Sample Project
-<a href="http://www.vmateevitsi.com/2009/09/01/john-snows-interactive-cholera-map/" class="page-scroll" >http://chellynov.github.io</a>  
-</p>
-
+  
 <p>Colororacle</br>
 <a href="http://colororacle.org/" class="page-scroll" >http://colororacle.org</a>  
 </p>
@@ -339,10 +532,11 @@ Scott Murray,  March 2013.Interactive Data Visualization for the Web with D3</br
 
 <p>D3 coding</br>
 <a href="https://d3js.org/" class="page-scroll" >https://d3js.org/</a>  
-</p>
-
+</p>  
   
-  </div>
-			
+  
+  
+  
+ 		
 </body>
 </html>					
